@@ -14,6 +14,30 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>@binders } : @sort := @ident₀ {?</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191221T191507Z" creationid="eldesh" creationdate="20191221T191507Z">
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>@binders }`.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191221T191456Z" creationid="eldesh" creationdate="20191221T191456Z">
+        <seg></seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A *caveat*, however, is that records cannot appear in mutually inductive (or co-inductive) definitions.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191221T201335Z" creationid="eldesh" creationdate="20191221T200543Z">
+        <seg>注意点として、しかしながら、レコードは相互帰納的 (または余帰納的) 定義の中に現れることはできません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A commented version of sources of the |Coq| standard library (including only the specifications, the proofs are removed) is available at https://coq.inria.fr/stdlib/.</seg>
       </tuv>
       <tuv lang="JA" changeid="yamarten" changedate="20181104T150204Z" creationid="yamarten" creationdate="20181104T150204Z">
@@ -58,6 +82,30 @@
       </tuv>
       <tuv lang="JA" changeid="yamarten" changedate="20181104T144825Z" creationid="yamarten" creationdate="20181007T112922Z">
         <seg>|Coq| が提供する全てのサービスは、 *Vernacular* と呼ばれるコマンド言語を読み込ませることで利用できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Alternatively, the following syntax allows creating objects by using named fields, as shown in this grammar.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191221T192325Z" creationid="eldesh" creationdate="20191221T192325Z">
+        <seg>この文法で示されるように、代わりに以下の構文で名前付きフィールドを使うことでオブジェクトを作ることが出来ます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>An alternative syntax for projections based on a dot notation is available:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191221T194622Z" creationid="eldesh" creationdate="20191221T194622Z">
+        <seg>射影のためドット記法に基づいた代替構文が使用可能です:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Automatic generation of induction schemes for non-recursive records defined with the ``Record`` keyword can be activated with the ``Nonrecursive Elimination Schemes`` option (see :ref:`proofschemes-induction-principles`).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191221T201328Z" creationid="eldesh" creationdate="20191221T201328Z">
+        <seg>``Record`` キーワードによって定義された非-再帰的レコードの帰納スキームの自動生成は ``Nonrecursive Elimination Schemes`` オプション (:ref:`proofschemes-induction-principles` 参照) によって有効化することができる。</seg>
       </tuv>
     </tu>
     <tu>
@@ -110,6 +158,15 @@
       </tuv>
     </tu>
     <tu>
+      <note>the chapter とは？</note>
+      <tuv lang="EN-US">
+        <seg>Coercions and records in section :ref:`coercions-classes-as-records` of the chapter devoted to coercions.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191221T205044Z" creationid="eldesh" creationdate="20191221T204147Z">
+        <seg>そのチャプターのセクション :ref:`coercions-classes-as-records` のコアーションとレコードはコアーションに費やされています。</seg>
+      </tuv>
+    </tu>
+    <tu>
       <note>唐突に「Coq」から外れる縦棒。どうも付けるとsmallcapクラスが付くっぽいのだけど、スモールキャピタルにはなっているわけでもなく、特に意味は無さそう。
 </note>
       <tuv lang="EN-US">
@@ -117,6 +174,14 @@
       </tuv>
       <tuv lang="JA" changeid="yamarten" changedate="20181007T114048Z" creationid="yamarten" creationdate="20181007T113510Z">
         <seg>Coq には、ユーザが入力した端からコマンドを実行していく対話モードと、ファイルに書かれたコマンドを順に実行していくコンパイルモードがあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>During the definition of the one-constructor inductive definition, all the errors of inductive definitions, as described in Section :ref:`gallina-inductive-definitions`, may also occur.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191221T203528Z" creationid="eldesh" creationdate="20191221T203528Z">
+        <seg>コンストラクタが一つの帰納的定義を定義しているとき、セクション :ref:`gallina-inductive-definitions` で説明される帰納的定義の全てのエラーも起こる可能性があります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -170,10 +235,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>First the macro generates a variant type definition with just one constructor: :n:`Variant @ident {?</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191221T191437Z" creationid="eldesh" creationdate="20191221T191223Z">
+        <seg>まずマクロは高々一つのコンストラクタをもつバリアント型定義を生成します: :n:`Variant @ident { @binders } : @sort := @ident₀ { @binders }` 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For a given field :token:`ident`, its type is :g:`forall binders, type`.</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191221T183456Z" creationid="eldesh" creationdate="20191221T183448Z">
         <seg>あるフィールド :token:`ident` が与えられた場合、その型は :g:`forall binders, type` です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For instance, we might have: :n:`Record @ident @binders : @sort := { @ident₁ : @type₁ ; @ident₂ := @term₂ ; @ident₃ : @type₃ }`.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191221T190954Z" creationid="eldesh" creationdate="20191221T185415Z">
+        <seg>例えば、:n:`Record @ident @binders : @sort := { @ident₁ : @type₁ ; @ident₂ := @term₂ ; @ident₃ : @type₃ }` があるとします。</seg>
       </tuv>
     </tu>
     <tu>
@@ -202,10 +283,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If a field is named `_` then no projection is built for it.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191221T194250Z" creationid="eldesh" creationdate="20191221T194250Z">
+        <seg>もしフィールドの名前が `_` ならばそれのための射影は構築されません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If it is omitted, the default name ``Build_``\ :token:`ident`, where :token:`ident` is the record name, is used.</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191221T183052Z" creationid="eldesh" creationdate="20191221T183052Z">
         <seg>それが省略された場合、デフォルトの名称である ``Build_``\ :token:`ident` ここで :token:`ident` はレコード名、が使われます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If set, use the record syntax (shown above) as the default display format.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191221T193126Z" creationid="eldesh" creationdate="20191221T193126Z">
+        <seg>セットすると、レコード構文 (上記) をデフォルト表示形式として使用します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -227,6 +324,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In each case, `term` is the object projected and the other arguments are the parameters of the inductive type.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191221T200629Z" creationid="eldesh" creationdate="20191221T195516Z">
+        <seg>いずれの場合も、`term` は射影されたオブジェクトであり、他の引数は帰納型のパラメータです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In fact, the :cmd:`Record` macro is more general than the usual record types, since it allows also for “manifest” expressions.</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191221T165910Z" creationid="eldesh" creationdate="20191221T165600Z">
@@ -239,6 +344,14 @@
       </tuv>
       <tuv lang="JA" changeid="yamarten" changedate="20181007T122200Z" creationid="yamarten" creationdate="20181007T122200Z">
         <seg>対話モードでは、ユーザは順を追って証明を構築したり、利用できる定理や定義をシステムに問い合わせたりできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In our example:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191221T194409Z" creationid="eldesh" creationdate="20191221T194349Z">
+        <seg>我々の扱っている例では:</seg>
       </tuv>
     </tu>
     <tu>
@@ -275,6 +388,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Induction schemes are automatically generated for inductive records.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191221T201102Z" creationid="eldesh" creationdate="20191221T201102Z">
+        <seg>帰納スキームは帰納的レコードについて自動的に生成される。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Installation</seg>
       </tuv>
       <tuv lang="JA" changeid="yamarten" changedate="20181104T150013Z" creationid="yamarten" creationdate="20181104T150013Z">
@@ -287,6 +408,22 @@
       </tuv>
       <tuv lang="JA" changeid="yamarten" changedate="20181007T034937Z" creationid="yamarten" creationdate="20181007T033312Z">
         <seg>はじめに</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It can be activated for printing with</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191221T194813Z" creationid="eldesh" creationdate="20191221T194813Z">
+        <seg>それは以下によって表示を有効にすることが出来ます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It can happen that the definition of a projection is impossible.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191221T201457Z" creationid="eldesh" creationdate="20191221T201457Z">
+        <seg>射影の定義が不可能なことが起こり得ます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -315,6 +452,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Let us define the rational :math:`1/2`:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191221T191921Z" creationid="eldesh" creationdate="20191221T191921Z">
+        <seg>有理数 :math:`1/2` を定義してみましょう:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Let us now see the work done by the ``Record`` macro.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191221T191542Z" creationid="eldesh" creationdate="20191221T190420Z">
+        <seg>``Record`` マクロによって行われる動作を見てみましょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>License</seg>
       </tuv>
       <tuv lang="JA" changeid="yamarten" changedate="20181104T150242Z" creationid="yamarten" creationdate="20181104T150242Z">
@@ -335,6 +488,14 @@
       </tuv>
       <tuv lang="JA" changeid="yamarten" changedate="20181104T145841Z" creationid="yamarten" creationdate="20181104T145841Z">
         <seg>その他の文書一覧</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>More generally, a record may have explicitly defined (a.k.a.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191221T190931Z" creationid="eldesh" creationdate="20191221T185102Z">
+        <seg>より一般的には、レコードは明示的に定義されたフィールド (別名 マニフェスト) を持ち得ます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -459,6 +620,30 @@ Plural-Forms: nplurals=1; plural=0;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Records  cannot  be  defined  as  part  of  mutually  inductive  (or co-inductive) definitions,  whether with records only  or mixed with standard definitions.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191221T203221Z" creationid="eldesh" creationdate="20191221T203221Z">
+        <seg>レコードは、レコードのみであっても標準定義との混合であっても、相互帰納的 (または余帰納的) 定義の一部として定義することはできません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Records defined with the ``Record`` keyword are not allowed to be recursive (references to the record's name in the type of its field raises an  error).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191221T200639Z" creationid="eldesh" creationdate="20191221T195837Z">
+        <seg>``Record`` キーワードで定義されたレコードは再帰することは許されません (レコード名への参照がそのフィールドの型の中にあるとエラーが起きる)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Remark here that the fields ``Rat_bottom_cond`` depends on the field ``bottom`` and ``Rat_irred_cond`` depends on both ``top`` and ``bottom``.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191221T191027Z" creationid="eldesh" creationdate="20191221T190253Z">
+        <seg>ここで注意すべきはフィールド ``Rat_bottom_cond`` がフィールド ``bottom`` に依存し、 ``Rat_irred_cond`` が ``top`` と ``bottom`` の両方に依存していることです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Remark that the type of a particular identifier may depend on a previously-given identifier.</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191221T183949Z" creationid="eldesh" creationdate="20191221T183949Z">
@@ -471,6 +656,31 @@ Plural-Forms: nplurals=1; plural=0;</seg>
       </tuv>
       <tuv lang="JA" changeid="yamarten" changedate="20181104T145836Z" creationid="yamarten" creationdate="20181104T145836Z">
         <seg>全ての項目を知りたい場合は、目次を参照してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Specifies a set of qualids which are displayed as constructors.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191221T193816Z" creationid="eldesh" creationdate="20191221T193816Z">
+        <seg>コンストラクタとして表示される qualid の集合を指定します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <note>qualids って何？</note>
+      <tuv lang="EN-US">
+        <seg>Specifies a set of qualids which are displayed as records.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191221T193637Z" creationid="eldesh" creationdate="20191221T193600Z">
+        <seg>レコードとして表示される qualid の集合を指定します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Syntax of Record projections</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191221T194831Z" creationid="eldesh" creationdate="20191221T194831Z">
+        <seg>レコード射影構文</seg>
       </tuv>
     </tu>
     <tu>
@@ -516,6 +726,14 @@ Plural-Forms: nplurals=1; plural=0;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The body of `ident` uses an incorrect elimination for `ident` (see :cmd:`Fixpoint` and :ref:`Destructors`).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191221T202633Z" creationid="eldesh" creationdate="20191221T202037Z">
+        <seg>`ident` のボディーは `ident` に不正な除去を使っている (:cmd:`Fixpoint` と :ref:`Destructors` 参照)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The compiled mode acts as a proof checker taking a file containing a whole development in order to ensure its correctness.</seg>
       </tuv>
       <tuv lang="JA" changeid="yamarten" changedate="20181104T144849Z" creationid="yamarten" creationdate="20181104T144849Z">
@@ -532,6 +750,22 @@ Plural-Forms: nplurals=1; plural=0;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The corresponding grammar rules are given in the preceding grammar.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191221T200603Z" creationid="eldesh" creationdate="20191221T195009Z">
+        <seg>対応する文法規則は前述の文法の中で与えられています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The fields do not have to be in any particular order, nor do they have to be all present if the missing ones can be inferred or prompted for (see :ref:`programs`).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191221T193302Z" creationid="eldesh" creationdate="20191221T192858Z">
+        <seg>フィールドは特定の順序になっている必要はなく、もし足りないものが推論され得るか入力を促される (:ref:`programs` 参照) ならば、それらは全てが存在する必要もありません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The fifth part documents a number of advanced features, including coercions, canonical structures, typeclasses, program extraction, and specialized solvers and tactics.</seg>
       </tuv>
       <tuv lang="JA" changeid="yamarten" changedate="20181104T145822Z" creationid="yamarten" creationdate="20181104T145822Z">
@@ -544,6 +778,14 @@ Plural-Forms: nplurals=1; plural=0;</seg>
       </tuv>
       <tuv lang="JA" changeid="yamarten" changedate="20181104T145011Z" creationid="yamarten" creationdate="20181104T145011Z">
         <seg>第1部では、仕様記述言語 |Gallina| について説明します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The following settings let you control the display format for types:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191221T193010Z" creationid="eldesh" creationdate="20191221T193010Z">
+        <seg>以下の設定は型の表示形式をコントロールします:</seg>
       </tuv>
     </tu>
     <tu>
@@ -586,6 +828,22 @@ Plural-Forms: nplurals=1; plural=0;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The macro generates also, when it is possible, the projection functions for destructuring an object of type `\ident`.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191221T194125Z" creationid="eldesh" creationdate="20191221T194125Z">
+        <seg>そのマクロはさらに、それが可能な時は `\ident` 型のオブジェクトをデストラクトするための射影関数をも生成します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The name `ident` already exists in the environment (see :cmd:`Axiom`).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191221T202047Z" creationid="eldesh" creationdate="20191221T201857Z">
+        <seg>名前 `ident` が既に環境中に存在する (:cmd:`Axiom` 参照)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The optional identifier following ``:=`` is the name of its constructor.</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191221T182809Z" creationid="eldesh" creationdate="20191221T182809Z">
@@ -602,6 +860,14 @@ Plural-Forms: nplurals=1; plural=0;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The record name `ident` appears in the type of its fields, but uses the keyword ``Record``.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191221T202802Z" creationid="eldesh" creationdate="20191221T202744Z">
+        <seg>レコード名 `ident` がそのフィールドの型の中に現れているが、``Record`` キーワードを使っています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The second part describes the proof engine.</seg>
       </tuv>
       <tuv lang="JA" changeid="yamarten" changedate="20181104T145355Z" creationid="yamarten" creationdate="20181104T145355Z">
@@ -610,10 +876,26 @@ Plural-Forms: nplurals=1; plural=0;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The set of rational numbers may be defined as:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191221T191017Z" creationid="eldesh" creationdate="20191221T190001Z">
+        <seg>有理数の集合は以下のように定義されるかもしれません:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The third part describes how to extend the syntax of |Coq| in Chapter :ref:`syntaxextensionsandinterpretationscopes` and how to define new induction principles in Chapter :ref:`proofschemes`.</seg>
       </tuv>
       <tuv lang="JA" changeid="yamarten" changedate="20181104T145639Z" creationid="yamarten" creationdate="20181104T145639Z">
         <seg>第3部は、 :ref:`syntaxextensionsandinterpretationscopes` の章で|Coq| の構文の拡張方法を、 :ref:`proofschemes` の章で帰納法の原理を新たに定義する方法を説明しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The type of the projections `ident` depends on previous projections which themselves could not be defined.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191221T202454Z" creationid="eldesh" creationdate="20191221T202454Z">
+        <seg>`ident` の射影の型がそれ自身の以前の射影に依存していると定義できません。</seg>
       </tuv>
     </tu>
     <tu>
@@ -669,6 +951,22 @@ Plural-Forms: nplurals=1; plural=0;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>There may be three reasons:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191221T201816Z" creationid="eldesh" creationdate="20191221T201816Z">
+        <seg>3通りの可能性があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>These projection functions are given the names of the corresponding fields.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191221T194207Z" creationid="eldesh" creationdate="20191221T194207Z">
+        <seg>これらの射影関数は対応するフィールド名から与えられます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This document is the Reference Manual of the |Coq| proof assistant.</seg>
       </tuv>
       <tuv lang="JA" changeid="yamarten" changedate="20181007T034931Z" creationid="yamarten" creationdate="20181007T033738Z">
@@ -703,10 +1001,42 @@ Plural-Forms: nplurals=1; plural=0;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This message is followed by an explanation of this impossibility.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191221T201627Z" creationid="eldesh" creationdate="20191221T201627Z">
+        <seg>このメッセージにはこの不可能性の説明が続きます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This syntax can also be used for pattern matching.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191221T193922Z" creationid="eldesh" creationdate="20191221T193922Z">
+        <seg>この構文はパターンマッチングに使うこともできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Thus the order of the fields is important.</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191221T184013Z" creationid="eldesh" creationdate="20191221T184013Z">
         <seg>従ってフィールドの順序は重要です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To build an object of type :n:`@ident`, one should provide the constructor :n:`@ident₀` with the appropriate number of terms filling the fields of the record.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191221T191844Z" creationid="eldesh" creationdate="20191221T191844Z">
+        <seg>:n:`@ident` 型のオブジェクトを構築するには、レコードのフィールドを埋める適切な数の項を伴った :n:`@ident₀` コンストラクタを提供する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To define recursive records, one can use the ``Inductive`` and ``CoInductive`` keywords, resulting in an inductive or co-inductive record.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191221T200647Z" creationid="eldesh" creationdate="20191221T200319Z">
+        <seg>再帰的レコードを定義するためには、``Inductive`` と ``CoInductive`` キーワードを使うことができ、結果は帰納的または余帰納的レコードになります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -723,6 +1053,22 @@ Plural-Forms: nplurals=1; plural=0;</seg>
       </tuv>
       <tuv lang="JA" changeid="yamarten" changedate="20181104T145951Z" creationid="yamarten" creationdate="20181104T145951Z">
         <seg>チュートリアル</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Use  the keyword ``Inductive`` or ``CoInductive`` instead.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191221T202830Z" creationid="eldesh" creationdate="20191221T202820Z">
+        <seg>代わりにキーワード ``Inductive`` または ``CoInductive`` を使ってください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Use the :cmd:`Add @table` and :cmd:`Remove @table` commands to update the set of qualids.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191221T193734Z" creationid="eldesh" creationdate="20191221T193734Z">
+        <seg>qualid の集合を更新するには :cmd:`Add @table` と :cmd:`Remove @table` コマンドを使います。</seg>
       </tuv>
     </tu>
     <tu>
@@ -763,6 +1109,46 @@ Plural-Forms: nplurals=1; plural=0;</seg>
       </tuv>
       <tuv lang="JA" changeid="yamarten" changedate="20181104T144937Z" creationid="yamarten" creationdate="20181104T144937Z">
         <seg>目的の文書を素早く見つけるために、色々な索引を使うことをお勧めします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When `qualid` denotes a projection, the syntax `term.(qualid)` is equivalent to `qualid term`, the syntax `term.(qualid` |arg_1| |arg_n| `)` to `qualid` |arg_1| `…` |arg_n| `term`, and the syntax `term.(@qualid` |term_1| |term_n| `)` to `@qualid` |term_1| `…` |term_n| `term`.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191221T200620Z" creationid="eldesh" creationdate="20191221T195318Z">
+        <seg>`qualid` が射影を意味するとき、`term.(qualid)` という構文は `qualid term` と等しく、`term.(qualid` |arg_1| |arg_n| `)` は `qualid` |arg_1| `…` |arg_n| `term` と、`term.(@qualid` |term_1| |term_n| `)` という構文は `@qualid` |term_1| `…` |term_n| `term` と等しくなります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can override the display format for specified types by adding entries to these tables:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191221T193229Z" creationid="eldesh" creationdate="20191221T193229Z">
+        <seg>これらの表にエントリを追加することで特定の型の表示形式を上書きすることが出来ます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>``Structure`` is a synonym of the keyword ``Record``.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191221T201423Z" creationid="eldesh" creationdate="20191221T201423Z">
+        <seg>``Structure`` はキーワード ``Record`` の別名です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>in which case the correctness of :n:`@type₃` may rely on the instance :n:`@term₂` of :n:`@ident₂` and :n:`@term₂` may in turn depend on :n:`@ident₁`.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191221T191007Z" creationid="eldesh" creationdate="20191221T185905Z">
+        <seg>この場合 :n:`@type₃` の正しさは :n:`@ident₂` のインスタンスである :n:`@term₂` に依存し、:n:`@term₂` は :n:`@ident₁` に依存するかもしれません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>manifest) fields.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191221T185315Z" creationid="eldesh" creationdate="20191221T185315Z">
+        <seg></seg>
       </tuv>
     </tu>
     <tu>
