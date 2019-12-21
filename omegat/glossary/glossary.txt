@@ -26,3 +26,5 @@ The proof engine	証明エンジン	第二部
 User extensions	ユーザ拡張	第三部
 Practical tools	実用ツール	第四部
 identifier	識別子
+projection	射影
+inductive type	帰納型
