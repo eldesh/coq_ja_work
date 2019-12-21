@@ -28,3 +28,4 @@ Practical tools	実用ツール	第四部
 identifier	識別子
 projection	射影
 inductive type	帰納型
+dependent type	依存型

@@ -6,6 +6,22 @@
 <!-- Default translations -->
     <tu>
       <tuv lang="EN-US">
+        <seg>*Limitations*</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191221T214708Z" creationid="eldesh" creationdate="20191221T214708Z">
+        <seg>*制限*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>:ref:`functional-scheme` and :tacn:`function induction`</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191221T220621Z" creationid="eldesh" creationdate="20191221T220621Z">
+        <seg>:ref:`functional-scheme` と :tacn:`function induction`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>:ref:`thecoqcommands`.</seg>
       </tuv>
       <tuv lang="JA" changeid="yamarten" changedate="20181104T145020Z" creationid="yamarten" creationdate="20181104T145020Z">
@@ -54,6 +70,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A more precise description is given below.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191221T220812Z" creationid="eldesh" creationdate="20191221T220812Z">
+        <seg>より詳細な説明は以下で与えられる。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A text file `INSTALL` that comes with the sources explains how to install |Coq|.</seg>
       </tuv>
       <tuv lang="JA" changeid="yamarten" changedate="20181104T150123Z" creationid="yamarten" creationdate="20181104T150123Z">
@@ -66,6 +90,14 @@
       </tuv>
       <tuv lang="JA" changeid="yamarten" changedate="20181104T150239Z" creationid="yamarten" creationdate="20181104T150239Z">
         <seg>付録</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Advanced recursive functions</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191221T212337Z" creationid="eldesh" creationdate="20191221T212337Z">
+        <seg>高度な再帰関数</seg>
       </tuv>
     </tu>
     <tu>
@@ -178,6 +210,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Defines the not recursive function `ident` as if declared with `Definition`.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191221T221023Z" creationid="eldesh" creationdate="20191221T221023Z">
+        <seg>非-再帰関数 `ident` をあたかも `Definition` によって定義されたかのように定義する。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Depending on the ``{…}`` annotation, different definition mechanisms are used by ``Function``.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191221T220752Z" creationid="eldesh" creationdate="20191221T220752Z">
+        <seg>``{…}`` という注釈に依存して、``Function`` によって異なる定義機構が使われる。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>During the definition of the one-constructor inductive definition, all the errors of inductive definitions, as described in Section :ref:`gallina-inductive-definitions`, may also occur.</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191221T203528Z" creationid="eldesh" creationdate="20191221T203528Z">
@@ -251,10 +299,34 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For example it is better to define plus like this:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191221T214351Z" creationid="eldesh" creationdate="20191221T214351Z">
+        <seg>例えば plus はこのように定義した方が良いでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For instance, we might have: :n:`Record @ident @binders : @sort := { @ident₁ : @type₁ ; @ident₂ := @term₂ ; @ident₃ : @type₃ }`.</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191221T190954Z" creationid="eldesh" creationdate="20191221T185415Z">
         <seg>例えば、:n:`Record @ident @binders : @sort := { @ident₁ : @type₁ ; @ident₂ := @term₂ ; @ident₃ : @type₃ }` があるとします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For now, dependent cases are not treated for non structurally terminating functions.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191221T215336Z" creationid="eldesh" creationdate="20191221T215336Z">
+        <seg>今のところ、依存ケースは非-構造的停止関数として扱われない。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Function does not support partial application of the function being defined.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191221T215107Z" creationid="eldesh" creationdate="20191221T215107Z">
+        <seg>Function は定義された関数の部分適用はサポートしない。</seg>
       </tuv>
     </tu>
     <tu>
@@ -271,6 +343,14 @@
       </tuv>
       <tuv lang="JA" changeid="yamarten" changedate="20181104T145435Z" creationid="yamarten" creationdate="20181104T145435Z">
         <seg>どのように証明を始め、終わればいいのか、どうすれば証明を並行して進めることができるかは、 :ref:`proofhandling` の章で説明しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>However, this feature does not work for non structurally recursive functions.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191221T213839Z" creationid="eldesh" creationdate="20191221T213839Z">
+        <seg>しかし、この帰納は非-構造的再帰関数については動きません。</seg>
       </tuv>
     </tu>
     <tu>
@@ -428,6 +508,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>It is actually a wrapper for several ways of defining a function *and other useful related objects*, namely: an induction principle that reflects the recursive structure of the function (see :tacn:`function induction`) and its fixpoint equality.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191221T212941Z" creationid="eldesh" creationdate="20191221T212941Z">
+        <seg>それは実際には関数 *と他の便利な関連オブジェクト* を定義するいくつかの方法のラッパーであり、つまり: その関数の再帰構造を反映する帰納法の原理 (:tacn:`function induction` 参照) とその不動点等値性です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>It is divided in six chapters.</seg>
       </tuv>
       <tuv lang="JA" changeid="yamarten" changedate="20181104T145403Z" creationid="yamarten" creationdate="20181104T145403Z">
@@ -476,6 +564,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Like in ``Fixpoint``, the decreasing argument must be given (unless the function is not recursive), but it might not necessarily be *structurally* decreasing.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191221T213200Z" creationid="eldesh" creationdate="20191221T213200Z">
+        <seg>``Fixpoint`` のように、(関数が再帰していないときでさえ) 減少する引数を与えなければいけません、しかしそれが *構造的に* 減少している必要はありません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Links to several tutorials can be found at https://coq.inria.fr/documentation and https://github.com/coq/coq/wiki#coq-tutorials</seg>
       </tuv>
       <tuv lang="JA" changeid="yamarten" changedate="20181007T035722Z" creationid="yamarten" creationdate="20181007T035722Z">
@@ -500,6 +596,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Moreover the following are defined:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191221T221053Z" creationid="eldesh" creationdate="20191221T221053Z">
+        <seg>さらに以下のものが定義される。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Moreover, |Coq|’s compiler provides an output file containing a compact representation of its input.</seg>
       </tuv>
       <tuv lang="JA" changeid="yamarten" changedate="20181104T144902Z" creationid="yamarten" creationdate="20181104T144902Z">
@@ -516,6 +620,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Only `ident` is defined.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191221T220441Z" creationid="eldesh" creationdate="20191221T220441Z">
+        <seg>`ident` だけが定義された。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Only `ident` is defined; the induction scheme will not be generated.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191221T215758Z" creationid="eldesh" creationdate="20191221T215758Z">
+        <seg>`ident` のみが定義され、帰納スキームは生成されない。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Optionally, you can enhance it with the minor mode Company-Coq :cite:`Pit16` (see https://github.com/cpitclaudel/company-coq).</seg>
       </tuv>
       <tuv lang="JA" changeid="yamarten" changedate="20181104T150319Z" creationid="yamarten" creationdate="20181104T150319Z">
@@ -528,6 +648,14 @@
       </tuv>
       <tuv lang="JA" changeid="yamarten" changedate="20181104T150310Z" creationid="yamarten" creationdate="20181104T150310Z">
         <seg>オプションAおよびBは選択しない。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Please report.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191221T220449Z" creationid="eldesh" creationdate="20191221T220449Z">
+        <seg>報告してください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -652,6 +780,22 @@ Plural-Forms: nplurals=1; plural=0;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Remark: To obtain the right principle, it is better to put rigid parameters of the function as first arguments.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191221T214637Z" creationid="eldesh" creationdate="20191221T214118Z">
+        <seg>注意: 正しい原理を得るには、第一引数として関数の固定されたパラメータを与えるのがより良いでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>See the documentation of functional induction (:tacn:`function induction`) and ``Functional Scheme`` (:ref:`functional-scheme`) for how to use the induction principle to easily reason about the function.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191221T214113Z" creationid="eldesh" creationdate="20191221T214113Z">
+        <seg>どのように帰納法の原理を使って簡単にその関数について論じるかについては関数的帰納法 (:tacn:`function induction`) と ``Functional Scheme`` (:ref:`functional-scheme`) のドキュメントを見てください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>See the table of contents for a complete list.</seg>
       </tuv>
       <tuv lang="JA" changeid="yamarten" changedate="20181104T145836Z" creationid="yamarten" creationdate="20181104T145836Z">
@@ -714,6 +858,14 @@ Plural-Forms: nplurals=1; plural=0;</seg>
       </tuv>
       <tuv lang="JA" changeid="yamarten" changedate="20181110T115315Z" creationid="yamarten" creationdate="20181110T115315Z">
         <seg>仕様記述言語 Gallina</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The ``Function`` construction also enjoys the ``with`` extension to define mutually recursive definitions.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191221T213800Z" creationid="eldesh" creationdate="20191221T213800Z">
+        <seg>``Function`` による構成はさらに ``with`` 拡張により相互再帰定義を定義することもできる。</seg>
       </tuv>
     </tu>
     <tu>
@@ -782,10 +934,34 @@ Plural-Forms: nplurals=1; plural=0;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The following experimental command is available when the ``FunInd`` library has been loaded via ``Require Import FunInd``:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191221T212441Z" creationid="eldesh" creationdate="20191221T212441Z">
+        <seg>以下の実験的なコマンドは ``FunInd`` ライブラリが ``Require Import FunInd`` によってロードされたときに有効になります:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The following settings let you control the display format for types:</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191221T193010Z" creationid="eldesh" creationdate="20191221T193010Z">
         <seg>以下の設定は型の表示形式をコントロールします:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The generation of the graph relation (`R_ident`) succeeded but the induction principle could not be built.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191221T220426Z" creationid="eldesh" creationdate="20191221T220426Z">
+        <seg>グラフ関係 (`R_ident`) の生成は成功したが、その帰納法の原理は構築できなかった。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The generation of the graph relation (`R_ident`) used to compute the induction scheme of ident raised a typing error.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191221T215701Z" creationid="eldesh" creationdate="20191221T215701Z">
+        <seg>ident の帰納法の原理を算出するのに使われるグラフ関係 (`R_ident`) の生成は型付けエラーを発生する。</seg>
       </tuv>
     </tu>
     <tu>
@@ -836,6 +1012,14 @@ Plural-Forms: nplurals=1; plural=0;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The meaning of this declaration is to define a function ident, similarly to ``Fixpoint`.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191221T215931Z" creationid="eldesh" creationdate="20191221T213020Z">
+        <seg>この定義の意味は関数識別子を定義することで、``Fixpoint`` に似ています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The name `ident` already exists in the environment (see :cmd:`Axiom`).</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191221T202047Z" creationid="eldesh" creationdate="20191221T201857Z">
@@ -848,6 +1032,14 @@ Plural-Forms: nplurals=1; plural=0;</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191221T182809Z" creationid="eldesh" creationdate="20191221T182809Z">
         <seg>``:=`` に続くオプショナルな識別子はそのコンストラクタです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The point of the {} annotation is to name the decreasing argument *and* to describe which kind of decreasing criteria must be used to ensure termination of recursive calls.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191221T213446Z" creationid="eldesh" creationdate="20191221T213320Z">
+        <seg>{} 記法のポイントは減少する引数に名前をつけること *そして* 再帰呼び出しの停止性を保証するためにどの種類の減少基準を使うべきなのかを説明することです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -967,10 +1159,26 @@ Plural-Forms: nplurals=1; plural=0;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This command can be seen as a generalization of ``Fixpoint``.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191221T212519Z" creationid="eldesh" creationdate="20191221T212519Z">
+        <seg>このコマンドは ``Fixpoint`` の一般化と見なすことができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This document is the Reference Manual of the |Coq| proof assistant.</seg>
       </tuv>
       <tuv lang="JA" changeid="yamarten" changedate="20181007T034931Z" creationid="yamarten" creationdate="20181007T033738Z">
         <seg>この文書は証明アシスタント |Coq| のリファレンスマニュアルです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This error happens generally when:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191221T220022Z" creationid="eldesh" creationdate="20191221T220022Z">
+        <seg>このエラーは一般的に起こる:</seg>
       </tuv>
     </tu>
     <tu>
@@ -1021,6 +1229,14 @@ Plural-Forms: nplurals=1; plural=0;</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191221T184013Z" creationid="eldesh" creationdate="20191221T184013Z">
         <seg>従ってフィールドの順序は重要です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Thus, the following example cannot be accepted due to the presence of partial application of `wrong` in the body of `wrong` :</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191221T215229Z" creationid="eldesh" creationdate="20191221T215229Z">
+        <seg>従って、以下の例は `wrong` のボディー内の `wrong` の部分適用の存在のため受け入れられない:</seg>
       </tuv>
     </tu>
     <tu>
@@ -1137,6 +1353,22 @@ Plural-Forms: nplurals=1; plural=0;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>`functional inversion` will not be available for the function.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191221T220522Z" creationid="eldesh" creationdate="20191221T220522Z">
+        <seg>`functional inversion` は関数については使えなくなります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>`ident_rect`, `ident_rec` and `ident_ind`, which reflect the pattern matching structure of `term` (see :cmd:`Inductive`);</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191221T221217Z" creationid="eldesh" creationdate="20191221T221217Z">
+        <seg>`ident_rect` と `ident_rec` と `ident_ind` は `term` (:cmd:`Inductive` 参照) のパターンマッチ構造を反映する;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>in which case the correctness of :n:`@type₃` may rely on the instance :n:`@term₂` of :n:`@ident₂` and :n:`@term₂` may in turn depend on :n:`@ident₁`.</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191221T191007Z" creationid="eldesh" creationdate="20191221T185905Z">
@@ -1149,6 +1381,30 @@ Plural-Forms: nplurals=1; plural=0;</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191221T185315Z" creationid="eldesh" creationdate="20191221T185315Z">
         <seg></seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>than like this:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191221T214431Z" creationid="eldesh" creationdate="20191221T214431Z">
+        <seg>はこれより良い:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>the definition is not a *pattern matching tree* as explained above.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191221T220305Z" creationid="eldesh" creationdate="20191221T220305Z">
+        <seg>その定義は上で説明したような *パターンマッチングツリー* ではない。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>the definition uses pattern matching on dependent types, which ``Function`` cannot deal with yet.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191221T220213Z" creationid="eldesh" creationdate="20191221T220124Z">
+        <seg>その定義は依存型の上でパターンマッチを使っており、``Function`` はまだそれを扱うことができない。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1174,6 +1430,14 @@ Plural-Forms: nplurals=1; plural=0;</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191221T184208Z" creationid="eldesh" creationdate="20191221T184208Z">
         <seg>|Gallina| は |Coq| の核言語です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>|term_0| must be built as a *pure pattern matching tree* (:g:`match … with`) with applications only *at the end* of each branch.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191221T214953Z" creationid="eldesh" creationdate="20191221T214806Z">
+        <seg>|term_0| は 各ブランチの *末尾* のみで適用される *純粋パターンマッチングツリー* (:g:`match … with`) として構築されなければならない</seg>
       </tuv>
     </tu>
 <!-- Alternative translations -->
