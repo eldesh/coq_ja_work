@@ -236,16 +236,16 @@
       <tuv lang="EN-US">
         <seg>Depending on the ``{…}`` annotation, different definition mechanisms are used by ``Function``.</seg>
       </tuv>
-      <tuv lang="JA" changeid="eldesh" changedate="20191221T220752Z" creationid="eldesh" creationdate="20191221T220752Z">
-        <seg>``{…}`` という注釈に依存して、``Function`` によって異なる定義機構が使われる。</seg>
+      <tuv lang="JA" changeid="eldesh" changedate="20191222T144640Z" creationid="eldesh" creationdate="20191221T220752Z">
+        <seg>``{…}`` という注釈に依存して、``Function`` によって異なる定義機構が使われます。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>Depending on the annotation, the user is left with some proof obligations that will be used to define the function.</seg>
       </tuv>
-      <tuv lang="JA" changeid="eldesh" changedate="20191222T135037Z" creationid="eldesh" creationdate="20191222T135037Z">
-        <seg>注釈に依存して、ユーザはその関数を定義するのに使われるであろういくらかの証明課題を失う。</seg>
+      <tuv lang="JA" changeid="eldesh" changedate="20191222T145620Z" creationid="eldesh" creationdate="20191222T135037Z">
+        <seg>注釈に依存して、その関数を定義するのに使われるいくらかの証明課題はユーザに残されます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -325,8 +325,8 @@
       <tuv lang="EN-US">
         <seg>For example it is better to define plus like this:</seg>
       </tuv>
-      <tuv lang="JA" changeid="eldesh" changedate="20191221T214351Z" creationid="eldesh" creationdate="20191221T214351Z">
-        <seg>例えば plus はこのように定義した方が良いでしょう。</seg>
+      <tuv lang="JA" changeid="eldesh" changedate="20191222T143302Z" creationid="eldesh" creationdate="20191221T214351Z">
+        <seg>例えば plus はこのように定義した方が:</seg>
       </tuv>
     </tu>
     <tu>
@@ -341,16 +341,16 @@
       <tuv lang="EN-US">
         <seg>For now, dependent cases are not treated for non structurally terminating functions.</seg>
       </tuv>
-      <tuv lang="JA" changeid="eldesh" changedate="20191221T215336Z" creationid="eldesh" creationdate="20191221T215336Z">
-        <seg>今のところ、依存ケースは非-構造的停止関数として扱われない。</seg>
+      <tuv lang="JA" changeid="eldesh" changedate="20191222T143648Z" creationid="eldesh" creationdate="20191221T215336Z">
+        <seg>今のところ、依存ケースは非-構造的停止関数として扱われません。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>Function does not support partial application of the function being defined.</seg>
       </tuv>
-      <tuv lang="JA" changeid="eldesh" changedate="20191221T215107Z" creationid="eldesh" creationdate="20191221T215107Z">
-        <seg>Function は定義された関数の部分適用はサポートしない。</seg>
+      <tuv lang="JA" changeid="eldesh" changedate="20191222T143555Z" creationid="eldesh" creationdate="20191221T215107Z">
+        <seg>Function は定義された関数の部分適用はサポートしません。</seg>
       </tuv>
     </tu>
     <tu>
@@ -534,8 +534,8 @@
       <tuv lang="EN-US">
         <seg>It is actually a wrapper for several ways of defining a function *and other useful related objects*, namely: an induction principle that reflects the recursive structure of the function (see :tacn:`function induction`) and its fixpoint equality.</seg>
       </tuv>
-      <tuv lang="JA" changeid="eldesh" changedate="20191221T212941Z" creationid="eldesh" creationdate="20191221T212941Z">
-        <seg>それは実際には関数 *と他の便利な関連オブジェクト* を定義するいくつかの方法のラッパーであり、つまり: その関数の再帰構造を反映する帰納法の原理 (:tacn:`function induction` 参照) とその不動点等値性です。</seg>
+      <tuv lang="JA" changeid="eldesh" changedate="20191222T142420Z" creationid="eldesh" creationdate="20191221T212941Z">
+        <seg>それは実際には関数 *と他の便利な関連オブジェクト* を定義するいくつかの方法のラッパーであり、具体的には: その関数の再帰構造を反映する帰納法の原理 (:tacn:`function induction` 参照) とその不動点等式です。</seg>
       </tuv>
     </tu>
     <tu>
@@ -646,24 +646,24 @@
       <tuv lang="EN-US">
         <seg>Once proof obligations are discharged, the following objects are defined:</seg>
       </tuv>
-      <tuv lang="JA" changeid="eldesh" changedate="20191222T135441Z" creationid="eldesh" creationdate="20191222T135441Z">
-        <seg>一度放免された証明課題については、以下のオブジェクトが定義されます:</seg>
+      <tuv lang="JA" changeid="eldesh" changedate="20191222T145855Z" creationid="eldesh" creationdate="20191222T135441Z">
+        <seg>証明課題が解決されると、以下のオブジェクトが定義されます:</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>Only `ident` is defined.</seg>
       </tuv>
-      <tuv lang="JA" changeid="eldesh" changedate="20191221T220441Z" creationid="eldesh" creationdate="20191221T220441Z">
-        <seg>`ident` だけが定義された。</seg>
+      <tuv lang="JA" changeid="eldesh" changedate="20191222T144444Z" creationid="eldesh" creationdate="20191221T220441Z">
+        <seg>`ident` だけが定義されました。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>Only `ident` is defined; the induction scheme will not be generated.</seg>
       </tuv>
-      <tuv lang="JA" changeid="eldesh" changedate="20191221T215758Z" creationid="eldesh" creationdate="20191221T215758Z">
-        <seg>`ident` のみが定義され、帰納スキームは生成されない。</seg>
+      <tuv lang="JA" changeid="eldesh" changedate="20191222T144255Z" creationid="eldesh" creationdate="20191221T215758Z">
+        <seg>`ident` のみが定義され、帰納スキームは生成されません。</seg>
       </tuv>
     </tu>
     <tu>
@@ -830,8 +830,8 @@ Plural-Forms: nplurals=1; plural=0;</seg>
       <tuv lang="EN-US">
         <seg>Remark: Proof obligations are presented as several subgoals belonging to a Lemma `ident`\ :math:`_{\sf tcc}`.</seg>
       </tuv>
-      <tuv lang="JA" changeid="eldesh" changedate="20191222T141818Z" creationid="eldesh" creationdate="20191222T141818Z">
-        <seg>注意: 補題 `ident`\ :math:`_{\sf tcc}` に付随するいくつかのサブゴールとして証明課題が提示されます。</seg>
+      <tuv lang="JA" changeid="eldesh" changedate="20191222T150212Z" creationid="eldesh" creationdate="20191222T141818Z">
+        <seg>注意: 証明課題は補題 `ident`\ :math:`_{\sf tcc}` に付随するいくつかのサブゴールとして提示されます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -920,8 +920,8 @@ Plural-Forms: nplurals=1; plural=0;</seg>
       <tuv lang="EN-US">
         <seg>The ``Function`` construction also enjoys the ``with`` extension to define mutually recursive definitions.</seg>
       </tuv>
-      <tuv lang="JA" changeid="eldesh" changedate="20191221T213800Z" creationid="eldesh" creationdate="20191221T213800Z">
-        <seg>``Function`` による構成はさらに ``with`` 拡張により相互再帰定義を定義することもできる。</seg>
+      <tuv lang="JA" changeid="eldesh" changedate="20191222T142946Z" creationid="eldesh" creationdate="20191221T213800Z">
+        <seg>``Function`` による構成はさらに ``with`` 拡張により相互再帰定義を定義することもできます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1000,8 +1000,8 @@ Plural-Forms: nplurals=1; plural=0;</seg>
       <tuv lang="EN-US">
         <seg>The fixpoint equation of `ident`: `ident_equation`.</seg>
       </tuv>
-      <tuv lang="JA" changeid="eldesh" changedate="20191222T133620Z" creationid="eldesh" creationdate="20191222T133620Z">
-        <seg>`ident`: `ident_equation` という形の不動点等式。</seg>
+      <tuv lang="JA" changeid="eldesh" changedate="20191222T145055Z" creationid="eldesh" creationdate="20191222T133620Z">
+        <seg>`ident`: `ident_equation` という形の不動点方程式。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1024,16 +1024,16 @@ Plural-Forms: nplurals=1; plural=0;</seg>
       <tuv lang="EN-US">
         <seg>The generation of the graph relation (`R_ident`) succeeded but the induction principle could not be built.</seg>
       </tuv>
-      <tuv lang="JA" changeid="eldesh" changedate="20191221T220426Z" creationid="eldesh" creationdate="20191221T220426Z">
-        <seg>グラフ関係 (`R_ident`) の生成は成功したが、その帰納法の原理は構築できなかった。</seg>
+      <tuv lang="JA" changeid="eldesh" changedate="20191222T144409Z" creationid="eldesh" creationdate="20191221T220426Z">
+        <seg>グラフ関係 (`R_ident`) の生成は成功したが、その帰納法の原理は構築できません。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>The generation of the graph relation (`R_ident`) used to compute the induction scheme of ident raised a typing error.</seg>
       </tuv>
-      <tuv lang="JA" changeid="eldesh" changedate="20191221T215701Z" creationid="eldesh" creationdate="20191221T215701Z">
-        <seg>ident の帰納法の原理を算出するのに使われるグラフ関係 (`R_ident`) の生成は型付けエラーを発生する。</seg>
+      <tuv lang="JA" changeid="eldesh" changedate="20191222T144251Z" creationid="eldesh" creationdate="20191221T215701Z">
+        <seg>ident の帰納法の原理を算出するのに使われるグラフ関係 (`R_ident`) の生成は型付けエラーを発生します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1110,8 +1110,8 @@ Plural-Forms: nplurals=1; plural=0;</seg>
       <tuv lang="EN-US">
         <seg>The meaning of this declaration is to define a function ident, similarly to ``Fixpoint`.</seg>
       </tuv>
-      <tuv lang="JA" changeid="eldesh" changedate="20191221T215931Z" creationid="eldesh" creationdate="20191221T213020Z">
-        <seg>この定義の意味は関数識別子を定義することで、``Fixpoint`` に似ています。</seg>
+      <tuv lang="JA" changeid="eldesh" changedate="20191222T142624Z" creationid="eldesh" creationdate="20191221T213020Z">
+        <seg>この定義の意味は関数 ident を定義することで、``Fixpoint`` に似ています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1150,8 +1150,8 @@ Plural-Forms: nplurals=1; plural=0;</seg>
       <tuv lang="EN-US">
         <seg>The point of the {} annotation is to name the decreasing argument *and* to describe which kind of decreasing criteria must be used to ensure termination of recursive calls.</seg>
       </tuv>
-      <tuv lang="JA" changeid="eldesh" changedate="20191221T213446Z" creationid="eldesh" creationdate="20191221T213320Z">
-        <seg>{} 記法のポイントは減少する引数に名前をつけること *そして* 再帰呼び出しの停止性を保証するためにどの種類の減少基準を使うべきなのかを説明することです。</seg>
+      <tuv lang="JA" changeid="eldesh" changedate="20191222T142851Z" creationid="eldesh" creationdate="20191221T213320Z">
+        <seg>{} 注釈のポイントは減少する引数に名前をつけること *そして* 再帰呼び出しの停止性を保証するためにどの種類の減少基準を使うべきなのかを説明することです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1182,8 +1182,8 @@ Plural-Forms: nplurals=1; plural=0;</seg>
       <tuv lang="EN-US">
         <seg>The same objects as with the struct;</seg>
       </tuv>
-      <tuv lang="JA" changeid="eldesh" changedate="20191222T135519Z" creationid="eldesh" creationdate="20191222T135519Z">
-        <seg>struct と同じオブジェクト;</seg>
+      <tuv lang="JA" changeid="eldesh" changedate="20191222T145922Z" creationid="eldesh" creationdate="20191222T135519Z">
+        <seg>struct を用いたときと同じオブジェクト;</seg>
       </tuv>
     </tu>
     <tu>
@@ -1297,8 +1297,8 @@ Plural-Forms: nplurals=1; plural=0;</seg>
       <tuv lang="EN-US">
         <seg>These proofs are: proofs that each recursive call is actually decreasing with respect to the given criteria, and (if the criteria is `wf`) a proof that the ordering relation is well-founded.</seg>
       </tuv>
-      <tuv lang="JA" changeid="eldesh" changedate="20191222T135258Z" creationid="eldesh" creationdate="20191222T135258Z">
-        <seg>これらの証明は: 各再帰呼び出しが実際に与えられた基準に照らして減少する証明であり、そして (もしその基準が `wf` ならば) その順序関係は整礎である証明です。</seg>
+      <tuv lang="JA" changeid="eldesh" changedate="20191222T145659Z" creationid="eldesh" creationdate="20191222T135258Z">
+        <seg>これらの証明は: 各再帰呼び出しが実際に与えられた基準に照らして減少することの証明であり、そして (もしその基準が `wf` ならば) その順序関係は整礎である証明です。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1321,8 +1321,8 @@ Plural-Forms: nplurals=1; plural=0;</seg>
       <tuv lang="EN-US">
         <seg>This error happens generally when:</seg>
       </tuv>
-      <tuv lang="JA" changeid="eldesh" changedate="20191221T220022Z" creationid="eldesh" creationdate="20191221T220022Z">
-        <seg>このエラーは一般的に起こる:</seg>
+      <tuv lang="JA" changeid="eldesh" changedate="20191222T144303Z" creationid="eldesh" creationdate="20191221T220022Z">
+        <seg>このエラーは一般的に起こります:</seg>
       </tuv>
     </tu>
     <tu>
@@ -1379,8 +1379,8 @@ Plural-Forms: nplurals=1; plural=0;</seg>
       <tuv lang="EN-US">
         <seg>Thus, the following example cannot be accepted due to the presence of partial application of `wrong` in the body of `wrong` :</seg>
       </tuv>
-      <tuv lang="JA" changeid="eldesh" changedate="20191221T215229Z" creationid="eldesh" creationdate="20191221T215229Z">
-        <seg>従って、以下の例は `wrong` のボディー内の `wrong` の部分適用の存在のため受け入れられない:</seg>
+      <tuv lang="JA" changeid="eldesh" changedate="20191222T143635Z" creationid="eldesh" creationdate="20191221T215229Z">
+        <seg>従って、以下の例は `wrong` のボディー内の `wrong` の部分適用の存在のため受け入れられません:</seg>
       </tuv>
     </tu>
     <tu>
@@ -1499,8 +1499,8 @@ Plural-Forms: nplurals=1; plural=0;</seg>
       <tuv lang="EN-US">
         <seg>``{measure`` `term` `ident` ``}`` with `ident` being the decreasing argument and `term` being a function from type of `ident` to ``nat`` for which value on the decreasing argument decreases (for the ``lt`` order on ``nat``) at each recursive call of `term`.</seg>
       </tuv>
-      <tuv lang="JA" changeid="eldesh" changedate="20191222T134341Z" creationid="eldesh" creationdate="20191222T134341Z">
-        <seg>``{measure`` `term` `ident` ``}`` ここで `ident` は減少する引数であり、`term` は型 `ident` から ``nat`` への型の関数であり、その減少引数上の値は `term` の再帰呼び出し毎に減少します (``nat`` 上なら ``lt`` 順序)。</seg>
+      <tuv lang="JA" changeid="eldesh" changedate="20191222T145258Z" creationid="eldesh" creationdate="20191222T134341Z">
+        <seg>``{measure`` `term` `ident` ``}`` ここで `ident` は減少する引数であり、`term` は `ident` の型から ``nat`` への関数であり、その減少引数上の値は `term` の再帰呼び出し毎に減少します (``nat`` 上なら ``lt`` 順序に沿って)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1515,8 +1515,8 @@ Plural-Forms: nplurals=1; plural=0;</seg>
       <tuv lang="EN-US">
         <seg>`functional inversion` will not be available for the function.</seg>
       </tuv>
-      <tuv lang="JA" changeid="eldesh" changedate="20191221T220522Z" creationid="eldesh" creationdate="20191221T220522Z">
-        <seg>`functional inversion` は関数については使えなくなります。</seg>
+      <tuv lang="JA" changeid="eldesh" changedate="20191222T144547Z" creationid="eldesh" creationdate="20191221T220522Z">
+        <seg>その関数についての `functional inversion` が使えるようになりません。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1555,24 +1555,24 @@ Plural-Forms: nplurals=1; plural=0;</seg>
       <tuv lang="EN-US">
         <seg>than like this:</seg>
       </tuv>
-      <tuv lang="JA" changeid="eldesh" changedate="20191221T214431Z" creationid="eldesh" creationdate="20191221T214431Z">
-        <seg>はこれより良い:</seg>
+      <tuv lang="JA" changeid="eldesh" changedate="20191222T143311Z" creationid="eldesh" creationdate="20191221T214431Z">
+        <seg>これより良いでしょう:</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>the definition is not a *pattern matching tree* as explained above.</seg>
       </tuv>
-      <tuv lang="JA" changeid="eldesh" changedate="20191221T220305Z" creationid="eldesh" creationdate="20191221T220305Z">
-        <seg>その定義は上で説明したような *パターンマッチングツリー* ではない。</seg>
+      <tuv lang="JA" changeid="eldesh" changedate="20191222T144855Z" creationid="eldesh" creationdate="20191221T220305Z">
+        <seg>その定義は上で説明したような *パターンマッチングツリー* ではありません。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>the definition uses pattern matching on dependent types, which ``Function`` cannot deal with yet.</seg>
       </tuv>
-      <tuv lang="JA" changeid="eldesh" changedate="20191221T220213Z" creationid="eldesh" creationdate="20191221T220124Z">
-        <seg>その定義は依存型の上でパターンマッチを使っており、``Function`` はまだそれを扱うことができない。</seg>
+      <tuv lang="JA" changeid="eldesh" changedate="20191222T144335Z" creationid="eldesh" creationdate="20191221T220124Z">
+        <seg>その定義は依存型上のパターンマッチを使っており、``Function`` はまだそれを扱うことができません。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1601,11 +1601,12 @@ Plural-Forms: nplurals=1; plural=0;</seg>
       </tuv>
     </tu>
     <tu>
+      <note>term_0 とは</note>
       <tuv lang="EN-US">
         <seg>|term_0| must be built as a *pure pattern matching tree* (:g:`match … with`) with applications only *at the end* of each branch.</seg>
       </tuv>
-      <tuv lang="JA" changeid="eldesh" changedate="20191221T214953Z" creationid="eldesh" creationdate="20191221T214806Z">
-        <seg>|term_0| は 各ブランチの *末尾* のみで適用される *純粋パターンマッチングツリー* (:g:`match … with`) として構築されなければならない</seg>
+      <tuv lang="JA" changeid="eldesh" changedate="20191222T143345Z" creationid="eldesh" creationdate="20191221T214806Z">
+        <seg>|term_0| は 各ブランチの *末尾* のみで適用される *純粋パターンマッチングツリー* (:g:`match … with`) として構築されなければなりません。</seg>
       </tuv>
     </tu>
 <!-- Alternative translations -->
