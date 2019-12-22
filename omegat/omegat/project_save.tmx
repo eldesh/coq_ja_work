@@ -72,8 +72,8 @@
       <tuv lang="EN-US">
         <seg>A more precise description is given below.</seg>
       </tuv>
-      <tuv lang="JA" changeid="eldesh" changedate="20191221T220812Z" creationid="eldesh" creationdate="20191221T220812Z">
-        <seg>より詳細な説明は以下で与えられる。</seg>
+      <tuv lang="JA" changeid="eldesh" changedate="20191222T131250Z" creationid="eldesh" creationdate="20191221T220812Z">
+        <seg>より詳細な説明を以下で与えます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -210,10 +210,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Defines a recursive function by well-founded recursion.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191222T133844Z" creationid="eldesh" creationdate="20191222T133844Z">
+        <seg>整礎再帰によって再帰関数を定義します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Defines the not recursive function `ident` as if declared with `Definition`.</seg>
       </tuv>
-      <tuv lang="JA" changeid="eldesh" changedate="20191221T221023Z" creationid="eldesh" creationdate="20191221T221023Z">
-        <seg>非-再帰関数 `ident` をあたかも `Definition` によって定義されたかのように定義する。</seg>
+      <tuv lang="JA" changeid="eldesh" changedate="20191222T131308Z" creationid="eldesh" creationdate="20191221T221023Z">
+        <seg>非-再帰関数 `ident` をあたかも `Definition` によって定義されたかのように定義します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Defines the structural recursive function `ident` as if declared with ``Fixpoint``.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191222T133514Z" creationid="eldesh" creationdate="20191222T133514Z">
+        <seg>構造的再帰関数 `ident` を ``Fixpoint`` により定義されたかのように定義します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -222,6 +238,14 @@
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191221T220752Z" creationid="eldesh" creationdate="20191221T220752Z">
         <seg>``{…}`` という注釈に依存して、``Function`` によって異なる定義機構が使われる。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Depending on the annotation, the user is left with some proof obligations that will be used to define the function.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191222T135037Z" creationid="eldesh" creationdate="20191222T135037Z">
+        <seg>注釈に依存して、ユーザはその関数を定義するのに使われるであろういくらかの証明課題を失う。</seg>
       </tuv>
     </tu>
     <tu>
@@ -598,8 +622,8 @@
       <tuv lang="EN-US">
         <seg>Moreover the following are defined:</seg>
       </tuv>
-      <tuv lang="JA" changeid="eldesh" changedate="20191221T221053Z" creationid="eldesh" creationdate="20191221T221053Z">
-        <seg>さらに以下のものが定義される。</seg>
+      <tuv lang="JA" changeid="eldesh" changedate="20191222T131318Z" creationid="eldesh" creationdate="20191221T221053Z">
+        <seg>さらに以下のものが定義されます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -616,6 +640,14 @@
       </tuv>
       <tuv lang="JA" changeid="yamarten" changedate="20181104T145002Z" creationid="yamarten" creationdate="20181104T145002Z">
         <seg>とはいえ、このマニュアルも以下のような構造を持っています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Once proof obligations are discharged, the following objects are defined:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191222T135441Z" creationid="eldesh" creationdate="20191222T135441Z">
+        <seg>一度放免された証明課題については、以下のオブジェクトが定義されます:</seg>
       </tuv>
     </tu>
     <tu>
@@ -648,6 +680,22 @@
       </tuv>
       <tuv lang="JA" changeid="yamarten" changedate="20181104T150310Z" creationid="yamarten" creationdate="20181104T150310Z">
         <seg>オプションAおよびBは選択しない。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Parameters of the function are bound in `term`.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191222T134806Z" creationid="eldesh" creationdate="20191222T134806Z">
+        <seg>その関数のパラメータは `term` 中で抑えられます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Parameters of the function are bound in `term`\ ;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191222T134430Z" creationid="eldesh" creationdate="20191222T134430Z">
+        <seg>関数のパラメータは `term`\ 中で抑えられます;</seg>
       </tuv>
     </tu>
     <tu>
@@ -780,6 +828,14 @@ Plural-Forms: nplurals=1; plural=0;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Remark: Proof obligations are presented as several subgoals belonging to a Lemma `ident`\ :math:`_{\sf tcc}`.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191222T141818Z" creationid="eldesh" creationdate="20191222T141818Z">
+        <seg>注意: 補題 `ident`\ :math:`_{\sf tcc}` に付随するいくつかのサブゴールとして証明課題が提示されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Remark: To obtain the right principle, it is better to put rigid parameters of the function as first arguments.</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191221T214637Z" creationid="eldesh" creationdate="20191221T214118Z">
@@ -870,6 +926,14 @@ Plural-Forms: nplurals=1; plural=0;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The ``{}`` annotation is mandatory and must be one of the following:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191222T134030Z" creationid="eldesh" creationdate="20191222T134030Z">
+        <seg>``{}`` の注釈は強制であり、以下のうちの一つでないといけません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The `coqtop` read-eval-print-loop can also be used directly, for debugging purposes.</seg>
       </tuv>
       <tuv lang="JA" changeid="yamarten" changedate="20181104T144829Z" creationid="yamarten" creationdate="20181104T111736Z">
@@ -934,6 +998,14 @@ Plural-Forms: nplurals=1; plural=0;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The fixpoint equation of `ident`: `ident_equation`.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191222T133620Z" creationid="eldesh" creationdate="20191222T133620Z">
+        <seg>`ident`: `ident_equation` という形の不動点等式。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The following experimental command is available when the ``FunInd`` library has been loaded via ``Require Import FunInd``:</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191221T212441Z" creationid="eldesh" creationdate="20191221T212441Z">
@@ -980,6 +1052,14 @@ Plural-Forms: nplurals=1; plural=0;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The inductive `R_ident` corresponding to the graph of `ident` (silently);</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191222T133242Z" creationid="eldesh" creationdate="20191222T133242Z">
+        <seg>帰納的 `R_ident` は (暗黙に) `ident` のグラフに対応します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The interactive mode is generally run with the help of an IDE, such as CoqIDE, documented in :ref:`coqintegrateddevelopmentenvironment`, Emacs with Proof-General :cite:`Asp00` [#PG]_, or jsCoq to run Coq in your browser (see https://github.com/ejgallego/jscoq).</seg>
       </tuv>
       <tuv lang="JA" changeid="yamarten" changedate="20181104T161431Z" creationid="yamarten" creationdate="20181104T111701Z">
@@ -1004,6 +1084,22 @@ Plural-Forms: nplurals=1; plural=0;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The lemma `ident`\ :math:`_{\sf tcc}` which collects all proof obligations in one property;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191222T135650Z" creationid="eldesh" creationdate="20191222T135553Z">
+        <seg>補題 `ident`\ :math:`_{\sf tcc}` これは全ての証明課題を集めて一つの性質にします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The lemmas `ident`\ :math:`_{\sf terminate}` and `ident`\ :math:`_{\sf F}` which is needed to be inlined during extraction of ident.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191222T135808Z" creationid="eldesh" creationdate="20191222T135808Z">
+        <seg>補題 `ident`\ :math:`_{\sf terminate}` と `ident`\ :math:`_{\sf F}` これは indent のエクストラクションをする間にインライン化するために必要となります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The macro generates also, when it is possible, the projection functions for destructuring an object of type `\ident`.</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191221T194125Z" creationid="eldesh" creationdate="20191221T194125Z">
@@ -1020,6 +1116,14 @@ Plural-Forms: nplurals=1; plural=0;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The module ``Recdef`` of the standard library must be loaded for this feature.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191222T133949Z" creationid="eldesh" creationdate="20191222T133949Z">
+        <seg>この機能を使うには標準ライブラリの ``Recdef`` モジュールがロードされていないといけません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The name `ident` already exists in the environment (see :cmd:`Axiom`).</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191221T202047Z" creationid="eldesh" creationdate="20191221T201857Z">
@@ -1032,6 +1136,14 @@ Plural-Forms: nplurals=1; plural=0;</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191221T182809Z" creationid="eldesh" creationdate="20191221T182809Z">
         <seg>``:=`` に続くオプショナルな識別子はそのコンストラクタです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The order must be well-founded.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191222T134747Z" creationid="eldesh" creationdate="20191222T134747Z">
+        <seg>その順序は整礎でなければなりません。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1056,6 +1168,22 @@ Plural-Forms: nplurals=1; plural=0;</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191221T202802Z" creationid="eldesh" creationdate="20191221T202744Z">
         <seg>レコード名 `ident` がそのフィールドの型の中に現れているが、``Record`` キーワードを使っています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The same objects as above;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191222T133526Z" creationid="eldesh" creationdate="20191222T133526Z">
+        <seg>上と同じオブジェクト。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The same objects as with the struct;</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191222T135519Z" creationid="eldesh" creationdate="20191222T135519Z">
+        <seg>struct と同じオブジェクト;</seg>
       </tuv>
     </tu>
     <tu>
@@ -1109,6 +1237,14 @@ Plural-Forms: nplurals=1; plural=0;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The way this recursive function is defined is the subject of several papers by Yves Bertot and Antonia Balaa on the one hand, and Gilles Barthe, Julien Forest, David Pichardie, and Vlad Rusu on the other hand.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191222T141611Z" creationid="eldesh" creationdate="20191222T141611Z">
+        <seg>この方法により再帰関数が定義される方法は、一方で Yves Bertot と Antonia Balaa による、もう一方で Gilles Barthe、Julien Forest、David Pichardie、Vlad Rusu によるいくつかの論文の主題です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The |Coq| standard library</seg>
       </tuv>
       <tuv lang="JA" changeid="yamarten" changedate="20181104T150201Z" creationid="yamarten" creationdate="20181104T150201Z">
@@ -1155,6 +1291,14 @@ Plural-Forms: nplurals=1; plural=0;</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191221T194207Z" creationid="eldesh" creationdate="20191221T194207Z">
         <seg>これらの射影関数は対応するフィールド名から与えられます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>These proofs are: proofs that each recursive call is actually decreasing with respect to the given criteria, and (if the criteria is `wf`) a proof that the ordering relation is well-founded.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191222T135258Z" creationid="eldesh" creationdate="20191222T135258Z">
+        <seg>これらの証明は: 各再帰呼び出しが実際に与えられた基準に照らして減少する証明であり、そして (もしその基準が `wf` ならば) その順序関係は整礎である証明です。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1353,6 +1497,22 @@ Plural-Forms: nplurals=1; plural=0;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>``{measure`` `term` `ident` ``}`` with `ident` being the decreasing argument and `term` being a function from type of `ident` to ``nat`` for which value on the decreasing argument decreases (for the ``lt`` order on ``nat``) at each recursive call of `term`.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191222T134341Z" creationid="eldesh" creationdate="20191222T134341Z">
+        <seg>``{measure`` `term` `ident` ``}`` ここで `ident` は減少する引数であり、`term` は型 `ident` から ``nat`` への型の関数であり、その減少引数上の値は `term` の再帰呼び出し毎に減少します (``nat`` 上なら ``lt`` 順序)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>``{wf`` `term` `ident` ``}`` with `ident` being the decreasing argument and `term` an ordering relation on the type of `ident` (i.e. of type `T`\ :math:`_{\sf ident}` → `T`\ :math:`_{\sf ident}` → ``Prop``) for which the decreasing argument decreases at each recursive call of `term`.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191222T134728Z" creationid="eldesh" creationdate="20191222T134728Z">
+        <seg>``{wf`` `term` `ident` ``}`` ここで `ident` は減少する引数であり、`term` は `ident` の型上の順序関係 (i.e. `T`\ :math:`_{\sf ident}` → `T`\ :math:`_{\sf ident}` → ``Prop`` という型) であり、その減少引数は `term` の再帰呼び出し毎に減少します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>`functional inversion` will not be available for the function.</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191221T220522Z" creationid="eldesh" creationdate="20191221T220522Z">
@@ -1361,10 +1521,18 @@ Plural-Forms: nplurals=1; plural=0;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>`ident_complete` and `ident_correct` which are inversion information linking the function and its graph.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191222T133355Z" creationid="eldesh" creationdate="20191222T132941Z">
+        <seg>`ident_complete` と `ident_correct` は関数とそのグラフを紐付ける反転情報です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>`ident_rect`, `ident_rec` and `ident_ind`, which reflect the pattern matching structure of `term` (see :cmd:`Inductive`);</seg>
       </tuv>
-      <tuv lang="JA" changeid="eldesh" changedate="20191221T221217Z" creationid="eldesh" creationdate="20191221T221217Z">
-        <seg>`ident_rect` と `ident_rec` と `ident_ind` は `term` (:cmd:`Inductive` 参照) のパターンマッチ構造を反映する;</seg>
+      <tuv lang="JA" changeid="eldesh" changedate="20191222T131331Z" creationid="eldesh" creationdate="20191221T221217Z">
+        <seg>`ident_rect` と `ident_rec` と `ident_ind` は `term` (:cmd:`Inductive` 参照) のパターンマッチ構造を反映します;</seg>
       </tuv>
     </tu>
     <tu>
