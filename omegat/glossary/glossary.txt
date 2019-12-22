@@ -32,3 +32,5 @@ dependent type	依存型
 well-founded recursion	整礎再帰
 proof obligations	証明課題
 fixpoint equations	不動点方程式
+fixpoint equality	不動点等式
+decreasing criteria	減少基準
