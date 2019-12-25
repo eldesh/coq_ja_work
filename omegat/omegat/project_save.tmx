@@ -54,6 +54,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A canonical structure is an instance of a record/structure type that can be used to solve unification problems involving a projection applied to an unknown structure instance (an implicit argument) and a value.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191225T182609Z" creationid="eldesh" creationdate="20191225T182543Z">
+        <seg>正準構造とはレコードまたはストラクチャ型のインスタンスの一つであり、それを未知のストラクチャインスタンス (暗黙引数) と値に射影を実行することで単一化問題を解くのに使うことが出来ます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A commented version of sources of the |Coq| standard library (including only the specifications, the proofs are removed) is available at https://coq.inria.fr/stdlib/.</seg>
       </tuv>
       <tuv lang="JA" changeid="yamarten" changedate="20181104T150204Z" creationid="yamarten" creationdate="20181104T150204Z">
@@ -150,6 +158,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Assume that :token:`qualid` denotes an object ``(Build_struct`` |c_1| … |c_n| ``)`` in the structure :g:`struct` of which the fields are |x_1|, …, |x_n|.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191225T183129Z" creationid="eldesh" creationdate="20191225T183129Z">
+        <seg>:token:`qualid` がフィールドが |x_1|, …, |x_n| であるような構造 :g:`struct` の中のあるオブジェクト ``(Build_struct`` |c_1| … |c_n| ``)`` を示すと仮定します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Automatic generation of induction schemes for non-recursive records defined with the ``Record`` keyword can be activated with the ``Nonrecursive Elimination Schemes`` option (see :ref:`proofschemes-induction-principles`).</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191221T201328Z" creationid="eldesh" creationdate="20191221T201328Z">
@@ -162,6 +178,22 @@
       </tuv>
       <tuv lang="JA" changeid="yamarten" changedate="20181110T055945Z" creationid="yamarten" creationdate="20181110T055945Z">
         <seg>Calculus of Inductive Constructions</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Canonical structures</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191225T182327Z" creationid="eldesh" creationdate="20191225T182327Z">
+        <seg>正準構造</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Canonical structures are particularly useful when mixed with coercions and strict implicit arguments.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191225T184259Z" creationid="eldesh" creationdate="20191225T184259Z">
+        <seg>正準構造は型強制と厳密暗黙引数と混用したときに特に有用です。</seg>
       </tuv>
     </tu>
     <tu>
@@ -371,10 +403,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For each of them, the canonical structure of which it is a projection is indicated.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191225T185241Z" creationid="eldesh" creationdate="20191225T185208Z">
+        <seg>それぞれについて、その正準構造が射影であるということを示しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For example it is better to define plus like this:</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191222T143302Z" creationid="eldesh" creationdate="20191221T214351Z">
         <seg>例えば plus はこのように定義した方が:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For instance, the above example gives the following output:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191225T185236Z" creationid="eldesh" creationdate="20191225T185236Z">
+        <seg>例えば、上の例は以下の出力を与えます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -407,6 +455,14 @@
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191225T144857Z" creationid="eldesh" creationdate="20191225T144857Z">
         <seg>さらなる互換表示は ``Printing Primitive Projection Compatibility`` オプションで非有効化することができ、これはプリミティブレコード上のパターンマッチを抑制します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Here is an example.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191225T184307Z" creationid="eldesh" creationdate="20191225T184307Z">
+        <seg>これが例です。</seg>
       </tuv>
     </tu>
     <tu>
@@ -455,6 +511,14 @@
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191221T194250Z" creationid="eldesh" creationdate="20191221T194250Z">
         <seg>もしフィールドの名前が `_` ならばそれのための射影は構築されません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If a same field occurs in several canonical structures, then only the structure declared first as canonical is considered.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191225T185258Z" creationid="eldesh" creationdate="20191225T184830Z">
+        <seg>いくつかの正準構造に同じフィールドが現れた場合は、初めに定義された構造のみが正準と認められます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -772,6 +836,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Otherwise said, :token:`qualid` is canonically used to extend the field |c_i| into a complete structure built on |c_i|.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191225T184130Z" creationid="eldesh" creationdate="20191225T184130Z">
+        <seg>別の言い方をすると、:token:`qualid` はフィールド |c_i| を |c_i| 上に構築した完全な構造に拡張するために規範的に使われました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Parameters of the function are bound in `term`.</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191222T134806Z" creationid="eldesh" creationdate="20191222T134806Z">
@@ -1030,6 +1102,14 @@ Plural-Forms: nplurals=1; plural=0;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Thanks to :g:`nat_setoid` declared as canonical, the implicit arguments :g:`A` and :g:`B` can be synthesized in the next statement.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191225T185303Z" creationid="eldesh" creationdate="20191225T184648Z">
+        <seg>:g:`nat_setoid` が正準として定義されているおかげで、次のステートメント内で暗黙引数 :g:`A` と :g:`B` が合成できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The :cmd:`Record` construction is a macro allowing the definition of records as is done in many programming languages.</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191221T184600Z" creationid="eldesh" creationdate="20191221T165051Z">
@@ -1098,6 +1178,14 @@ Plural-Forms: nplurals=1; plural=0;</seg>
       </tuv>
       <tuv lang="JA" changeid="yamarten" changedate="20181104T144910Z" creationid="yamarten" creationdate="20181104T144910Z">
         <seg>コンパイルモードは `coqc` コマンドで実行されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The complete documentation of canonical structures can be found in :ref:`canonicalstructures`; here only a simple example is given.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191225T182728Z" creationid="eldesh" creationdate="20191225T182728Z">
+        <seg>正準構造の完全なドキュメントは :ref:`canonicalstructures` で見つけられます; ここでは単純な例のみを扱います。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1404,6 +1492,14 @@ Plural-Forms: nplurals=1; plural=0;</seg>
       </tuv>
     </tu>
     <tu>
+      <tuv lang="EN-US">
+        <seg>Then, each time an equation of the form ``(``\ |x_i| ``_)`` |eq_beta_delta_iota_zeta| |c_i| has to be solved during the type checking process, :token:`qualid` is used as a solution.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191225T183439Z" creationid="eldesh" creationdate="20191225T183402Z">
+        <seg>すると、型検査の過程でそれぞれ ``(``\ |x_i| ``_)`` |eq_beta_delta_iota_zeta| |c_i| という形の方程式を解く必要があり、:token:`qualid` が解として使えます。</seg>
+      </tuv>
+    </tu>
+    <tu>
       <note>distributionのいい感じの訳語が欲しい。</note>
       <tuv lang="EN-US">
         <seg>Then, in Chapter :ref:`utilities`, various utilities that come with the |Coq| distribution are presented.</seg>
@@ -1503,6 +1599,14 @@ Plural-Forms: nplurals=1; plural=0;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This command declares :token:`qualid` as a canonical structure.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191225T182845Z" creationid="eldesh" creationdate="20191225T182845Z">
+        <seg>このコマンドは :token:`qualid` を正準構造として定義します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This compatibility option (on by default) governs the printing of pattern matching over primitive records.</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191225T134151Z" creationid="eldesh" creationdate="20191225T134151Z">
@@ -1515,6 +1619,14 @@ Plural-Forms: nplurals=1; plural=0;</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191225T134030Z" creationid="eldesh" creationdate="20191225T134030Z">
         <seg>この互換オプションは表示時に内部的に省略されたパラメータを再構成します (たとえばそれらがカーネルに操作された実際のASTには存在しないものであっても)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This displays the list of global names that are components of some canonical structure.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191225T185111Z" creationid="eldesh" creationdate="20191225T185111Z">
+        <seg>これはいくつかの正準構造のコンポーネントのグローバルな名前のリストを表示します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1539,6 +1651,14 @@ Plural-Forms: nplurals=1; plural=0;</seg>
       </tuv>
       <tuv lang="JA" changeid="yamarten" changedate="20181104T144930Z" creationid="yamarten" creationdate="20181104T144930Z">
         <seg>この文書はリファレンスマニュアルであり、通読するものではありません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This is equivalent to a regular definition of :token:`ident` followed by the declaration :n:`Canonical Structure @ident`.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191225T185018Z" creationid="eldesh" creationdate="20191225T185018Z">
+        <seg>これは :token:`ident` の通常の定義に続いて :n:`Canonical Structure @ident` を定義したのと等しくなります。</seg>
       </tuv>
     </tu>
     <tu>
