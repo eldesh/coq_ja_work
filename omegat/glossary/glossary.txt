@@ -34,3 +34,4 @@ proof obligations	証明課題
 fixpoint equations	不動点方程式
 fixpoint equality	不動点等式
 decreasing criteria	減少基準
+dependent elimination	依存除去

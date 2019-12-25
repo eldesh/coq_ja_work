@@ -258,6 +258,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Eta-conversion allows to define dependent elimination for these types as well.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191225T145640Z" creationid="eldesh" creationdate="20191225T145640Z">
+        <seg>その上、Eta 変換はこれらの型について依存除去を定義することが出来ます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Even if the record type has parameters, these do not appear at applications of the projection, considerably reducing the sizes of terms when manipulating parameterized records and type checking time.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191225T133448Z" creationid="eldesh" creationdate="20191225T133448Z">
+        <seg>そのレコード型がパラメータを持っていたとしても、これらは射影の適用には現れず、パラメータ化されたレコードを操作するときの項のサイズや型検査時間を大幅に減少させます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Examples of tactics are described in Chapter :ref:`detailedexamplesoftactics`.</seg>
       </tuv>
       <tuv lang="JA" changeid="yamarten" changedate="20181104T145621Z" creationid="yamarten" creationdate="20181104T145621Z">
@@ -323,6 +339,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For compatibility, the parameters still appear to the user when printing terms even though they are absent in the actual AST manipulated by the kernel.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191225T144549Z" creationid="eldesh" creationdate="20191225T144549Z">
+        <seg>互換性のため、カーネルにより操作された実際のAST中には存在しないものであっても項を表示する時にパラメータはユーザに表示されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For example it is better to define plus like this:</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191222T143302Z" creationid="eldesh" creationdate="20191221T214351Z">
@@ -351,6 +375,14 @@
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191222T143555Z" creationid="eldesh" creationdate="20191221T215107Z">
         <seg>Function は定義された関数の部分適用はサポートしません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Further compatibility printing can be deactivated thanks to the ``Printing Primitive Projection Compatibility`` option which governs the printing of pattern matching over primitive records.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191225T144857Z" creationid="eldesh" creationdate="20191225T144857Z">
+        <seg>さらなる互換表示は ``Printing Primitive Projection Compatibility`` オプションで非有効化することができ、これはプリミティブレコード上のパターンマッチを抑制します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -472,6 +504,14 @@
       </tuv>
       <tuv lang="JA" changeid="yamarten" changedate="20181104T145717Z" creationid="yamarten" creationdate="20181104T145650Z">
         <seg>第4部はより実用的なツールについて文書化しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In this case the types can be recursive and eta-conversion is disallowed.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191225T154757Z" creationid="eldesh" creationdate="20191225T154757Z">
+        <seg>この場合は型は再帰でき、eta 変換は許されません。</seg>
       </tuv>
     </tu>
     <tu>
@@ -644,6 +684,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>On the user level, primitive projections can be used as a replacement for the usual defined ones, although there are a few notable differences.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191225T133701Z" creationid="eldesh" creationdate="20191225T133701Z">
+        <seg>ユーザレベルでは、いくらか注目すべき違いはありますが、プリミティブ射影は普通に定義されたそれを置き換えるのに使うことが出来ます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Once proof obligations are discharged, the following objects are defined:</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191222T145855Z" creationid="eldesh" creationdate="20191222T135441Z">
@@ -720,6 +768,30 @@
       </tuv>
       <tuv lang="JA" changeid="yamarten" changedate="20181104T150219Z" creationid="yamarten" creationdate="20181104T150219Z">
         <seg>はじめに</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Primitive Projections</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191225T131511Z" creationid="eldesh" creationdate="20191225T131511Z">
+        <seg>プリミティブ射影</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Primitive Record Types</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191225T134212Z" creationid="eldesh" creationdate="20191225T134212Z">
+        <seg>プリミティブレコード型</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Primitive projections extended the Calculus of Inductive Constructions with a new binary term constructor `r.(p)` representing a primitive projection `p` applied to a record object `r` (i.e., primitive projections are always applied).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191225T133504Z" creationid="eldesh" creationdate="20191225T133134Z">
+        <seg>プリミティブ射影は Calculus of Inductive Constructions を新たな二項構築子 `r.(p)` で拡張し、これはあるレコードオブジェクト `r` に適用されるプリミティブ射影 `p` です (つまり、プリミティブ射影は常に適用されます)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -970,6 +1042,14 @@ Plural-Forms: nplurals=1; plural=0;</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191221T200603Z" creationid="eldesh" creationdate="20191221T195009Z">
         <seg>対応する文法規則は前述の文法の中で与えられています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The defined type enjoys eta-conversion definitionally, that is the generalized form of surjective pairing for records: `r` ``= Build_``\ `R` ``(``\ `r`\ ``.(``\ |p_1|\ ``) …`` `r`\ ``.(``\ |p_n|\ ``))``.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191225T154211Z" creationid="eldesh" creationdate="20191225T154211Z">
+        <seg>定義された型は定義的に eta 変換を使うことが出来、それは `r` ``= Build_``\ `R` ``(``\ `r`\ ``.(``\ |p_1|\ ``) …`` `r`\ ``.(``\ |p_n|\ ``))`` というレコードの全射ペアリングの一般的な形です。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1269,6 +1349,14 @@ Plural-Forms: nplurals=1; plural=0;</seg>
       </tuv>
     </tu>
     <tu>
+      <tuv lang="EN-US">
+        <seg>There are currently two ways to introduce primitive records types:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191225T144942Z" creationid="eldesh" creationdate="20191225T144942Z">
+        <seg>今のところプリミティブレコード型を導入するには二つの方法があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
       <note>オプション(Setするやつ)についての索引は無視？</note>
       <tuv lang="EN-US">
         <seg>There is a global index, and a number of specific indexes for tactics, vernacular commands, and error messages and warnings.</seg>
@@ -1283,6 +1371,14 @@ Plural-Forms: nplurals=1; plural=0;</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191221T201816Z" creationid="eldesh" creationdate="20191221T201816Z">
         <seg>3通りの可能性があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>These kind of record types differ from their traditional versions in the sense that dependent elimination is not available for them and only non-dependent case analysis can be defined.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191225T155555Z" creationid="eldesh" creationdate="20191225T155335Z">
+        <seg>これらの種類のレコード型は、依存除去が出来ず、非依存場合分けのみが定義できるという意味での伝統的なバージョンとは異なります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1303,10 +1399,34 @@ Plural-Forms: nplurals=1; plural=0;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This can be changed by unsetting the :flag:`Printing Primitive Projection Parameters` flag.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191225T144624Z" creationid="eldesh" creationdate="20191225T144624Z">
+        <seg>これは :flag:`Printing Primitive Projection Parameters` フラグをアンセットすることで変更できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This command can be seen as a generalization of ``Fixpoint``.</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191221T212519Z" creationid="eldesh" creationdate="20191221T212519Z">
         <seg>このコマンドは ``Fixpoint`` の一般化と見なすことができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This compatibility option (on by default) governs the printing of pattern matching over primitive records.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191225T134151Z" creationid="eldesh" creationdate="20191225T134151Z">
+        <seg>この互換性オプション (デフォルトで有効) はプリミティブレコード上でのパターンマッチの表示を抑制します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This compatibility option reconstructs internally omitted parameters at printing time (even though they are absent in the actual AST manipulated by the kernel).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191225T134030Z" creationid="eldesh" creationdate="20191225T134030Z">
+        <seg>この互換オプションは表示時に内部的に省略されたパラメータを再構成します (たとえばそれらがカーネルに操作された実際のASTには存在しないものであっても)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1369,6 +1489,22 @@ Plural-Forms: nplurals=1; plural=0;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Through the ``Inductive`` and ``CoInductive`` commands, when the body of the definition is a record declaration of the form ``Build_``\ `R` ``{`` |p_1| ``:`` |t_1|\ ``; … ;`` |p_n| ``:`` |t_n| ``}``.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191225T154716Z" creationid="eldesh" creationdate="20191225T154423Z">
+        <seg>``Inductive`` と ``CoInductive`` コマンドを使うのは、定義のボディーが ``Build_``\ `R` ``{`` |p_1| ``:`` |t_1|\ ``; … ;`` |p_n| ``:`` |t_n| ``}`` という形のレコード定義の時です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Through the ``Record`` command, in which case the type has to be non-recursive.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191225T154558Z" creationid="eldesh" creationdate="20191225T145335Z">
+        <seg>``Record`` コマンドを使うと、その場合はその型が非再帰的である必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Thus the order of the fields is important.</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191221T184013Z" creationid="eldesh" creationdate="20191221T184013Z">
@@ -1401,10 +1537,26 @@ Plural-Forms: nplurals=1; plural=0;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To eliminate the (co-)inductive type, one must use its defined primitive projections.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191225T134716Z" creationid="eldesh" creationdate="20191225T134716Z">
+        <seg>(余)帰納的型を排除するためには、その定義されたプリミティブ射影を使わなければならない。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To start using Coq, it is advised to first read a tutorial.</seg>
       </tuv>
       <tuv lang="JA" changeid="yamarten" changedate="20181007T034900Z" creationid="yamarten" creationdate="20181007T034900Z">
         <seg>Coqを初めて使う方は、まずチュートリアルを読むことをお勧めします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Turns on the use of primitive projections when defining subsequent records (even through the ``Inductive`` and ``CoInductive`` commands).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191225T160157Z" creationid="eldesh" creationdate="20191225T160157Z">
+        <seg>後続のレコードを (``Inductive`` や ``CoInductive`` コマンドだとしても) 定義するときにプリミティブ射影を有効にします。.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1477,6 +1629,23 @@ Plural-Forms: nplurals=1; plural=0;</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191221T200620Z" creationid="eldesh" creationdate="20191221T195318Z">
         <seg>`qualid` が射影を意味するとき、`term.(qualid)` という構文は `qualid term` と等しく、`term.(qualid` |arg_1| |arg_n| `)` は `qualid` |arg_1| `…` |arg_n| `term` と、`term.(@qualid` |term_1| |term_n| `)` という構文は `@qualid` |term_1| `…` |term_n| `term` と等しくなります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <note>though の意味が分からん</note>
+      <tuv lang="EN-US">
+        <seg>When a type is declared with primitive projections, its :g:`match` construct is disabled (see :ref:`primitive_projections` though).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191225T134536Z" creationid="eldesh" creationdate="20191225T134523Z">
+        <seg>ある型がプリミティブ射影によって定義されたとき、その :g:`match` による構成は無効化されます (:ref:`primitive_projections` 参照).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When the :flag:`Primitive Projections` option is on, definitions of record types change meaning.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191225T134252Z" creationid="eldesh" creationdate="20191225T134252Z">
+        <seg>:flag:`Primitive Projections` オプションが有効な時、レコード型の定義は意味を変えます。</seg>
       </tuv>
     </tu>
     <tu>
