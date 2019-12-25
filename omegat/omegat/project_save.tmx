@@ -94,6 +94,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Additionally, user-written :g:`match` constructs on primitive records are desugared into substitution of the projections, they cannot be printed back as :g:`match` constructs.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191225T164515Z" creationid="eldesh" creationdate="20191225T164515Z">
+        <seg>さらに、プリミティブレコード上のユーザ記述の :g:`match` は射影の代入への脱糖され、それらは :g:`match` として表示することは出来ません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Advanced recursive functions</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191221T212337Z" creationid="eldesh" creationdate="20191221T212337Z">
@@ -204,6 +212,14 @@
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191221T205044Z" creationid="eldesh" creationdate="20191221T204147Z">
         <seg>そのチャプターのセクション :ref:`coercions-classes-as-records` のコアーションとレコードはコアーションに費やされています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Compatibility Projections and :g:`match`</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191225T162633Z" creationid="eldesh" creationdate="20191225T162633Z">
+        <seg>互換性射影と :g:`match`</seg>
       </tuv>
     </tu>
     <tu>
@@ -712,6 +728,14 @@
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191222T145855Z" creationid="eldesh" creationdate="20191222T135441Z">
         <seg>証明課題が解決されると、以下のオブジェクトが定義されます:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>One can distinguish them from applications of the primitive projection if the :flag`Printing Primitive Projection Parameters` option is off: For a primitive projection application, parameters are printed as underscores while for the compatibility projections they are printed as usual.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191225T164349Z" creationid="eldesh" creationdate="20191225T164222Z">
+        <seg>:flag`Printing Primitive Projection Parameters` オプションがオフになっているとそれらとプリミティブ射影の適用と区別することが出来ます。プリミティブ射影適用のときは、パラメータはアンダースコアとして表示される一方、互換性射影は普通に表示されます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1423,6 +1447,14 @@ Plural-Forms: nplurals=1; plural=0;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>These constants are used when elaborating partial applications of the projection.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191225T163922Z" creationid="eldesh" creationdate="20191225T163922Z">
+        <seg>これらの定数はその射影の部分適用の精緻化のときに使われます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>These kind of record types differ from their traditional versions in the sense that dependent elimination is not available for them and only non-dependent case analysis can be defined.</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191225T155555Z" creationid="eldesh" creationdate="20191225T155335Z">
@@ -1589,6 +1621,14 @@ Plural-Forms: nplurals=1; plural=0;</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191221T200647Z" creationid="eldesh" creationdate="20191221T200319Z">
         <seg>再帰的レコードを定義するためには、``Inductive`` と ``CoInductive`` キーワードを使うことができ、結果は帰納的または余帰納的レコードになります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To ease compatibility with ordinary record types, each primitive projection is also defined as a ordinary constant taking parameters and an object of the record type as arguments, and whose body is an application of the unfolded primitive projection of the same name.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191225T163624Z" creationid="eldesh" creationdate="20191225T163617Z">
+        <seg>通常のレコード型との互換性を緩和するため、各プリミティブ射影は通常のパラメータと、引数としてそのレコード型のオブジェクトとを取り、そのボディーが同じ名前の非畳み込みプリミティブ射影の適用であるものとしても定義されます。</seg>
       </tuv>
     </tu>
     <tu>
