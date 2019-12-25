@@ -134,6 +134,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>An unfolded primitive projection application obeys the rule above, while the folded version delta-reduces to the unfolded version.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191225T160741Z" creationid="eldesh" creationdate="20191225T160541Z">
+        <seg>非畳み込みプリミティブ射影適用は上の規則にしたがい、一方畳み込み版は非畳み込み版へデルタ簡約します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Automatic generation of induction schemes for non-recursive records defined with the ``Record`` keyword can be activated with the ``Nonrecursive Elimination Schemes`` option (see :ref:`proofschemes-induction-principles`).</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191221T201328Z" creationid="eldesh" creationdate="20191221T201328Z">
@@ -407,6 +415,14 @@
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191221T213839Z" creationid="eldesh" creationdate="20191221T213839Z">
         <seg>しかし、この帰納は非-構造的再帰関数については動きません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>However, to take the :math:`{\delta}` flag into account, projections can be in two states: folded or unfolded.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191225T160629Z" creationid="eldesh" creationdate="20191225T160438Z">
+        <seg>しかし、:math:`{\delta}` フラグを考慮すると、射影は 畳み込み または 非畳み込み という二つの状態になり得ます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -852,6 +868,14 @@ Plural-Forms: nplurals=1; plural=0;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Projections obey the usual ``simpl`` flags of the ``Arguments`` command in particular.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191225T161032Z" creationid="eldesh" creationdate="20191225T161032Z">
+        <seg>特に射影は、``Arguments`` コマンドの通常の ``simpl`` フラグに従います。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Proof-General is available at https://proofgeneral.github.io/.</seg>
       </tuv>
       <tuv lang="JA" changeid="yamarten" changedate="20181104T150315Z" creationid="yamarten" creationdate="20181104T150315Z">
@@ -880,6 +904,14 @@ Plural-Forms: nplurals=1; plural=0;</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191221T200639Z" creationid="eldesh" creationdate="20191221T195837Z">
         <seg>``Record`` キーワードで定義されたレコードは再帰することは許されません (レコード名への参照がそのフィールドの型の中にあるとエラーが起きる)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Reduction</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191225T160237Z" creationid="eldesh" creationdate="20191225T160237Z">
+        <seg>簡約</seg>
       </tuv>
     </tu>
     <tu>
@@ -1010,6 +1042,14 @@ Plural-Forms: nplurals=1; plural=0;</seg>
       </tuv>
       <tuv lang="JA" changeid="yamarten" changedate="20181104T144829Z" creationid="yamarten" creationdate="20181104T111736Z">
         <seg>デバッグのために、 read-eval-print-loop である `coqtop` を直接用いることもできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The basic reduction rule of a primitive projection is |p_i| ``(Build_``\ `R` |t_1| … |t_n|\ ``)`` :math:`{\rightarrow_{\iota}}` |t_i|.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191225T160326Z" creationid="eldesh" creationdate="20191225T160326Z">
+        <seg>プリミティブ射影の基本的な簡約規則は |p_i| ``(Build_``\ `R` |t_1| … |t_n|\ ``)`` :math:`{\rightarrow_{\iota}}` |t_i| です。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1367,6 +1407,14 @@ Plural-Forms: nplurals=1; plural=0;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>There is currently no way to input unfolded primitive projections at the user-level, and one must use the :flag:`Printing Primitive Projection Compatibility` to display unfolded primitive projections as matches and distinguish them from folded ones.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191225T161423Z" creationid="eldesh" creationdate="20191225T161423Z">
+        <seg>現在のところはユーザレベルで非畳み込みプリミティブ射影を入力する方法は無く、非畳み込みプリミティブ射影をマッチとして表示し、それらを畳み込みのそれと区別するには:flag:`Printing Primitive Projection Compatibility` を使わなければなりません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>There may be three reasons:</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191221T201816Z" creationid="eldesh" creationdate="20191221T201816Z">
@@ -1395,6 +1443,14 @@ Plural-Forms: nplurals=1; plural=0;</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191222T145659Z" creationid="eldesh" creationdate="20191222T135258Z">
         <seg>これらの証明は: 各再帰呼び出しが実際に与えられた基準に照らして減少することの証明であり、そして (もしその基準が `wf` ならば) その順序関係は整礎である証明です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This allows to precisely mimic the usual unfolding rules of constants.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191225T160913Z" creationid="eldesh" creationdate="20191225T160913Z">
+        <seg>これは通常の定数の展開規則と細部に渡って似ています。</seg>
       </tuv>
     </tu>
     <tu>
