@@ -37,3 +37,4 @@ decreasing criteria	減少基準
 dependent elimination	依存除去
 binders	束縛子
 generalize delimiters	一般化デリミタ
+notation	表記法
