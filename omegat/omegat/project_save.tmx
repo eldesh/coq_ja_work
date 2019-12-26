@@ -142,6 +142,30 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>All variables are candidate for generalization if they appear free in the context under a generalization delimiter.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191226T161903Z" creationid="eldesh" creationdate="20191226T141710Z">
+        <seg>全ての変数は一般化デリミタの中の文脈で自由に出現するならば一般化の候補になります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Allow generalization of the given identifiers only.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191226T143411Z" creationid="eldesh" creationdate="20191226T143411Z">
+        <seg>与えられた識別子のみについて一般化を許可します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Allows exporting the choice of generalizable variables.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191226T143543Z" creationid="eldesh" creationdate="20191226T143543Z">
+        <seg>一般化可能変数についての選択をエクスポートします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Alternatively, the following syntax allows creating objects by using named fields, as shown in this grammar.</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191221T192325Z" creationid="eldesh" creationdate="20191221T192325Z">
@@ -186,6 +210,14 @@
       </tuv>
       <tuv lang="JA" changeid="yamarten" changedate="20181110T055945Z" creationid="yamarten" creationdate="20181110T055945Z">
         <seg>Calculus of Inductive Constructions</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Calling this command multiple times adds to the allowed identifiers.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191226T143455Z" creationid="eldesh" creationdate="20191226T143455Z">
+        <seg>このコマンドの複数回呼ぶと許可された識別子へ追加します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -310,6 +342,14 @@
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191222T145620Z" creationid="eldesh" creationdate="20191222T135037Z">
         <seg>注釈に依存して、その関数を定義するのに使われるいくらかの証明課題はユーザに残されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Disable implicit generalization  entirely.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191226T143335Z" creationid="eldesh" creationdate="20191226T143335Z">
+        <seg>暗黙の一般化を完全に無効にします。</seg>
       </tuv>
     </tu>
     <tu>
@@ -547,6 +587,30 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Implicit generalization</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191226T134148Z" creationid="eldesh" creationdate="20191226T134148Z">
+        <seg>暗黙の一般化</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Implicit generalization is an automatic elaboration of a statement with free variables into a closed statement where these variables are quantified explicitly.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191226T134325Z" creationid="eldesh" creationdate="20191226T134325Z">
+        <seg>暗黙の一般化とは自由変数を伴う式をこれらの変数が明示的に量化された閉じた文への自動的な詳細化です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Implicit generalization is done inside binders starting with a \` and terms delimited by \`{ } and \`( ), always introducing maximally inserted implicit arguments for the generalized variables.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191226T160438Z" creationid="eldesh" creationdate="20191226T134823Z">
+        <seg>暗黙の一般化は \` から始まる束縛子と \`{ } と \`( ) で区切られている項の中で行われ、一般化された変数について常に最大限に暗黙引数が挿入されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Implicit types of variables</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191226T131740Z" creationid="eldesh" creationdate="20191226T131740Z">
@@ -604,6 +668,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In such cases, the context will probably contain some unexpected generalized variable.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191226T143308Z" creationid="eldesh" creationdate="20191226T143308Z">
+        <seg>そのような場合、恐らく文脈にいくつかの意図しない一般化された変数が含まれています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In the expression:</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191221T171148Z" creationid="eldesh" creationdate="20191221T171148Z">
@@ -612,10 +684,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In the following statement for example, the variables n and m are automatically generalized and become explicit arguments of the lemma as we are using \`( ):</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191226T140824Z" creationid="eldesh" creationdate="20191226T140818Z">
+        <seg>例えば以下の文では、\`( ) を使うことで変数 n と m は自動的に一般化され、そしてその補題の明示的引数になります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In the fourth part more practical tools are documented.</seg>
       </tuv>
       <tuv lang="JA" changeid="yamarten" changedate="20181104T145717Z" creationid="yamarten" creationdate="20181104T145650Z">
         <seg>第4部はより実用的なツールについて文書化しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In these binders, the binding name for the bound object is optional, whereas the type is mandatory, dually to regular binders.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191226T162836Z" creationid="eldesh" creationdate="20191226T150243Z">
+        <seg>これらの束縛子の中では、束縛されたオブジェクトの束縛名はオプショナルですが、一方でその型は強制であり、通常の束縛子と双対的です。</seg>
       </tuv>
     </tu>
     <tu>
@@ -648,6 +736,14 @@
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191221T201102Z" creationid="eldesh" creationdate="20191221T201102Z">
         <seg>帰納スキームは帰納的レコードについて自動的に生成される。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Inside implicit generalization delimiters, free variables in the current context are automatically quantified using a product or a lambda abstraction to generate a closed term.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191226T161700Z" creationid="eldesh" creationdate="20191226T140503Z">
+        <seg>暗黙の一般化デリミタの中では、現在のコンテキスト中の自由変数は、閉じた項を生成するために積またはラムダ抽象を使うことで自動的に量化されます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -816,6 +912,22 @@
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191222T145855Z" creationid="eldesh" creationdate="20191222T135441Z">
         <seg>証明課題が解決されると、以下のオブジェクトが定義されます:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>One can also use implicit generalization for binders, in which case the generalized variables are added as binders and set maximally implicit.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191226T162313Z" creationid="eldesh" creationdate="20191226T144335Z">
+        <seg>束縛子にも暗黙の一般化を使うことができ、その場合は一般化された変数が束縛子として追加され最大限暗黙に設定されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>One can control the set of generalizable identifiers with the ``Generalizable`` vernacular command to avoid unexpected generalizations when mistyping identifiers.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191226T141453Z" creationid="eldesh" creationdate="20191226T141056Z">
+        <seg>ヴァーナキュラーコマンド ``Generalizable`` によって一般化できる識別子の集合をコントロールし、識別子を打ち間違えた時に望まない一般化を避けることが出来ます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1240,8 +1352,8 @@ Plural-Forms: nplurals=1; plural=0;</seg>
       <tuv lang="EN-US">
         <seg>The effect of the command is to automatically set the type of bound variables starting with `ident` (either `ident` itself or `ident` followed by one or more single quotes, underscore or digits) to be `type` (unless the bound variable is already declared with an explicit type in which case, this latter type is considered).</seg>
       </tuv>
-      <tuv lang="JA" changeid="eldesh" changedate="20191226T132509Z" creationid="eldesh" creationdate="20191226T132204Z">
-        <seg>このコマンドの効果は `ident` で始まる　(`ident` 自身または `ident` に一つ以上のシングルクォート、アンダースコア、数字が続く) 束縛変数の型を自動的に `type` (その束縛変数が明示的な型とともに既に定義されている場合でない限り、後者の型と見なされる) に設定するものです。</seg>
+      <tuv lang="JA" changeid="eldesh" changedate="20191226T151338Z" creationid="eldesh" creationdate="20191226T132204Z">
+        <seg>このコマンドの効果は `ident` で始まる (`ident` 自身または `ident` に一つ以上のシングルクォート、アンダースコア、数字が続く) 束縛変数の型を自動的に `type` (その束縛変数が明示的な型とともに既に定義されている場合でない限り、後者の型と見なされる) に設定するものです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1290,6 +1402,14 @@ Plural-Forms: nplurals=1; plural=0;</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191221T193010Z" creationid="eldesh" creationdate="20191221T193010Z">
         <seg>以下の設定は型の表示形式をコントロールします:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The generalizing binders \`{ } and \`( ) work similarly to their explicit counterparts, only binding the generalized variables implicitly, as maximally-inserted arguments.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191226T162756Z" creationid="eldesh" creationdate="20191226T144515Z">
+        <seg>一般化された束縛子 \`{ } や \`( ) はそれらの明示的な場合の対応部分と同じように動作し、一般化された変数を最大限挿入された引数として暗黙に束縛するだけです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1557,6 +1677,14 @@ Plural-Forms: nplurals=1; plural=0;</seg>
       </tuv>
     </tu>
     <tu>
+      <tuv lang="EN-US">
+        <seg>There are several commands that specify which variables should be generalizable.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191226T141521Z" creationid="eldesh" creationdate="20191226T141521Z">
+        <seg>どの変数が一般化されるべきかを指定するコマンドがいくつかあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
       <note>オプション(Setするやつ)についての索引は無視？</note>
       <tuv lang="EN-US">
         <seg>There is a global index, and a number of specific indexes for tactics, vernacular commands, and error messages and warnings.</seg>
@@ -1703,6 +1831,14 @@ Plural-Forms: nplurals=1; plural=0;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This is the default behavior.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191226T143347Z" creationid="eldesh" creationdate="20191226T143347Z">
+        <seg>これはデフォルトの振る舞いです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This is useful for declaring the implicit type of a single variable.</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191226T132819Z" creationid="eldesh" creationdate="20191226T132534Z">
@@ -1725,6 +1861,14 @@ Plural-Forms: nplurals=1; plural=0;</seg>
       </tuv>
       <tuv lang="JA" changeid="yamarten" changedate="20181104T150301Z" creationid="yamarten" creationdate="20181104T150301Z">
         <seg>この作品 (Coq リファレンスマニュアル) はオープン・パブリケーション利用許諾契約書 (v1.0 かそれ以降) で指定された条件と制約に従う限り配布することができる(契約書の最新の版は現在のところ http://www.opencontent.org/openpub/で入手可能である)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This may result in confusing errors in case of typos.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191226T162022Z" creationid="eldesh" creationdate="20191226T143211Z">
+        <seg>これはtypoした場合に紛らわしいエラーにつながるかもしれません。</seg>
       </tuv>
     </tu>
     <tu>
