@@ -312,6 +312,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Coercions, implicit arguments, the type of pattern matching, but also notations (see :ref:`syntaxextensionsandinterpretationscopes`) can obfuscate the behavior of some tactics (typically the tactics applying to occurrences of subterms are sensitive to the implicit arguments).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191226T191052Z" creationid="eldesh" creationdate="20191226T190743Z">
+        <seg>コアーション、暗黙引数、パターンマッチングの型、ばかりでなく表記法 (:ref:`syntaxextensionsandinterpretationscopes` 参照) もいくつかのタクティックの振る舞いを分かりにくくし得ます (典型的には部分項の出現に適用するタクティックは暗黙引数に対して繊細です)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Compatibility Projections and :g:`match`</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191225T162633Z" creationid="eldesh" creationdate="20191225T162633Z">
@@ -1004,6 +1012,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Otherwise said, :flag:`Printing All` includes the effects of the options :flag:`Printing Implicit`, :flag:`Printing Coercions`, :flag:`Printing Synth`, :flag:`Printing Projections`, and :flag:`Printing Notations`.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191226T192713Z" creationid="eldesh" creationdate="20191226T192509Z">
+        <seg>他の言い方をすると :flag:`Printing All` はオプション :flag:`Printing Implicit`、:flag:`Printing Coercions`、:flag:`Printing Synth`、:flag:`Printing Projections`、:flag:`Printing Notations` の効果を含んでいます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Otherwise said, :token:`qualid` is canonically used to extend the field |c_i| into a complete structure built on |c_i|.</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191225T184130Z" creationid="eldesh" creationdate="20191225T184130Z">
@@ -1072,6 +1088,14 @@
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191225T133504Z" creationid="eldesh" creationdate="20191225T133134Z">
         <seg>プリミティブ射影は Calculus of Inductive Constructions を新たな二項構築子 `r.(p)` で拡張し、これはあるレコードオブジェクト `r` に適用されるプリミティブ射影 `p` です (つまり、プリミティブ射影は常に適用されます)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Printing constructions in full</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191226T190454Z" creationid="eldesh" creationdate="20191226T190454Z">
+        <seg>全ての構成を表示する</seg>
       </tuv>
     </tu>
     <tu>
@@ -1993,10 +2017,26 @@ Plural-Forms: nplurals=1; plural=0;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To reactivate the high-level printing features, use the command ``Unset Printing All``.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191226T192844Z" creationid="eldesh" creationdate="20191226T192844Z">
+        <seg>高レベル表示機能を再度有効化するには、``Unset Printing All`` コマンドを使う。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To start using Coq, it is advised to first read a tutorial.</seg>
       </tuv>
       <tuv lang="JA" changeid="yamarten" changedate="20181007T034900Z" creationid="yamarten" creationdate="20181007T034900Z">
         <seg>Coqを初めて使う方は、まずチュートリアルを読むことをお勧めします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Turning this option on deactivates all high-level printing features such as coercions, implicit arguments, returned type of pattern matching, notations and various syntactic sugar for pattern matching or record projections.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191226T192739Z" creationid="eldesh" creationdate="20191226T192052Z">
+        <seg>このオプションを有効にするとコアーション、暗黙引数、パターンマッチングの戻り型、表記法、それにパターンマッチやレコード射影のための様々な糖衣構文などの全ての高レベル表示機能を解除します。</seg>
       </tuv>
     </tu>
     <tu>
