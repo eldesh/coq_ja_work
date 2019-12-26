@@ -54,6 +54,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A *class* is either a sort (denoted by the keyword ``Sortclass``), a product type (denoted by the keyword ``Funclass``), or a type constructor (denoted by its name), e.g. an inductive type or any constant with a type of the form ``forall (`` |x_1| : |A_1| ) … ``(``\ |x_n| : |A_n|\ ``)``, `s` where `s` is a sort.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191226T170318Z" creationid="eldesh" creationdate="20191226T170318Z">
+        <seg>*クラス* はソート (``Sortclass`` キーワードで表現される) か、積型 (``Funclass`` キーワードで表現される) か、または型構築子 (その名前で表現される) のいずれかであり、例えば、帰納型や ``forall (`` |x_1| : |A_1| ) … ``(``\ |x_n| : |A_n|\ ``)``, `s` ここで `s` はソートであるような形式の型を伴う任意の定数です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A canonical structure is an instance of a record/structure type that can be used to solve unification problems involving a projection applied to an unknown structure instance (an implicit argument) and a value.</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191225T182609Z" creationid="eldesh" creationdate="20191225T182543Z">
@@ -278,12 +286,28 @@
       </tuv>
     </tu>
     <tu>
+      <tuv lang="EN-US">
+        <seg>Coercions</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191226T165158Z" creationid="eldesh" creationdate="20191226T165158Z">
+        <seg>コアーション</seg>
+      </tuv>
+    </tu>
+    <tu>
       <note>the chapter とは？</note>
       <tuv lang="EN-US">
         <seg>Coercions and records in section :ref:`coercions-classes-as-records` of the chapter devoted to coercions.</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191221T205044Z" creationid="eldesh" creationdate="20191221T204147Z">
         <seg>そのチャプターのセクション :ref:`coercions-classes-as-records` のコアーションとレコードはコアーションに費やされています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Coercions can be used to implicitly inject terms from one *class* in which they reside into another one.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191226T165810Z" creationid="eldesh" creationdate="20191226T165810Z">
+        <seg>コアーションは項をそれが属するある一つの *クラス* からもう一つのそれに暗黙的に埋め込むのに使うことが出来ます。</seg>
       </tuv>
     </tu>
     <tu>
