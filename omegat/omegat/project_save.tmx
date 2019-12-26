@@ -1569,8 +1569,8 @@ Plural-Forms: nplurals=1; plural=0;</seg>
       <tuv lang="EN-US">
         <seg>There is currently no way to input unfolded primitive projections at the user-level, and one must use the :flag:`Printing Primitive Projection Compatibility` to display unfolded primitive projections as matches and distinguish them from folded ones.</seg>
       </tuv>
-      <tuv lang="JA" changeid="eldesh" changedate="20191225T161423Z" creationid="eldesh" creationdate="20191225T161423Z">
-        <seg>現在のところはユーザレベルで非畳み込みプリミティブ射影を入力する方法は無く、非畳み込みプリミティブ射影をマッチとして表示し、それらを畳み込みのそれと区別するには:flag:`Printing Primitive Projection Compatibility` を使わなければなりません。</seg>
+      <tuv lang="JA" changeid="eldesh" changedate="20191226T140041Z" creationid="eldesh" creationdate="20191225T161423Z">
+        <seg>現在のところはユーザレベルで非畳み込みプリミティブ射影を入力する方法は無く、非畳み込みプリミティブ射影をマッチとして表示し、それらを畳み込みのそれと区別するには :flag:`Printing Primitive Projection Compatibility` を使わなければなりません。</seg>
       </tuv>
     </tu>
     <tu>
