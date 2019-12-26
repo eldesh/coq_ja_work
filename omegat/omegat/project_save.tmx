@@ -110,6 +110,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Adds blocks of implicit types with different specifications.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191226T132934Z" creationid="eldesh" creationdate="20191226T132934Z">
+        <seg>異なる仕様を伴った暗黙型のブロックを追加します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Advanced recursive functions</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191221T212337Z" creationid="eldesh" creationdate="20191221T212337Z">
@@ -539,6 +547,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Implicit types of variables</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191226T131740Z" creationid="eldesh" creationdate="20191226T131740Z">
+        <seg>変数の暗黙の型</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In Chapter :ref:`tactics`, all commands that realize one or more steps of the proof are presented: we call them *tactics*.</seg>
       </tuv>
       <tuv lang="JA" changeid="yamarten" changedate="20181104T145557Z" creationid="yamarten" creationdate="20181104T145557Z">
@@ -680,6 +696,14 @@
       </tuv>
       <tuv lang="JA" changeid="yamarten" changedate="20181104T145403Z" creationid="yamarten" creationdate="20181104T145403Z">
         <seg>ここは6つの章に分かれています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It is possible to bind variable names to a given type (e.g. in a development using arithmetic, it may be convenient to bind the names `n` or `m` to the type ``nat`` of natural numbers).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191226T131945Z" creationid="eldesh" creationdate="20191226T131935Z">
+        <seg>変数名を与えられた型に束縛することが可能です (例: 算術を使う開発の中で、名前 `n` や `m` を自然数である ``nat`` 型に束縛すると便利かもしれません)</seg>
       </tuv>
     </tu>
     <tu>
@@ -1166,6 +1190,14 @@ Plural-Forms: nplurals=1; plural=0;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The command for that is</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191226T132008Z" creationid="eldesh" creationdate="20191226T132008Z">
+        <seg>そのためのコマンドは</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The compiled mode acts as a proof checker taking a file containing a whole development in order to ensure its correctness.</seg>
       </tuv>
       <tuv lang="JA" changeid="yamarten" changedate="20181104T144849Z" creationid="yamarten" creationdate="20181104T144849Z">
@@ -1202,6 +1234,14 @@ Plural-Forms: nplurals=1; plural=0;</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191225T154211Z" creationid="eldesh" creationdate="20191225T154211Z">
         <seg>定義された型は定義的に eta 変換を使うことが出来、それは `r` ``= Build_``\ `R` ``(``\ `r`\ ``.(``\ |p_1|\ ``) …`` `r`\ ``.(``\ |p_n|\ ``))`` というレコードの全射ペアリングの一般的な形です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The effect of the command is to automatically set the type of bound variables starting with `ident` (either `ident` itself or `ident` followed by one or more single quotes, underscore or digits) to be `type` (unless the bound variable is already declared with an explicit type in which case, this latter type is considered).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191226T132509Z" creationid="eldesh" creationdate="20191226T132204Z">
+        <seg>このコマンドの効果は `ident` で始まる　(`ident` 自身または `ident` に一つ以上のシングルクォート、アンダースコア、数字が続く) 束縛変数の型を自動的に `type` (その束縛変数が明示的な型とともに既に定義されている場合でない限り、後者の型と見なされる) に設定するものです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1659,6 +1699,14 @@ Plural-Forms: nplurals=1; plural=0;</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191225T185018Z" creationid="eldesh" creationdate="20191225T185018Z">
         <seg>これは :token:`ident` の通常の定義に続いて :n:`Canonical Structure @ident` を定義したのと等しくなります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This is useful for declaring the implicit type of a single variable.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191226T132819Z" creationid="eldesh" creationdate="20191226T132534Z">
+        <seg>これは単一の変数の暗黙型を定義するのに有効です。</seg>
       </tuv>
     </tu>
     <tu>
