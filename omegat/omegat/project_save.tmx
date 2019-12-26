@@ -314,8 +314,8 @@
       <tuv lang="EN-US">
         <seg>Coercions, implicit arguments, the type of pattern matching, but also notations (see :ref:`syntaxextensionsandinterpretationscopes`) can obfuscate the behavior of some tactics (typically the tactics applying to occurrences of subterms are sensitive to the implicit arguments).</seg>
       </tuv>
-      <tuv lang="JA" changeid="eldesh" changedate="20191226T191052Z" creationid="eldesh" creationdate="20191226T190743Z">
-        <seg>コアーション、暗黙引数、パターンマッチングの型、ばかりでなく表記法 (:ref:`syntaxextensionsandinterpretationscopes` 参照) もいくつかのタクティックの振る舞いを分かりにくくし得ます (典型的には部分項の出現に適用するタクティックは暗黙引数に対して繊細です)。</seg>
+      <tuv lang="JA" changeid="eldesh" changedate="20191227T101821Z" creationid="eldesh" creationdate="20191226T190743Z">
+        <seg>コアーション、暗黙引数、パターンマッチングの型、そればかりでなく表記法 (:ref:`syntaxextensionsandinterpretationscopes` 参照) もいくつかのタクティックの振る舞いを分かりにくくし得ます (典型的には部分項の出現に適用するタクティックは暗黙引数に対して敏感です)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -587,6 +587,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If `string` ends in ``.dot`` or ``.gv``, the constraints are printed in the DOT language, and can be processed by Graphviz tools.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191227T101321Z" creationid="eldesh" creationdate="20191227T101321Z">
+        <seg>`string` が ``.dot`` や ``.gv`` で終わっていたら、制約がDOT言語で出力され、Graphviz ツールで処理できるようになります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If a field is named `_` then no projection is built for it.</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191221T194250Z" creationid="eldesh" creationdate="20191221T194250Z">
@@ -615,6 +623,14 @@
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191221T193126Z" creationid="eldesh" creationdate="20191221T193126Z">
         <seg>セットすると、レコード構文 (上記) をデフォルト表示形式として使用します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If the optional ``Sorted`` option is given, each universe will be made equivalent to a numbered label reflecting its level (with a linear ordering) in the universe hierarchy.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191227T101123Z" creationid="eldesh" creationdate="20191226T200220Z">
+        <seg>オプショナルな ``Sorted`` オプションが与えられると、各ユニバースは宇宙の階層内での (線形順序付けによる) レベルを反映した番号付きラベルに相当するようになります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1100,6 +1116,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Printing universes</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191226T193051Z" creationid="eldesh" creationdate="20191226T193051Z">
+        <seg>ユニバースを表示する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Project-Id-Version: Coq 8.8.2
 Report-Msgid-Bugs-To:
 POT-Creation-Date: 2018-10-07 10:53+0900
@@ -1232,6 +1256,14 @@ Plural-Forms: nplurals=1; plural=0;</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191221T214637Z" creationid="eldesh" creationdate="20191221T214118Z">
         <seg>注意: 正しい原理を得るには、第一引数として関数の固定されたパラメータを与えるのがより良いでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>See :ref:`Sorts` for details.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191226T193850Z" creationid="eldesh" creationdate="20191226T193837Z">
+        <seg>詳細については :ref:`Sorts` を参照してください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1390,6 +1422,14 @@ Plural-Forms: nplurals=1; plural=0;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The constraints on the internal level of the occurrences of Type (see :ref:`Sorts`) can be printed using the command</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191227T101956Z" creationid="eldesh" creationdate="20191226T195254Z">
+        <seg>Type の出現の内部的なレベルについての制約 (:ref:`Sorts` 参照) はこのコマンドを使うことで表示できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The corresponding grammar rules are given in the preceding grammar.</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191221T200603Z" creationid="eldesh" creationdate="20191221T195009Z">
@@ -1458,6 +1498,14 @@ Plural-Forms: nplurals=1; plural=0;</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191221T193010Z" creationid="eldesh" creationdate="20191221T193010Z">
         <seg>以下の設定は型の表示形式をコントロールします:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The format is unspecified if `string` doesn’t end in ``.dot`` or ``.gv``.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191227T101408Z" creationid="eldesh" creationdate="20191227T101408Z">
+        <seg>`string` が ``.dot`` または ``.gv`` で終わらない場合はフォーマットは指定されません。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1823,6 +1871,14 @@ Plural-Forms: nplurals=1; plural=0;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This command also accepts an optional output filename:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191227T101154Z" creationid="eldesh" creationdate="20191227T101154Z">
+        <seg>このコマンドはオプショナルな出力ファイル名も受け付けます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This command can be seen as a generalization of ``Fixpoint``.</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191221T212519Z" creationid="eldesh" creationdate="20191221T212519Z">
@@ -1953,6 +2009,14 @@ Plural-Forms: nplurals=1; plural=0;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This wizard option, in combination with :flag:`Printing All` can help to diagnose failures to unify terms apparently identical but internally different in the Calculus of Inductive Constructions.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191226T194420Z" creationid="eldesh" creationdate="20191226T194420Z">
+        <seg>この達人向けオプションは、:flag:`Printing All` と組み合わせて一見したところ同じだが Calculus of Inductive Constructions では内部的に異なっている項の単一化の失敗を診断するのに役立ちます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Through the ``Inductive`` and ``CoInductive`` commands, when the body of the definition is a record declaration of the form ``Build_``\ `R` ``{`` |p_1| ``:`` |t_1|\ ``; … ;`` |p_n| ``:`` |t_n| ``}``.</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191225T154716Z" creationid="eldesh" creationdate="20191225T154423Z">
@@ -2019,8 +2083,8 @@ Plural-Forms: nplurals=1; plural=0;</seg>
       <tuv lang="EN-US">
         <seg>To reactivate the high-level printing features, use the command ``Unset Printing All``.</seg>
       </tuv>
-      <tuv lang="JA" changeid="eldesh" changedate="20191226T192844Z" creationid="eldesh" creationdate="20191226T192844Z">
-        <seg>高レベル表示機能を再度有効化するには、``Unset Printing All`` コマンドを使う。</seg>
+      <tuv lang="JA" changeid="eldesh" changedate="20191227T101906Z" creationid="eldesh" creationdate="20191226T192844Z">
+        <seg>高レベル表示機能を再度有効化するには、``Unset Printing All`` コマンドを使います。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2029,6 +2093,14 @@ Plural-Forms: nplurals=1; plural=0;</seg>
       </tuv>
       <tuv lang="JA" changeid="yamarten" changedate="20181007T034900Z" creationid="yamarten" creationdate="20181007T034900Z">
         <seg>Coqを初めて使う方は、まずチュートリアルを読むことをお勧めします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Turn this option on to activate the display of the actual level of each occurrence of :g:`Type`.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191226T193804Z" creationid="eldesh" creationdate="20191226T193732Z">
+        <seg>このオプションをオンにすると、出現したそれぞれの :g:`Type` の実際のレベルの表示を有効化します。</seg>
       </tuv>
     </tu>
     <tu>
