@@ -619,6 +619,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If the optional ``Sorted`` option is given, each universe will be made equivalent to a numbered label reflecting its level (with a linear ordering) in the universe hierarchy.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191226T200220Z" creationid="eldesh" creationdate="20191226T200220Z">
+        <seg>オプショナルな ``Sorted`` オプションが与えられると、各ユニバース　 is given, each universe will be made equivalent to a numbered label reflecting its level (with a linear ordering) in the universe hierarchy.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Implicit generalization</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191226T134148Z" creationid="eldesh" creationdate="20191226T134148Z">
@@ -1100,6 +1108,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Printing universes</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191226T193051Z" creationid="eldesh" creationdate="20191226T193051Z">
+        <seg>ユニバースを表示する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Project-Id-Version: Coq 8.8.2
 Report-Msgid-Bugs-To:
 POT-Creation-Date: 2018-10-07 10:53+0900
@@ -1232,6 +1248,14 @@ Plural-Forms: nplurals=1; plural=0;</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191221T214637Z" creationid="eldesh" creationdate="20191221T214118Z">
         <seg>注意: 正しい原理を得るには、第一引数として関数の固定されたパラメータを与えるのがより良いでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>See :ref:`Sorts` for details.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191226T193850Z" creationid="eldesh" creationdate="20191226T193837Z">
+        <seg>詳細については :ref:`Sorts` を参照してください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1386,6 +1410,14 @@ Plural-Forms: nplurals=1; plural=0;</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191225T182728Z" creationid="eldesh" creationdate="20191225T182728Z">
         <seg>正準構造の完全なドキュメントは :ref:`canonicalstructures` で見つけられます; ここでは単純な例のみを扱います。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The constraints on the internal level of the occurrences of Type (see :ref:`Sorts`) can be printed using the command</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191226T195254Z" creationid="eldesh" creationdate="20191226T195254Z">
+        <seg>Type の出現の内部的なレベルについての制約 (:ref:`Sorts` 参照) はそのコマンドを使うことで表示できます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1953,6 +1985,14 @@ Plural-Forms: nplurals=1; plural=0;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This wizard option, in combination with :flag:`Printing All` can help to diagnose failures to unify terms apparently identical but internally different in the Calculus of Inductive Constructions.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191226T194420Z" creationid="eldesh" creationdate="20191226T194420Z">
+        <seg>この達人向けオプションは、:flag:`Printing All` と組み合わせて一見したところ同じだが Calculus of Inductive Constructions では内部的に異なっている項の単一化の失敗を診断するのに役立ちます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Through the ``Inductive`` and ``CoInductive`` commands, when the body of the definition is a record declaration of the form ``Build_``\ `R` ``{`` |p_1| ``:`` |t_1|\ ``; … ;`` |p_n| ``:`` |t_n| ``}``.</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191225T154716Z" creationid="eldesh" creationdate="20191225T154423Z">
@@ -2029,6 +2069,14 @@ Plural-Forms: nplurals=1; plural=0;</seg>
       </tuv>
       <tuv lang="JA" changeid="yamarten" changedate="20181007T034900Z" creationid="yamarten" creationdate="20181007T034900Z">
         <seg>Coqを初めて使う方は、まずチュートリアルを読むことをお勧めします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Turn this option on to activate the display of the actual level of each occurrence of :g:`Type`.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191226T193804Z" creationid="eldesh" creationdate="20191226T193732Z">
+        <seg>このオプションをオンにすると、出現したそれぞれの :g:`Type` の実際のレベルの表示を有効化します。</seg>
       </tuv>
     </tu>
     <tu>
