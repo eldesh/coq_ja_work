@@ -892,6 +892,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>More details and examples, and a description of the commands related to coercions are provided in :ref:`implicitcoercions`.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191226T185249Z" creationid="eldesh" creationdate="20191226T185249Z">
+        <seg>より詳細と例、それにコアーションに関連するコマンドの説明は :ref:`implicitcoercions` で提供されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>More generally, a record may have explicitly defined (a.k.a.</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191221T190931Z" creationid="eldesh" creationdate="20191221T185102Z">
@@ -1673,6 +1681,14 @@ Plural-Forms: nplurals=1; plural=0;</seg>
       </tuv>
       <tuv lang="JA" changeid="yamarten" changedate="20181007T040420Z" creationid="yamarten" creationdate="20181007T035904Z">
         <seg>|Coq| は、数学的な証明を構築するためにデザインされました。特に、形式仕様やプログラムを記述したり、プログラムが仕様に沿っていることを検証することを目的としています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Then the user is able to apply an object that is not a function, but can be coerced to a function, and more generally to consider that a term of type ``A`` is of type ``B`` provided that there is a declared coercion between ``A`` and ``B``.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191226T185007Z" creationid="eldesh" creationdate="20191226T185007Z">
+        <seg>するとユーザは関数ではないが、関数にコアーションされるオブジェクトを適用することが出来、さらに一般的にはこう考えられる。ある項の型は ``A`` であり、``A`` と ``B`` の間に定義されたコアーションがあることで提供される型 ``B`` である。</seg>
       </tuv>
     </tu>
     <tu>
