@@ -198,6 +198,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>And we enable |Coq| to relate pair of terms with ``&lt;=``.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191228T145205Z" creationid="eldesh" creationdate="20191228T145200Z">
+        <seg>そして |Coq| 項のペアを ``&lt;=`` によって関連付けさせます。to relate pair of terms with ``&lt;=``.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>As before we register a canonical ``LE`` class for ``nat``.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191228T145102Z" creationid="eldesh" creationdate="20191228T145057Z">
+        <seg>これまでのように ``nat`` のために正準 ``LE`` クラスを登録します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Assia Mahboubi and Enrico Tassi</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191227T104533Z" creationid="eldesh" creationdate="20191227T104533Z">
@@ -210,6 +226,14 @@
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191225T183129Z" creationid="eldesh" creationdate="20191225T183129Z">
         <seg>:token:`qualid` がフィールドが |x_1|, …, |x_n| であるような構造 :g:`struct` の中のあるオブジェクト ``(Build_struct`` |c_1| … |c_n| ``)`` を示すと仮定します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>At the current stage we can use ``==`` and ``&lt;=`` on concrete types, like tuples of natural numbers, but we can’t develop an algebraic theory over the types that are equipped with both relations.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191229T130928Z" creationid="eldesh" creationdate="20191229T130928Z">
+        <seg>現段階では我々は自然数の組のような具体型の上で ``==`` と ``&lt;=`` を使うことができますが、両方の関係を備えた型上の代数的理論を開発することはできません。</seg>
       </tuv>
     </tu>
     <tu>
@@ -402,6 +426,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Derived Canonical Structures</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191227T122037Z" creationid="eldesh" creationdate="20191227T122037Z">
+        <seg>派生した正準構造</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Disable implicit generalization  entirely.</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191226T143335Z" creationid="eldesh" creationdate="20191226T143335Z">
@@ -567,6 +599,22 @@
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191225T184307Z" creationid="eldesh" creationdate="20191225T184307Z">
         <seg>これが例です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Here we show how to deal with type constructors, i.e. how to make the following example work:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191227T122234Z" creationid="eldesh" creationdate="20191227T122234Z">
+        <seg>ここでは型コンストラクタをどのように扱うか、つまり以下の例がどのように動作するかを示します:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Hierarchy of structures</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191228T140940Z" creationid="eldesh" creationdate="20191228T140940Z">
+        <seg>構造の階層</seg>
       </tuv>
     </tu>
     <tu>
@@ -1406,6 +1454,14 @@ Plural-Forms: nplurals=1; plural=0;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Thanks to the ``pair_EQty`` declaration, |Coq| is able to build a comparison relation for pairs whenever it is able to build a comparison relation for each component of the pair.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191227T123746Z" creationid="eldesh" creationdate="20191227T123746Z">
+        <seg>``pair_EQty`` 定義のおかげで、|Coq| はそのペアの各コンポーネントの比較関数を構築することが出来るときは、いつでもペアのための比較関係を構築することが出来ます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The :cmd:`Record` construction is a macro allowing the definition of records as is done in many programming languages.</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191221T184600Z" creationid="eldesh" creationdate="20191221T165051Z">
@@ -1518,6 +1574,14 @@ Plural-Forms: nplurals=1; plural=0;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The declaration associates to the key ``*`` (the type constructor of pairs) the canonical comparison relation ``pair_eq`` whenever the type constructor ``*`` is applied to two types being themselves in the ``EQ`` class.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191227T124410Z" creationid="eldesh" creationdate="20191227T124242Z">
+        <seg>その定義は型コンストラクタ ``*`` がそれら自身が ``EQ`` クラスの中にある二つの型に適用されるときは、キーである ``*`` (ペアの型コンストラクタ) に正準比較関係 ``pair_eq`` を関連付けました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The defined type enjoys eta-conversion definitionally, that is the generalized form of surjective pairing for records: `r` ``= Build_``\ `R` ``(``\ `r`\ ``.(``\ |p_1|\ ``) …`` `r`\ ``.(``\ |p_n|\ ``))``.</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191225T154211Z" creationid="eldesh" creationdate="20191225T154211Z">
@@ -1530,6 +1594,14 @@ Plural-Forms: nplurals=1; plural=0;</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191226T151338Z" creationid="eldesh" creationdate="20191226T132204Z">
         <seg>このコマンドの効果は `ident` で始まる (`ident` 自身または `ident` に一つ以上のシングルクォート、アンダースコア、数字が続く) 束縛変数の型を自動的に `type` (その束縛変数が明示的な型とともに既に定義されている場合でない限り、後者の型と見なされる) に設定するものです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The error message is telling that |Coq| has no idea on how to compare pairs of objects.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191227T122459Z" creationid="eldesh" creationdate="20191227T122408Z">
+        <seg>このエラーメッセージは |Coq| がオブジェクトのペアをどのように比較するかについて知らないと言っています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1570,6 +1642,14 @@ Plural-Forms: nplurals=1; plural=0;</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191222T145055Z" creationid="eldesh" creationdate="20191222T133620Z">
         <seg>`ident`: `ident_equation` という形の不動点方程式。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The following construction is telling Coq exactly how to do that.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191227T122538Z" creationid="eldesh" creationdate="20191227T122538Z">
+        <seg>以下の構成は Coq にまさにそれをどのように行うかを教えています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1720,6 +1800,14 @@ Plural-Forms: nplurals=1; plural=0;</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191222T142624Z" creationid="eldesh" creationdate="20191221T213020Z">
         <seg>この定義の意味は関数 ident を定義することで、``Fixpoint`` に似ています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The mixin component of the ``LEQ`` class contains all the extra content we are adding to ``EQ`` and ``LE``.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191229T135422Z" creationid="eldesh" creationdate="20191229T131251Z">
+        <seg>```LEQ``` ``EQ`` と ``LE`` に付加した追加の内容を全て含んだ ``LEQ`` クラスThe mixin component of the ``LEQ`` class contains all the extra content we are adding to ``EQ`` and ``LE``.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2249,6 +2337,14 @@ Plural-Forms: nplurals=1; plural=0;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To get to an interesting example we need another base class to be available.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191228T144316Z" creationid="eldesh" creationdate="20191228T144316Z">
+        <seg>興味深い例を得るにはもう一つの基本クラスを必要とします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To keep the example small, the algebraic structure ``EQ.type`` we are defining is very simplistic, and characterizes terms on which a binary relation is defined, without requiring such relation to validate any property.</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191227T112207Z" creationid="eldesh" creationdate="20191227T112157Z">
@@ -2361,6 +2457,14 @@ Plural-Forms: nplurals=1; plural=0;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>We choose the class of types that are equipped with an order relation, to which we associate the infix ``&lt;=`` notation.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191228T144507Z" creationid="eldesh" creationdate="20191228T144448Z">
+        <seg>中置 ``&lt;=`` 記法を伴った順序関係を装備した型のクラスを選択します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>We describe here extensions of |Gallina|’s syntax.</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191221T184246Z" creationid="eldesh" creationdate="20191221T184246Z">
@@ -2373,6 +2477,22 @@ Plural-Forms: nplurals=1; plural=0;</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191227T105020Z" creationid="eldesh" creationdate="20191227T105020Z">
         <seg>簡潔さのためにここでは省略した全ての詳細について興味のある読者はこの論文を参照することを勧めます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>We know how to use ``== `` on base types, like ``nat``, ``bool``, ``Z``.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191227T122137Z" creationid="eldesh" creationdate="20191227T122137Z">
+        <seg>私たちは ``nat``、``bool``、``Z`` のような基本型上で ``==`` をどのように使うかを知っています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>We need to define a new class that inherits from both ``EQ`` and ``LE``.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191229T131007Z" creationid="eldesh" creationdate="20191229T131007Z">
+        <seg>``EQ`` と ``LE`` の両方から派生した新しいクラスを定義する必要があります。</seg>
       </tuv>
     </tu>
     <tu>
