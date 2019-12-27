@@ -38,3 +38,4 @@ dependent elimination	依存除去
 binders	束縛子
 generalize delimiters	一般化デリミタ
 notation	表記法
+canonical value	正準値

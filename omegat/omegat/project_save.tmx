@@ -198,10 +198,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Assia Mahboubi and Enrico Tassi</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191227T104533Z" creationid="eldesh" creationdate="20191227T104533Z">
+        <seg>Assia Mahboubi and Enrico Tassi</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Assume that :token:`qualid` denotes an object ``(Build_struct`` |c_1| … |c_n| ``)`` in the structure :g:`struct` of which the fields are |x_1|, …, |x_n|.</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191225T183129Z" creationid="eldesh" creationdate="20191225T183129Z">
         <seg>:token:`qualid` がフィールドが |x_1|, …, |x_n| であるような構造 :g:`struct` の中のあるオブジェクト ``(Build_struct`` |c_1| … |c_n| ``)`` を示すと仮定します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Authors</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191227T104605Z" creationid="eldesh" creationdate="20191227T104605Z">
+        <seg>著者</seg>
       </tuv>
     </tu>
     <tu>
@@ -226,6 +242,14 @@
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191226T143455Z" creationid="eldesh" creationdate="20191226T143455Z">
         <seg>このコマンドの複数回呼ぶと許可された識別子へ追加します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Canonical Structures</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191227T104306Z" creationid="eldesh" creationdate="20191227T104306Z">
+        <seg>正準構造</seg>
       </tuv>
     </tu>
     <tu>
@@ -764,6 +788,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In this case we associate to nat only one canonical value (since its class, ``nat_EQcl`` has just one member).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191227T115614Z" creationid="eldesh" creationdate="20191227T115614Z">
+        <seg>この場合は nat に高々一つの正準値を関連付けました (そのクラスについても、``nat_EQcl`` はただ一つのメンバを持っています)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In this sense, the :cmd:`Record` construction allows defining “signatures”.</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191221T165956Z" creationid="eldesh" creationdate="20191221T165956Z">
@@ -952,6 +984,22 @@
       </tuv>
       <tuv lang="JA" changeid="yamarten" changedate="20181104T145002Z" creationid="yamarten" creationdate="20181104T145002Z">
         <seg>とはいえ、このマニュアルも以下のような構造を持っています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Notation overloading</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191227T105726Z" creationid="eldesh" creationdate="20191227T105726Z">
+        <seg>表記法オーバーローディング</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Note that in practice the user may want to declare ``EQ.obj`` as a coercion, but we will not do that here.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191227T112524Z" creationid="eldesh" creationdate="20191227T112524Z">
+        <seg>留意すべきは、実際にはユーザは ``EQ.obj`` をコアーションとして定義したいかもしれませんが、ここではそれは行いません。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1284,6 +1332,14 @@ Plural-Forms: nplurals=1; plural=0;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Similarly, we could equip any other type with a comparison relation, and use the ``==`` notation on terms of this type.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191227T121502Z" creationid="eldesh" creationdate="20191227T121456Z">
+        <seg>同様に、他のどんな型でも比較関係を整えて、そしてこの型の項の上で ``==`` 記法を使うことが出来ます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Specifies a set of qualids which are displayed as constructors.</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191221T193816Z" creationid="eldesh" creationdate="20191221T193816Z">
@@ -1297,6 +1353,22 @@ Plural-Forms: nplurals=1; plural=0;</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191221T193637Z" creationid="eldesh" creationdate="20191221T193600Z">
         <seg>レコードとして表示される qualid の集合を指定します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Still, no concrete type is in the ``EQ`` class.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191227T113031Z" creationid="eldesh" creationdate="20191227T113031Z">
+        <seg>まだ ``EQ`` クラスの中には具体的な型はありません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Such notation will be overloaded, and its meaning will depend on the types of the terms that are compared.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191227T105847Z" creationid="eldesh" creationdate="20191227T105847Z">
+        <seg>そのような記法はオーバーロードされ、その意味は比較される項の型に依存することになるでしょう。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1370,6 +1442,14 @@ Plural-Forms: nplurals=1; plural=0;</seg>
       </tuv>
       <tuv lang="JA" changeid="yamarten" changedate="20181104T144829Z" creationid="yamarten" creationdate="20181104T111736Z">
         <seg>デバッグのために、 read-eval-print-loop である `coqtop` を直接用いることもできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The base namespace contains the definitions of the algebraic structure.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191227T110907Z" creationid="eldesh" creationdate="20191227T110907Z">
+        <seg>基本名前空間は代数構造の定義を含みます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1454,6 +1534,14 @@ Plural-Forms: nplurals=1; plural=0;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The examples are taken from :cite:`CSwcu`.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191227T104711Z" creationid="eldesh" creationdate="20191227T104711Z">
+        <seg>例は :cite:`CSwcu` から抜粋しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The fields do not have to be in any particular order, nor do they have to be all present if the missing ones can be inferred or prompted for (see :ref:`programs`).</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191221T193302Z" creationid="eldesh" creationdate="20191221T192858Z">
@@ -1490,6 +1578,14 @@ Plural-Forms: nplurals=1; plural=0;</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191221T212441Z" creationid="eldesh" creationdate="20191221T212441Z">
         <seg>以下の実験的なコマンドは ``FunInd`` ライブラリが ``Require Import FunInd`` によってロードされたときに有効になります:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The following line tests that, when we assume a type ``e`` that is in theEQ class, we can relate two of its objects with ``==``.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191227T112940Z" creationid="eldesh" creationdate="20191227T112940Z">
+        <seg>以下の行では EQ クラス内の型 ``e`` を仮定したとき、``==`` によってそのオブジェクト二つを関連付けることが出来ることをテストしています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1556,10 +1652,26 @@ Plural-Forms: nplurals=1; plural=0;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The inner theory module contains the overloaded notation ``==`` and will eventually contain lemmas holding all the instances of the algebraic structure (in this case there are no lemmas).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191227T112354Z" creationid="eldesh" creationdate="20191227T112354Z">
+        <seg>内部の理論モジュールはオーバーロードされた記法 ``==`` を含み、その代数構造の全てのインスタンスを保持する補題をも含みます (この場合は補題はありません)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The interactive mode is generally run with the help of an IDE, such as CoqIDE, documented in :ref:`coqintegrateddevelopmentenvironment`, Emacs with Proof-General :cite:`Asp00` [#PG]_, or jsCoq to run Coq in your browser (see https://github.com/ejgallego/jscoq).</seg>
       </tuv>
       <tuv lang="JA" changeid="yamarten" changedate="20181104T161431Z" creationid="yamarten" creationdate="20181104T111701Z">
         <seg>対話モードは一般的に, CoqIDE (:ref:`coqintegrateddevelopmentenvironment` にて記載)やProof-General :cite:`Asp00` [#PG]_ を入れた Emacs 、またはブラウザ上で動作する jsCoq (https://github.com/ejgallego/jscoq) のようなIDEの助けを借りて実行されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The interested reader shall also find in :cite:`CSlessadhoc` a detailed description of another, complementary, use of canonical structures: advanced proof search.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191227T105452Z" creationid="eldesh" creationdate="20191227T105452Z">
+        <seg>興味のある読者は :cite:`CSlessadhoc` にも別の、相補的な、正準構造の使用: 高度な証明探索 についての詳細な説明を発見するでしょう。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1723,6 +1835,14 @@ Plural-Forms: nplurals=1; plural=0;</seg>
       </tuv>
     </tu>
     <tu>
+      <tuv lang="EN-US">
+        <seg>The use of the projection ``op`` requires its argument to be in the class ``EQ``, and uses such a member (function) to actually compare its arguments.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191227T121918Z" creationid="eldesh" creationdate="20191227T121049Z">
+        <seg>射影 ``op`` の使用はその引数が ``EQ`` クラスに属していることを要求し、そのようなメンバ (関数) を実際にその引数を比較するために使います。</seg>
+      </tuv>
+    </tu>
+    <tu>
       <note>「compiles to its specification」ってなんだ。</note>
       <tuv lang="EN-US">
         <seg>The very heart of the |Coq| system is the type checking algorithm that checks the correctness of proofs, in other words that checks that a program complies to its specification.</seg>
@@ -1863,10 +1983,34 @@ Plural-Forms: nplurals=1; plural=0;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This allows us to follow the same pattern and naming convention for the rest of the chapter.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191227T110839Z" creationid="eldesh" creationdate="20191227T110839Z">
+        <seg>これによってこの章のこれ以降では同じパターンと命名規則に従うことが出来ます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This can be changed by unsetting the :flag:`Printing Primitive Projection Parameters` flag.</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191225T144624Z" creationid="eldesh" creationdate="20191225T144624Z">
         <seg>これは :flag:`Printing Primitive Projection Parameters` フラグをアンセットすることで変更できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This can be read in the line declaring the canonical structure ``nat_EQty``, where the first argument to ``Pack`` is the key and its second argument a group of canonical values associated to the key.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191227T115009Z" creationid="eldesh" creationdate="20191227T115009Z">
+        <seg>これは正準構造 ``nat_EQty`` を定義した行の中で読み取ることが出来、ここで ``Pack`` の最初の引数がキーであり、二番目の引数がそのキーに関連付けられた正準値のグループです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This chapter explains the basics of canonical structures and how they can be used to overload notations and build a hierarchy of algebraic structures.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191227T104458Z" creationid="eldesh" creationdate="20191227T104458Z">
+        <seg>この章では正準構造の基本とそれらが記法のオーバーロードや代数構造の階層の構築にどのように使えるかを説明します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1966,6 +2110,22 @@ Plural-Forms: nplurals=1; plural=0;</seg>
       </tuv>
     </tu>
     <tu>
+      <tuv lang="EN-US">
+        <seg>This last test shows that |Coq| is now not only able to type check ``3 == 3``, but also that the infix relation was bound to the ``nat_eq`` relation.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191227T114525Z" creationid="eldesh" creationdate="20191227T114424Z">
+        <seg>この最後のテストは |Coq| がもはや ``3 == 3`` の型検査が出来るだけでなく、中置関係が ``nat_eq`` 関係に束縛されたことを示しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This latter papers also presents many techniques one can employ to tune the inference of canonical structures.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191227T105657Z" creationid="eldesh" creationdate="20191227T105657Z">
+        <seg>後者の論文は正準構造の推論を調整するために用いることが出来るたくさんのテクニックも述べています。</seg>
+      </tuv>
+    </tu>
+    <tu>
       <note>documentとdocumentationが区別できてないせいでちょっとよろしくない感じになっている。</note>
       <tuv lang="EN-US">
         <seg>This manual does not contain all the documentation the user may need about |Coq|.</seg>
@@ -1997,6 +2157,14 @@ Plural-Forms: nplurals=1; plural=0;</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191221T201627Z" creationid="eldesh" creationdate="20191221T201627Z">
         <seg>このメッセージにはこの不可能性の説明が続きます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This relation is selected whenever ``==`` is used on terms of type nat.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191227T114702Z" creationid="eldesh" creationdate="20191227T114702Z">
+        <seg>この関係は ``==`` が nat 型の項の上で使われるときはいつでも選択されます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2077,6 +2245,14 @@ Plural-Forms: nplurals=1; plural=0;</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191225T134716Z" creationid="eldesh" creationdate="20191225T134716Z">
         <seg>(余)帰納的型を排除するためには、その定義されたプリミティブ射影を使わなければならない。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To keep the example small, the algebraic structure ``EQ.type`` we are defining is very simplistic, and characterizes terms on which a binary relation is defined, without requiring such relation to validate any property.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191227T112207Z" creationid="eldesh" creationdate="20191227T112157Z">
+        <seg>例を小さく保つため、我々が定義する代数構造 ``EQ.type`` は非常に単純でかつ、ある定義された二項関係上で項を特徴づけ、そのような関係に要求されるどんな性質の正当性の立証もありません。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2169,6 +2345,22 @@ Plural-Forms: nplurals=1; plural=0;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>We amend that by equipping ``nat`` with a comparison relation.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191227T113256Z" creationid="eldesh" creationdate="20191227T113244Z">
+        <seg>これを ``nat`` に比較関係を授けることで修正します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>We build an infix notation == for a comparison predicate.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191227T105803Z" creationid="eldesh" creationdate="20191227T105803Z">
+        <seg>比較述語のための中置記法 == を構築します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>We describe here extensions of |Gallina|’s syntax.</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191221T184246Z" creationid="eldesh" creationdate="20191221T184246Z">
@@ -2177,10 +2369,26 @@ Plural-Forms: nplurals=1; plural=0;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>We invite the interested reader to refer to this paper for all the details that are omitted here for brevity.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191227T105020Z" creationid="eldesh" creationdate="20191227T105020Z">
+        <seg>簡潔さのためにここでは省略した全ての詳細について興味のある読者はこの論文を参照することを勧めます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>We recommend using the various indexes to quickly locate the documentation you are looking for.</seg>
       </tuv>
       <tuv lang="JA" changeid="yamarten" changedate="20181104T144937Z" creationid="yamarten" creationdate="20181104T144937Z">
         <seg>目的の文書を素早く見つけるために、色々な索引を使うことをお勧めします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>We use Coq modules as namespaces.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191227T110641Z" creationid="eldesh" creationdate="20191227T110631Z">
+        <seg>Coq のモジュールを名前空間として使います。</seg>
       </tuv>
     </tu>
     <tu>
