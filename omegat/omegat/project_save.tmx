@@ -402,6 +402,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Derived Canonical Structures</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191227T122037Z" creationid="eldesh" creationdate="20191227T122037Z">
+        <seg>派生した正準構造</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Disable implicit generalization  entirely.</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191226T143335Z" creationid="eldesh" creationdate="20191226T143335Z">
@@ -567,6 +575,14 @@
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191225T184307Z" creationid="eldesh" creationdate="20191225T184307Z">
         <seg>これが例です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Here we show how to deal with type constructors, i.e. how to make the following example work:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191227T122234Z" creationid="eldesh" creationdate="20191227T122234Z">
+        <seg>ここでは型コンストラクタをどのように扱うか、つまり以下の例がどのように動作するかを示します:</seg>
       </tuv>
     </tu>
     <tu>
@@ -1406,6 +1422,14 @@ Plural-Forms: nplurals=1; plural=0;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Thanks to the ``pair_EQty`` declaration, |Coq| is able to build a comparison relation for pairs whenever it is able to build a comparison relation for each component of the pair.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191227T123746Z" creationid="eldesh" creationdate="20191227T123746Z">
+        <seg>``pair_EQty`` 定義のおかげで、|Coq| はそのペアの各コンポーネントの比較関数を構築することが出来るときは、いつでもペアのための比較関係を構築することが出来ます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The :cmd:`Record` construction is a macro allowing the definition of records as is done in many programming languages.</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191221T184600Z" creationid="eldesh" creationdate="20191221T165051Z">
@@ -1518,6 +1542,14 @@ Plural-Forms: nplurals=1; plural=0;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The declaration associates to the key ``*`` (the type constructor of pairs) the canonical comparison relation ``pair_eq`` whenever the type constructor ``*`` is applied to two types being themselves in the ``EQ`` class.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191227T124410Z" creationid="eldesh" creationdate="20191227T124242Z">
+        <seg>その定義は型コンストラクタ ``*`` がそれら自身が ``EQ`` クラスの中にある二つの型に適用されるときは、キーである ``*`` (ペアの型コンストラクタ) に正準比較関係 ``pair_eq`` を関連付けました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The defined type enjoys eta-conversion definitionally, that is the generalized form of surjective pairing for records: `r` ``= Build_``\ `R` ``(``\ `r`\ ``.(``\ |p_1|\ ``) …`` `r`\ ``.(``\ |p_n|\ ``))``.</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191225T154211Z" creationid="eldesh" creationdate="20191225T154211Z">
@@ -1530,6 +1562,14 @@ Plural-Forms: nplurals=1; plural=0;</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191226T151338Z" creationid="eldesh" creationdate="20191226T132204Z">
         <seg>このコマンドの効果は `ident` で始まる (`ident` 自身または `ident` に一つ以上のシングルクォート、アンダースコア、数字が続く) 束縛変数の型を自動的に `type` (その束縛変数が明示的な型とともに既に定義されている場合でない限り、後者の型と見なされる) に設定するものです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The error message is telling that |Coq| has no idea on how to compare pairs of objects.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191227T122459Z" creationid="eldesh" creationdate="20191227T122408Z">
+        <seg>このエラーメッセージは |Coq| がオブジェクトのペアをどのように比較するかについて知らないと言っています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1570,6 +1610,14 @@ Plural-Forms: nplurals=1; plural=0;</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191222T145055Z" creationid="eldesh" creationdate="20191222T133620Z">
         <seg>`ident`: `ident_equation` という形の不動点方程式。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The following construction is telling Coq exactly how to do that.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191227T122538Z" creationid="eldesh" creationdate="20191227T122538Z">
+        <seg>以下の構成は Coq にまさにそれをどのように行うかを教えています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2373,6 +2421,14 @@ Plural-Forms: nplurals=1; plural=0;</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191227T105020Z" creationid="eldesh" creationdate="20191227T105020Z">
         <seg>簡潔さのためにここでは省略した全ての詳細について興味のある読者はこの論文を参照することを勧めます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>We know how to use ``== `` on base types, like ``nat``, ``bool``, ``Z``.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20191227T122137Z" creationid="eldesh" creationdate="20191227T122137Z">
+        <seg>私たちは ``nat``、``bool``、``Z`` のような基本型上で ``==`` をどのように使うかを知っています。</seg>
       </tuv>
     </tu>
     <tu>
