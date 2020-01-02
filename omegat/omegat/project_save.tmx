@@ -142,6 +142,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Again, for all the details the reader can refer to :cite:`CSwcu`.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20200102T220128Z" creationid="eldesh" creationdate="20200102T220128Z">
+        <seg>繰り替えしますが、全ての詳細について :cite:`CSwcu` が読者の参考になります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>All in all, the only new piece of information we add in the ``LEQ`` class is the mixin, all the rest is already canonical for ``T`` and hence can be inferred by |Coq|.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20200102T213915Z" creationid="eldesh" creationdate="20200102T213700Z">
+        <seg>結局のところ、我々が ``LEQ`` クラスに新たに追加した情報の断片は mixin だけであり、残りの全ては既に ``T`` について正準であり、従って |Coq| により推論することが出来ます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>All logical judgments in |Coq| are typing judgments.</seg>
       </tuv>
       <tuv lang="JA" changeid="yamarten" changedate="20181007T101610Z" creationid="yamarten" creationdate="20181007T100201Z">
@@ -376,6 +392,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Compact declaration of Canonical Structures</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20200102T203613Z" creationid="eldesh" creationdate="20200102T203613Z">
+        <seg>正準構造のコンパクトな定義</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Compatibility Projections and :g:`match`</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191225T162633Z" creationid="eldesh" creationdate="20191225T162633Z">
@@ -454,6 +478,14 @@
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191221T203528Z" creationid="eldesh" creationdate="20191221T203528Z">
         <seg>コンストラクタが一つの帰納的定義を定義しているとき、セクション :ref:`gallina-inductive-definitions` で説明される帰納的定義の全てのエラーも起こる可能性があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Error messages are also quite intelligible (if one skips to the end of the message).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20200102T220756Z" creationid="eldesh" creationdate="20200102T220756Z">
+        <seg>エラーメッセージも非常に理解しやすいです (メッセージの末尾まで飛ばすなら)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -956,6 +988,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>It infers all the other pieces of the class ``LEQ`` and declares them as canonical values associated to the ``T`` key.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20200102T213510Z" creationid="eldesh" creationdate="20200102T213510Z">
+        <seg>それは ``LEQ`` クラスの他の全ての部分を推論し、キーとなる ``T`` に関連付けられた正準値としてそれらを定義します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>It is actually a wrapper for several ways of defining a function *and other useful related objects*, namely: an induction principle that reflects the recursive structure of the function (see :tacn:`function induction`) and its fixpoint equality.</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191222T142420Z" creationid="eldesh" creationdate="20191221T212941Z">
@@ -984,6 +1024,22 @@
       </tuv>
       <tuv lang="JA" changeid="yamarten" changedate="20181007T080633Z" creationid="yamarten" creationdate="20181007T080342Z">
         <seg>Coqは、 |Gallina| と呼ばれる仕様記述言語を提供します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It should be read as: “find a class e such that its objects have type T or fail with message "T is not an EQ.type"”.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20200102T205824Z" creationid="eldesh" creationdate="20200102T204825Z">
+        <seg>これは以下のように読めます: “あるクラス e を見つける。そのオブジェクトは型 T を持ち、そうでない場合は "T is not an EQ.type" というメッセージとともに失敗する”。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It will be type checked when it is used, an in that case ``T`` is going to be a concrete type.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20200102T214235Z" creationid="eldesh" creationdate="20200102T214235Z">
+        <seg>それが使われ、``T`` が具体型になるときに型検査されます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1655,6 +1711,14 @@ Plural-Forms: nplurals=1; plural=0;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The declaration of canonical instances can now be way more compact:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20200102T220417Z" creationid="eldesh" creationdate="20200102T220417Z">
+        <seg>正準インスタンスの定義は今やよりコンパクトになりえます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The defined type enjoys eta-conversion definitionally, that is the generalized form of surjective pairing for records: `r` ``= Build_``\ `R` ``(``\ `r`\ ``.(``\ |p_1|\ ``) …`` `r`\ ``.(``\ |p_n|\ ``))``.</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191225T154211Z" creationid="eldesh" creationdate="20191225T154211Z">
@@ -1918,6 +1982,22 @@ Plural-Forms: nplurals=1; plural=0;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The object ``Pack`` takes a type ``T`` (the key) and a mixin ``m``.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20200102T213717Z" creationid="eldesh" creationdate="20200102T213314Z">
+        <seg>オブジェクト ``Pack`` は型 ``T`` (キー) と mixin ``m`` を取ります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The odd arguments ``_`` and ``id`` we pass to the packager represent respectively the classes to be inferred (like ``e``, ``o``, etc) and a token (``id``) to force their inference.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20200102T215840Z" creationid="eldesh" creationdate="20200102T215113Z">
+        <seg>packager に渡した奇妙な引数 ``_`` と ``id`` はそれぞれ推論されるべきクラス (``e`` や ``o`` その他) とそれらの推論を強制するためのトークン (``id``) を表します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The optional identifier following ``:=`` is the name of its constructor.</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191221T182809Z" creationid="eldesh" creationdate="20191221T182809Z">
@@ -1930,6 +2010,14 @@ Plural-Forms: nplurals=1; plural=0;</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191222T134747Z" creationid="eldesh" creationdate="20191222T134747Z">
         <seg>その順序は整礎でなければなりません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The other utilities are used to ask |Coq| to solve a specific unification problem, that will in turn require the inference of some canonical structures.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20200102T210602Z" creationid="eldesh" creationdate="20200102T210556Z">
+        <seg>他のユーティリティは |Coq| に正準構造の推論を必要とすることになるであろう特定的な単一化問題を解くように要求するのに使われます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2157,6 +2245,14 @@ Plural-Forms: nplurals=1; plural=0;</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191222T145659Z" creationid="eldesh" creationdate="20191222T135258Z">
         <seg>これらの証明は: 各再帰呼び出しが実際に与えられた基準に照らして減少することの証明であり、そして (もしその基準が `wf` ならば) その順序関係は整礎である証明です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>They are explained in more details in :cite:`CSwcu`.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20200102T210650Z" creationid="eldesh" creationdate="20200102T210650Z">
+        <seg>それらは :cite:`CSwcu` の中でより詳細に説明されています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2435,6 +2531,14 @@ Plural-Forms: nplurals=1; plural=0;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To explain the notation ``[find v | t1 ~ t2]`` let us pick one of its instances: ``[find e | EQ.obj e ~ T | "is not an EQ.type" ]``.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20200102T204550Z" creationid="eldesh" creationdate="20200102T204550Z">
+        <seg>記法 ``[find v | t1 ~ t2]`` を説明するため、具体例の一つ ``[find e | EQ.obj e ~ T | "is not an EQ.type" ]`` を取り上げます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To get to an interesting example we need another base class to be available.</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191228T144316Z" creationid="eldesh" creationdate="20191228T144316Z">
@@ -2614,10 +2718,26 @@ Fail Check forall (le : type) (n m : obj le), n &lt;= m -&gt; m &lt;= n -&gt; n 
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>We need some infrastructure for that.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20200102T203646Z" creationid="eldesh" creationdate="20200102T203646Z">
+        <seg>いくらかの基盤が必要です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>We need to define a new class that inherits from both ``EQ`` and ``LE``.</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191229T131007Z" creationid="eldesh" creationdate="20191229T131007Z">
         <seg>``EQ`` と ``LE`` の両方から派生した新しいクラスを定義する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>We now have all we need to create a compact “packager” to declare instances of the ``LEQ`` class.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20200102T215207Z" creationid="eldesh" creationdate="20200102T210949Z">
+        <seg>今や我々は ``LEQ`` クラスのインスタンスを定義するためのコンパクトな "荷造り業者" を作るために必要なものを全て持っています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2675,6 +2795,14 @@ Fail Check forall (le : type) (n m : obj le), n &lt;= m -&gt; m &lt;= n -&gt; n 
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191221T193229Z" creationid="eldesh" creationdate="20191221T193229Z">
         <seg>これらの表にエントリを追加することで特定の型の表示形式を上書きすることが出来ます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>``Pack`` is a notation, hence it is not type checked at the time of its declaration.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20200102T213955Z" creationid="eldesh" creationdate="20200102T213955Z">
+        <seg>``Pack`` は記法であり、従ってその定義時点では型検査されません。</seg>
       </tuv>
     </tu>
     <tu>
