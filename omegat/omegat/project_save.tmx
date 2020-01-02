@@ -134,6 +134,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Again one has to tell |Coq| that the type ``nat`` is in the ``LEQ`` class, and how the type constructor ``*`` interacts with the ``LEQ`` class.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20200102T160204Z" creationid="eldesh" creationdate="20200102T160204Z">
+        <seg>この場合も |Coq| に ``nat`` 型が ``LEQ`` クラスに属していること、そして型コンストラクタ ``*`` が ``LEQ`` クラスとどのように相互作用するのかを伝える必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>All logical judgments in |Coq| are typing judgments.</seg>
       </tuv>
       <tuv lang="JA" changeid="yamarten" changedate="20181007T101610Z" creationid="yamarten" creationdate="20181007T100201Z">
@@ -200,8 +208,8 @@
       <tuv lang="EN-US">
         <seg>And we enable |Coq| to relate pair of terms with ``&lt;=``.</seg>
       </tuv>
-      <tuv lang="JA" changeid="eldesh" changedate="20191228T145205Z" creationid="eldesh" creationdate="20191228T145200Z">
-        <seg>そして |Coq| 項のペアを ``&lt;=`` によって関連付けさせます。to relate pair of terms with ``&lt;=``.</seg>
+      <tuv lang="JA" changeid="eldesh" changedate="20200102T134518Z" creationid="eldesh" creationdate="20191228T145200Z">
+        <seg>そして |Coq| に項のペアを ``&lt;=`` によって関連付けさせます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -780,10 +788,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In other words |Coq| does not see that an object of the ``LEQ`` class is also an object of the ``LE`` class.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20200102T145457Z" creationid="eldesh" creationdate="20200102T145457Z">
+        <seg>言い換えれば、|Coq| は ``LEQ`` クラスのオブジェクトが ``LE`` クラスのオブジェクトでもあるということが分かりません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In our example:</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191221T194409Z" creationid="eldesh" creationdate="20191221T194349Z">
         <seg>我々の扱っている例では:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In particular it contains the requirement that the two relations we are combining are compatible.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20200102T141939Z" creationid="eldesh" creationdate="20200102T141925Z">
+        <seg>特にそれは組み合わせた両立できる二つの要求を含んでいます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -804,10 +828,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In the following proofs are omitted for brevity.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20200102T160257Z" creationid="eldesh" creationdate="20200102T160250Z">
+        <seg>以下の証明は簡潔さのため省略されています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In the following statement for example, the variables n and m are automatically generalized and become explicit arguments of the lemma as we are using \`( ):</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191226T140824Z" creationid="eldesh" creationdate="20191226T140818Z">
         <seg>例えば以下の文では、\`( ) を使うことで変数 n と m は自動的に一般化され、そしてその補題の明示的引数になります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In the following subsection we show how to make them more compact.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20200102T161346Z" creationid="eldesh" creationdate="20200102T161346Z">
+        <seg>続く項ではそれらをどのようによりコンパクトにするかを示します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -888,6 +928,14 @@
       </tuv>
       <tuv lang="JA" changeid="yamarten" changedate="20181007T034937Z" creationid="yamarten" creationdate="20181007T033312Z">
         <seg>はじめに</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It also tests that they work as expected.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20200102T160634Z" creationid="eldesh" creationdate="20200102T160634Z">
+        <seg>それらが期待通りに動作することをテストもします。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1048,6 +1096,23 @@
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191227T112524Z" creationid="eldesh" creationdate="20191227T112524Z">
         <seg>留意すべきは、実際にはユーザは ``EQ.obj`` をコアーションとして定義したいかもしれませんが、ここではそれは行いません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Note that no direct proof of ``n &lt;= m -&gt; m &lt;= n -&gt; n == m`` is provided by the user for ``n`` and m of type ``nat * nat``.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20200102T162151Z" creationid="eldesh" creationdate="20200102T162049Z">
+        <seg>注目すべきは ``nat * nat`` 型の ``n`` と m についての ``n &lt;= m -&gt; m &lt;= n -&gt; n == m`` の直接の証明はユーザから提供されていないことです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <note>instate は instance の typo ？</note>
+      <tuv lang="EN-US">
+        <seg>Of course one would like to apply results proved in the algebraic setting to any concrete instate of the algebraic structure.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20200102T155649Z" creationid="eldesh" creationdate="20200102T152811Z">
+        <seg>もちろん代数的構造のどんな具体例についても代数的な背景の中で証明された結果を適用したい人もいるでしょう。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1504,8 +1569,8 @@ Plural-Forms: nplurals=1; plural=0;</seg>
       <tuv lang="EN-US">
         <seg>The base namespace contains the definitions of the algebraic structure.</seg>
       </tuv>
-      <tuv lang="JA" changeid="eldesh" changedate="20191227T110907Z" creationid="eldesh" creationdate="20191227T110907Z">
-        <seg>基本名前空間は代数構造の定義を含みます。</seg>
+      <tuv lang="JA" changeid="eldesh" changedate="20200102T130549Z" creationid="eldesh" creationdate="20191227T110907Z">
+        <seg>この基本名前空間は代数構造の定義を含んでいます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1522,6 +1587,14 @@ Plural-Forms: nplurals=1; plural=0;</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191221T202633Z" creationid="eldesh" creationdate="20191221T202037Z">
         <seg>`ident` のボディーは `ident` に不正な除去を使っている (:cmd:`Fixpoint` と :ref:`Destructors` 参照)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The combination of these two facts is a simple form of proof search that |Coq| performs automatically while inferring canonical structures.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20200102T163207Z" creationid="eldesh" creationdate="20200102T163152Z">
+        <seg>これら二つの事実の組み合わせは正準構造を推論している間、|Coq| が自動的に行う証明探索の単純な形です。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1576,8 +1649,8 @@ Plural-Forms: nplurals=1; plural=0;</seg>
       <tuv lang="EN-US">
         <seg>The declaration associates to the key ``*`` (the type constructor of pairs) the canonical comparison relation ``pair_eq`` whenever the type constructor ``*`` is applied to two types being themselves in the ``EQ`` class.</seg>
       </tuv>
-      <tuv lang="JA" changeid="eldesh" changedate="20191227T124410Z" creationid="eldesh" creationdate="20191227T124242Z">
-        <seg>その定義は型コンストラクタ ``*`` がそれら自身が ``EQ`` クラスの中にある二つの型に適用されるときは、キーである ``*`` (ペアの型コンストラクタ) に正準比較関係 ``pair_eq`` を関連付けました。</seg>
+      <tuv lang="JA" changeid="eldesh" changedate="20200102T134111Z" creationid="eldesh" creationdate="20191227T124242Z">
+        <seg>その定義は型コンストラクタ ``*`` がそれら自身が ``EQ`` クラスの中にある二つの型に適用されるときは、キーである ``*`` (ペアの型コンストラクタ) に正準比較関係 ``pair_eq`` を関連付けます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1670,10 +1743,27 @@ Plural-Forms: nplurals=1; plural=0;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The following script registers an ``LEQ`` class for ``nat`` and for the type constructor ``*``.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20200102T160609Z" creationid="eldesh" creationdate="20200102T160609Z">
+        <seg>以下のスクリプトは ``LEQ`` クラスに ``nat`` と型コンストラクタ ``*`` を登録します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The following settings let you control the display format for types:</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191221T193010Z" creationid="eldesh" creationdate="20191221T193010Z">
         <seg>以下の設定は型の表示形式をコントロールします:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <note>文法が分からん</note>
+      <tuv lang="EN-US">
+        <seg>The following two constructions tell |Coq| how to canonically build the ``LE.type`` and ``EQ.type`` structure given an ``LEQ.type`` structure on the same type.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20200102T151755Z" creationid="eldesh" creationdate="20200102T150136Z">
+        <seg>以下の二つの構成は |Coq| に ``LE.type`` と ``EQ.type`` 構造を同じ型上で与えられた ``LEQ.type`` 構造からどのように標準的に構築するかを伝えます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1734,8 +1824,8 @@ Plural-Forms: nplurals=1; plural=0;</seg>
       <tuv lang="EN-US">
         <seg>The inner theory module contains the overloaded notation ``==`` and will eventually contain lemmas holding all the instances of the algebraic structure (in this case there are no lemmas).</seg>
       </tuv>
-      <tuv lang="JA" changeid="eldesh" changedate="20191227T112354Z" creationid="eldesh" creationdate="20191227T112354Z">
-        <seg>内部の理論モジュールはオーバーロードされた記法 ``==`` を含み、その代数構造の全てのインスタンスを保持する補題をも含みます (この場合は補題はありません)。</seg>
+      <tuv lang="JA" changeid="eldesh" changedate="20200102T130750Z" creationid="eldesh" creationdate="20191227T112354Z">
+        <seg>内部のtheoryモジュールはオーバーロードされた記法 ``==`` を含み、その代数構造の全てのインスタンスを保持する補題をも含みます (この場合は補題はありません)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1806,8 +1896,8 @@ Plural-Forms: nplurals=1; plural=0;</seg>
       <tuv lang="EN-US">
         <seg>The mixin component of the ``LEQ`` class contains all the extra content we are adding to ``EQ`` and ``LE``.</seg>
       </tuv>
-      <tuv lang="JA" changeid="eldesh" changedate="20191229T135422Z" creationid="eldesh" creationdate="20191229T131251Z">
-        <seg>```LEQ``` ``EQ`` と ``LE`` に付加した追加の内容を全て含んだ ``LEQ`` クラスThe mixin component of the ``LEQ`` class contains all the extra content we are adding to ``EQ`` and ``LE``.</seg>
+      <tuv lang="JA" changeid="eldesh" changedate="20200102T141519Z" creationid="eldesh" creationdate="20191229T131251Z">
+        <seg>```LEQ``` クラスの構成部品 mixin は ``EQ`` と ``LE`` に追加している特別な内容を全て含んでいます.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1848,6 +1938,14 @@ Plural-Forms: nplurals=1; plural=0;</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191222T142851Z" creationid="eldesh" creationdate="20191221T213320Z">
         <seg>{} 注釈のポイントは減少する引数に名前をつけること *そして* 再帰呼び出しの停止性を保証するためにどの種類の減少基準を使うべきなのかを説明することです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The problem is that the two classes ``LE`` and ``LEQ`` are not yet related by a subclass relation.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20200102T142617Z" creationid="eldesh" creationdate="20200102T142617Z">
+        <seg>問題は ``LE`` と ``LEQ`` という二つのクラスが未だにサブクラス関係によって関連付いてないことです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2400,6 +2498,25 @@ Plural-Forms: nplurals=1; plural=0;</seg>
       </tuv>
     </tu>
     <tu>
+      <note>コードが間違っている。
+Fail Check forall (le : type) (n m : obj le), n &lt;= m -&gt; m &lt;= n -&gt; n == m.
+が正しい。</note>
+      <tuv lang="EN-US">
+        <seg>Unfortunately there is still an obstacle to developing the algebraic theory of this new class.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20200102T142210Z" creationid="eldesh" creationdate="20200102T142210Z">
+        <seg>残念ながら未だにこの新しいクラスの代数理論の開発の障害があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Unfortunately, these declarations are very verbose.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20200102T161111Z" creationid="eldesh" creationdate="20200102T160649Z">
+        <seg>残念ながらこれらの定義は非常に冗長です。</seg>
+      </tuv>
+    </tu>
+    <tu>
       <tuv lang="EN-US">
         <seg>Use  the keyword ``Inductive`` or ``CoInductive`` instead.</seg>
       </tuv>
@@ -2457,6 +2574,14 @@ Plural-Forms: nplurals=1; plural=0;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>We can now formulate out first theorem on the objects of the ``LEQ`` structure.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20200102T152150Z" creationid="eldesh" creationdate="20200102T152150Z">
+        <seg>我々は今や ``LEQ`` 構造のオブジェクト上で最初の定理を定式化することが出来ます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>We choose the class of types that are equipped with an order relation, to which we associate the infix ``&lt;=`` notation.</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191228T144507Z" creationid="eldesh" creationdate="20191228T144448Z">
@@ -2475,8 +2600,8 @@ Plural-Forms: nplurals=1; plural=0;</seg>
       <tuv lang="EN-US">
         <seg>We invite the interested reader to refer to this paper for all the details that are omitted here for brevity.</seg>
       </tuv>
-      <tuv lang="JA" changeid="eldesh" changedate="20191227T105020Z" creationid="eldesh" creationdate="20191227T105020Z">
-        <seg>簡潔さのためにここでは省略した全ての詳細について興味のある読者はこの論文を参照することを勧めます。</seg>
+      <tuv lang="JA" changeid="eldesh" changedate="20200102T125611Z" creationid="eldesh" creationdate="20191227T105020Z">
+        <seg>簡潔さのためにここでは省略した全ての詳細について興味のある読者にはこの論文を参照することを勧めます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2509,6 +2634,14 @@ Plural-Forms: nplurals=1; plural=0;</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191227T110641Z" creationid="eldesh" creationdate="20191227T110631Z">
         <seg>Coq のモジュールを名前空間として使います。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>What the user provides is a proof of this statement for ``n`` and ``m`` of type ``nat`` and a proof that the pair constructor preserves this property.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20200102T162609Z" creationid="eldesh" creationdate="20200102T162522Z">
+        <seg>ユーザが提供したものは ``n`` と ``m`` の型 ``nat`` についてのこのステートメントの証明とペアコンストラクタがこの性質を保存するという証明です。</seg>
       </tuv>
     </tu>
     <tu>
