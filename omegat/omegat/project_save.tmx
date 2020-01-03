@@ -643,6 +643,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For example:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20200103T161832Z" creationid="eldesh" creationdate="20200103T161832Z">
+        <seg>例えば:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For instance, the above example gives the following output:</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191225T185236Z" creationid="eldesh" creationdate="20191225T185236Z">
@@ -703,6 +711,14 @@
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191225T184307Z" creationid="eldesh" creationdate="20191225T184307Z">
         <seg>これが例です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Here the Global modifier redeclares the instance at the end of the section, once it has been generalized by the context variables it uses.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20200103T163942Z" creationid="eldesh" creationdate="20200103T163942Z">
+        <seg>ここで Global 修飾子はセクションの終わりでそれが使う文脈変数により一般化されたインスタンスを再定義します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1326,6 +1342,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>One can declare parameterized instances as in Haskell simply by giving the constraints as a binding context before the instance, e.g.:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20200103T153613Z" creationid="eldesh" creationdate="20200103T153613Z">
+        <seg>インスタンスの前に束縛するコンテキストとして制約を与えることでHaskell のようにパラメータ化されたインスタンスを簡潔に定義することが出来ます。例えば:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>One can distinguish them from applications of the primitive projection if the :flag`Printing Primitive Projection Parameters` option is off: For a primitive projection application, parameters are printed as underscores while for the compatibility projections they are printed as usual.</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191225T164349Z" creationid="eldesh" creationdate="20191225T164222Z">
@@ -1394,6 +1418,14 @@
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191225T184130Z" creationid="eldesh" creationdate="20191225T184130Z">
         <seg>別の言い方をすると、:token:`qualid` はフィールド |c_i| を |c_i| 上に構築した完全な構造に拡張するために規範的に使われました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Parameterized Instances</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20200103T153358Z" creationid="eldesh" creationdate="20200103T153358Z">
+        <seg>パラメータ化されたインスタンス</seg>
       </tuv>
     </tu>
     <tu>
@@ -1610,6 +1642,15 @@ Plural-Forms: nplurals=1; plural=0;</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191221T214637Z" creationid="eldesh" creationdate="20191221T214118Z">
         <seg>注意: 正しい原理を得るには、第一引数として関数の固定されたパラメータを与えるのがより良いでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <note>型クラスに於いてはコンテキストという単語で定着している気がする</note>
+      <tuv lang="EN-US">
+        <seg>Sections and contexts</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20200103T160326Z" creationid="eldesh" creationdate="20200103T160326Z">
+        <seg>セクションとコンテキスト</seg>
       </tuv>
     </tu>
     <tu>
@@ -2128,6 +2169,14 @@ Plural-Forms: nplurals=1; plural=0;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The new command works similarly to the :cmd:`Variables` vernacular, except it accepts any binding context as argument.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20200103T161822Z" creationid="eldesh" creationdate="20200103T161617Z">
+        <seg>その新しいコマンドはどんな束縛コンテキストでも引数として受け入れることを除き、:cmd:`Variables` Vernacular と同じように動作します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The object ``Pack`` takes a type ``T`` (the key) and a mixin ``m``.</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20200102T213717Z" creationid="eldesh" creationdate="20200102T213314Z">
@@ -2383,6 +2432,14 @@ Plural-Forms: nplurals=1; plural=0;</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191225T163922Z" creationid="eldesh" creationdate="20191225T163922Z">
         <seg>これらの定数はその射影の部分適用の精緻化のときに使われます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>These instances are used just as well as lemmas in the instance hint database.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20200103T160254Z" creationid="eldesh" creationdate="20200103T160124Z">
+        <seg>これらのインスタンスはインスタンスヒントデータベースの中の補題だけでなく使われます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2721,6 +2778,14 @@ Plural-Forms: nplurals=1; plural=0;</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191225T163624Z" creationid="eldesh" creationdate="20191225T163617Z">
         <seg>通常のレコード型との互換性を緩和するため、各プリミティブ射影は通常のパラメータと、引数としてそのレコード型のオブジェクトとを取り、そのボディーが同じ名前の非畳み込みプリミティブ射影の適用であるものとしても定義されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To ease the parametrization of developments by typeclasses, we provide a new way to introduce variables into section contexts, compatible with the implicit argument mechanism.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20200103T161540Z" creationid="eldesh" creationdate="20200103T161540Z">
+        <seg>開発のパラメータ化を型クラスによって楽にするため、セクションの文脈に変数を導入する、暗黙引数の機構と互換な新しい方法を提供します。</seg>
       </tuv>
     </tu>
     <tu>
