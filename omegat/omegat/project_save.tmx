@@ -214,6 +214,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>An example implementation is:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20200103T140632Z" creationid="eldesh" creationdate="20200103T140632Z">
+        <seg>実装例は:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>An unfolded primitive projection application obeys the rule above, while the folded version delta-reduces to the unfolded version.</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191225T160741Z" creationid="eldesh" creationdate="20191225T160541Z">
@@ -226,6 +234,14 @@
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20200102T134518Z" creationid="eldesh" creationdate="20191228T145200Z">
         <seg>そして |Coq| に項のペアを ``&lt;=`` によって関連付けさせます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Any argument not given as part of a typeclass binder will be automatically generalized.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20200103T151755Z" creationid="eldesh" creationdate="20200103T151443Z">
+        <seg>型クラスの束縛子の一部として与えられなかったどんな引数も自動的に一般化されます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -274,6 +290,14 @@
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191221T201328Z" creationid="eldesh" creationdate="20191221T201328Z">
         <seg>``Record`` キーワードによって定義された非-再帰的レコードの帰納スキームの自動生成は ``Nonrecursive Elimination Schemes`` オプション (:ref:`proofschemes-induction-principles` 参照) によって有効化することができる。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Binding classes</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20200103T144116Z" creationid="eldesh" creationdate="20200103T144116Z">
+        <seg>クラスの束縛</seg>
       </tuv>
     </tu>
     <tu>
@@ -355,6 +379,14 @@
       </tuv>
       <tuv lang="JA" changeid="yamarten" changedate="20181104T145429Z" creationid="yamarten" creationdate="20181104T145429Z">
         <seg>:ref:`vernacularcommands` の章では、対話的証明と直接的には関係のないコマンド (*Vernacular コマンド*) を全て挙げます。コマンドは、環境への要求、完全/部分的な評価、ファイルの読み込みやコンパイルなどを行います。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Class and Instance declarations</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20200103T135632Z" creationid="eldesh" creationdate="20200103T135632Z">
+        <seg>クラスとインスタンスの定義</seg>
       </tuv>
     </tu>
     <tu>
@@ -563,10 +595,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Following the previous example, one can write:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20200103T152854Z" creationid="eldesh" creationdate="20200103T152854Z">
+        <seg>以前の例に続き、次のように書くことが出来ます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For a given field :token:`ident`, its type is :g:`forall binders, type`.</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191221T183456Z" creationid="eldesh" creationdate="20191221T183448Z">
         <seg>あるフィールド :token:`ident` が与えられた場合、その型は :g:`forall binders, type` です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For an actual introduction to typeclasses, there is a description of the system :cite:`sozeau08` and the literature on type classes in Haskell which also applies.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20200103T135608Z" creationid="eldesh" creationdate="20200103T135608Z">
+        <seg>実質的な型クラスの導入に付いては、システムについての説明が :cite:`sozeau08` にあることに加え Haskell での型クラスについての論文も応用することが出来ます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -635,6 +683,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Hence the example can also be written:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20200103T145435Z" creationid="eldesh" creationdate="20200103T145435Z">
+        <seg>従ってこの例は以下のようにも書くことが出来ます:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Here ``A`` is implicitly generalized, and the resulting function is equivalent to the one above.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20200103T153042Z" creationid="eldesh" creationdate="20200103T153042Z">
+        <seg>ここでは ``A`` は暗黙的に一般化され、結果の関数は上のそれに等しくなります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Here is an example.</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191225T184307Z" creationid="eldesh" creationdate="20191225T184307Z">
@@ -671,6 +735,14 @@
       </tuv>
       <tuv lang="JA" changeid="yamarten" changedate="20181104T145435Z" creationid="yamarten" creationdate="20181104T145435Z">
         <seg>どのように証明を始め、終わればいいのか、どうすれば証明を並行して進めることができるかは、 :ref:`proofhandling` の章で説明しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>However, the generalizing binders should be used instead as they have particular support for typeclasses:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20200103T145940Z" creationid="eldesh" creationdate="20200103T145858Z">
+        <seg>しかしながら、替わりに型クラスの特別なサポートを持った束縛子の一般化を使うべきです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -727,6 +799,15 @@
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191221T183052Z" creationid="eldesh" creationdate="20191221T183052Z">
         <seg>それが省略された場合、デフォルトの名称である ``Build_``\ :token:`ident` ここで :token:`ident` はレコード名、が使われます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <note>inhabitantsとは？</note>
+      <tuv lang="EN-US">
+        <seg>If one does not give all the members in the Instance declaration, Coq enters the proof-mode and the user is asked to build inhabitants of the remaining fields, e.g.:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20200103T142054Z" creationid="eldesh" creationdate="20200103T141932Z">
+        <seg>インスタンス定義の中で全てのメンバを与えない場合、Coq は証明モードに入りユーザが残りのフィールドの構築を要求されます。例えば:</seg>
       </tuv>
     </tu>
     <tu>
@@ -796,6 +877,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In case no satisfying constraint can be found, an error is raised:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20200103T144628Z" creationid="eldesh" creationdate="20200103T144628Z">
+        <seg>制約を充足するものが見つからない場合は、エラーが起きます:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In each case, `term` is the object projected and the other arguments are the parameters of the inductive type.</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191221T200629Z" creationid="eldesh" creationdate="20191221T195516Z">
@@ -848,6 +937,22 @@
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191226T143308Z" creationid="eldesh" creationdate="20191226T143308Z">
         <seg>そのような場合、恐らく文脈にいくつかの意図しない一般化された変数が含まれています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In the example above, ``A`` and ``eqa`` should be set maximally implicit.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20200103T151242Z" creationid="eldesh" creationdate="20200103T151242Z">
+        <seg>上の例では、``A`` と ``eqa`` が最大限暗黙に設定されるはずです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In the example above, a constraint ``EqDec A`` is generated and satisfied by ``eqa : EqDec A``.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20200103T144431Z" creationid="eldesh" creationdate="20200103T144431Z">
+        <seg>上の例では、制約 ``EqDec A`` が生成され ``eqa : EqDec A`` によって充足されます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1044,6 +1149,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>It will use local hypotheses as well as declared lemmas in the ``typeclass_instances`` database.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20200103T145400Z" creationid="eldesh" creationdate="20200103T145400Z">
+        <seg>それは ``typeclass_instances`` データベース内に定義された補題だけでなく局所仮定も使います。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Its syntax is described in the grammar below.</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191221T165519Z" creationid="eldesh" creationdate="20191221T165438Z">
@@ -1181,6 +1294,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Once a typeclass is declared, one can use it in class binders:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20200103T144158Z" creationid="eldesh" creationdate="20200103T144158Z">
+        <seg>一度型クラスが定義されると、クラス束縛子の中で使うことができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Once proof obligations are discharged, the following objects are defined:</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191222T145855Z" creationid="eldesh" creationdate="20191222T135441Z">
@@ -1209,6 +1330,22 @@
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191225T164349Z" creationid="eldesh" creationdate="20191225T164222Z">
         <seg>:flag`Printing Primitive Projection Parameters` オプションがオフになっているとそれらとプリミティブ射影の適用と区別することが出来ます。プリミティブ射影適用のときは、パラメータはアンダースコアとして表示される一方、互換性射影は普通に表示されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>One can use alternatively the :cmd:`Program Instance` variant which has richer facilities for dealing with obligations.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20200103T144048Z" creationid="eldesh" creationdate="20200103T144048Z">
+        <seg>替わりに :cmd:`Program Instance` という派生を使うことが出来、これは課題の扱いについてよりリッチな機能を持っています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>One has to take care that the transparency of every field is determined by the transparency of the :cmd:`Instance` proof.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20200103T143504Z" creationid="eldesh" creationdate="20200103T143448Z">
+        <seg>:cmd:`Instance` の証明の透過性よって定義された全てのフィールドの透過性に注意するべきです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1619,6 +1756,15 @@ Plural-Forms: nplurals=1; plural=0;</seg>
       </tuv>
       <tuv lang="JA" changeid="yamarten" changedate="20181104T144829Z" creationid="yamarten" creationdate="20181104T111736Z">
         <seg>デバッグのために、 read-eval-print-loop である `coqtop` を直接用いることもできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <note>variant をどう訳すか？</note>
+      <tuv lang="EN-US">
+        <seg>The algorithm used to solve constraints is a variant of the :tacn:`eauto` tactic that does proof search with a set of lemmas (the instances).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20200103T144837Z" creationid="eldesh" creationdate="20200103T144736Z">
+        <seg>制約を解消するために使われるアルゴリズムは :tacn:`eauto` タクティックの類型で、それは補題 (インスタンス) の集合をもって証明探索を行います。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2086,6 +2232,14 @@ Plural-Forms: nplurals=1; plural=0;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The syntax for class and instance declarations is the same as the record syntax of Coq:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20200103T135726Z" creationid="eldesh" creationdate="20200103T135726Z">
+        <seg>クラスとインスタンスの定義の構文は Coq のレコード構文と同じです:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The third part describes how to extend the syntax of |Coq| in Chapter :ref:`syntaxextensionsandinterpretationscopes` and how to define new induction principles in Chapter :ref:`proofschemes`.</seg>
       </tuv>
       <tuv lang="JA" changeid="yamarten" changedate="20181104T145639Z" creationid="yamarten" creationdate="20181104T145639Z">
@@ -2147,6 +2301,14 @@ Plural-Forms: nplurals=1; plural=0;</seg>
       </tuv>
       <tuv lang="JA" changeid="yamarten" changedate="20181007T040420Z" creationid="yamarten" creationdate="20181007T035904Z">
         <seg>|Coq| は、数学的な証明を構築するためにデザインされました。特に、形式仕様やプログラムを記述したり、プログラムが仕様に沿っていることを検証することを目的としています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The |p_i| ``:`` |t_i| variables are called the *parameters* of the class and the |f_i| ``:`` |t_i| are called the *methods*.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20200103T135902Z" creationid="eldesh" creationdate="20200103T135902Z">
+        <seg>変数 |p_i| ``:`` |t_i| はクラスの *パラメータ* と呼ばれ、|f_i| ``:`` |t_i| は *メソッド* と呼ばれます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2249,10 +2411,34 @@ Plural-Forms: nplurals=1; plural=0;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>They also support implicit quantification on :ref:`superclasses`.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20200103T152232Z" creationid="eldesh" creationdate="20200103T152232Z">
+        <seg>それらは :ref:`superclasses` に於ける暗黙の量化もサポートします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>They are explained in more details in :cite:`CSwcu`.</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20200102T210650Z" creationid="eldesh" creationdate="20200102T210650Z">
         <seg>それらは :cite:`CSwcu` の中でより詳細に説明されています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>They automatically set the maximally implicit status for typeclass arguments, making derived functions as easy to use as class methods.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20200103T151140Z" creationid="eldesh" creationdate="20200103T151140Z">
+        <seg>それらは型クラスの引数の状態を自動的に最大限暗黙に設定し、クラスメソッドのように簡単に使える派生関数を作ります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>They support implicit quantification on partially applied type classes (:ref:`implicit-generalization`).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20200103T151404Z" creationid="eldesh" creationdate="20200103T151404Z">
+        <seg>それらは部分適用された型クラスの暗黙的な量化をサポートします (:ref:`implicit-generalization`)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2293,6 +2479,22 @@ Plural-Forms: nplurals=1; plural=0;</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191227T104458Z" creationid="eldesh" creationdate="20191227T104458Z">
         <seg>この章では正準構造の基本とそれらが記法のオーバーロードや代数構造の階層の構築にどのように使えるかを説明します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This chapter presents a quick reference of the commands related to type classes.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20200103T135343Z" creationid="eldesh" creationdate="20200103T135343Z">
+        <seg>この章では型クラスに関連したコマンドのクイックリファレンスを提供します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This class implements a boolean equality test which is compatible with Leibniz equality on some type.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20200103T142014Z" creationid="eldesh" creationdate="20200103T140612Z">
+        <seg>このクラスはいくつかの型上での Leibniz 等値性と互換性があるような真偽値等値性テストを実装します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2602,6 +2804,14 @@ Plural-Forms: nplurals=1; plural=0;</seg>
       </tuv>
     </tu>
     <tu>
+      <tuv lang="EN-US">
+        <seg>Type Classes</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20200103T135226Z" creationid="eldesh" creationdate="20200103T135226Z">
+        <seg>型クラス</seg>
+      </tuv>
+    </tu>
+    <tu>
       <note>コードが間違っている。
 Fail Check forall (le : type) (n m : obj le), n &lt;= m -&gt; m &lt;= n -&gt; n == m.
 が正しい。</note>
@@ -2758,6 +2968,14 @@ Fail Check forall (le : type) (n m : obj le), n &lt;= m -&gt; m &lt;= n -&gt; n 
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>We’ll use the following example class in the rest of the chapter:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20200103T140237Z" creationid="eldesh" creationdate="20200103T140229Z">
+        <seg>章の残りでは以下の例を使います。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>What the user provides is a proof of this statement for ``n`` and ``m`` of type ``nat`` and a proof that the pair constructor preserves this property.</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20200102T162609Z" creationid="eldesh" creationdate="20200102T162522Z">
@@ -2783,6 +3001,14 @@ Fail Check forall (le : type) (n m : obj le), n &lt;= m -&gt; m &lt;= n -&gt; n 
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>When one calls a class method, a constraint is generated that is satisfied only in contexts where the appropriate instances can be found.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20200103T144359Z" creationid="eldesh" creationdate="20200103T144359Z">
+        <seg>クラスメソッドを呼ぶとき、ある制約が生成され、それは適切なインスタンスが見つかる文脈の中でのみ充足されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>When the :flag:`Primitive Projections` option is on, definitions of record types change meaning.</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191225T134252Z" creationid="eldesh" creationdate="20191225T134252Z">
@@ -2795,6 +3021,22 @@ Fail Check forall (le : type) (n m : obj le), n &lt;= m -&gt; m &lt;= n -&gt; n 
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191221T193229Z" creationid="eldesh" creationdate="20191221T193229Z">
         <seg>これらの表にエントリを追加することで特定の型の表示形式を上書きすることが出来ます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>``Class Id (`` |p_1| ``:`` |t_1| ``) ⋯ (`` |p_n| ``:`` |t_n| ``) [: sort] := {`` |f_1| ``:`` |u_1| ``; ⋮`` |f_m| ``:`` |u_m| ``}.``</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20200103T135751Z" creationid="eldesh" creationdate="20200103T135751Z">
+        <seg>``Class Id (`` |p_1| ``:`` |t_1| ``) ⋯ (`` |p_n| ``:`` |t_n| ``) [: sort] := {`` |f_1| ``:`` |u_1| ``; ⋮`` |f_m| ``:`` |u_m| ``}.``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>``Instance ident : Id`` |p_1| ``⋯`` |p_n| ``:= {`` |f_1| ``:=`` |t_1| ``; ⋮`` |f_m| ``:=`` |t_m| ``}.``</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20200103T135758Z" creationid="eldesh" creationdate="20200103T135758Z">
+        <seg>``Instance ident : Id`` |p_1| ``⋯`` |p_n| ``:= {`` |f_1| ``:=`` |t_1| ``; ⋮`` |f_m| ``:=`` |t_m| ``}.``</seg>
       </tuv>
     </tu>
     <tu>
