@@ -254,6 +254,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>As we have seen, ``Ord`` is encoded as a record type with two parameters: a type ``A`` and an ``E`` of type ``EqDec A``.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20200103T172715Z" creationid="eldesh" creationdate="20200103T172715Z">
+        <seg>見てきたように、``Ord`` は二つのパラメータ: ``A`` 型と ``EqDec A`` 型の ``E`` を持つレコードとして符号化されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Assia Mahboubi and Enrico Tassi</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191227T104533Z" creationid="eldesh" creationdate="20191227T104533Z">
@@ -298,6 +306,14 @@
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20200103T144116Z" creationid="eldesh" creationdate="20200103T144116Z">
         <seg>クラスの束縛</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Building hierarchies</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20200103T171300Z" creationid="eldesh" creationdate="20200103T171300Z">
+        <seg>階層の構築</seg>
       </tuv>
     </tu>
     <tu>
@@ -436,6 +452,14 @@
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191225T162633Z" creationid="eldesh" creationdate="20191225T162633Z">
         <seg>互換性射影と :g:`match`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Contrary to Haskell, we have no special syntax for superclasses, but this declaration is equivalent to:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20200103T172052Z" creationid="eldesh" creationdate="20200103T172052Z">
+        <seg>Haskell と違い、スーパークラスのために特別な構文はありませんが、この定義は以下と等しいです:</seg>
       </tuv>
     </tu>
     <tu>
@@ -755,6 +779,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>However, one can still use it as if it had a single parameter inside generalizing binders: the generalization of superclasses will be done automatically.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20200103T174302Z" creationid="eldesh" creationdate="20200103T174026Z">
+        <seg>しかし、一般化束縛子の中で単一パラメータを持つかのようにそれを使うことができます: スーパークラスの一般化は自動的に行われます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>However, the generalizing binders should be used instead as they have particular support for typeclasses:</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20200103T145940Z" creationid="eldesh" creationdate="20200103T145858Z">
@@ -949,6 +981,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In particular, it uses the implicit arguments mechanism if available, as shown in the example.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20200103T180054Z" creationid="eldesh" creationdate="20200103T180054Z">
+        <seg>特に、例で示したように、それは可能であれば暗黙引数の機構を使います。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In some cases, to be able to specify sharing of structures, one may want to give explicitly the superclasses.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20200103T174607Z" creationid="eldesh" creationdate="20200103T174607Z">
+        <seg>場合によっては、構造の共有を指定できるようにするため、スーパークラスを明示的に与えたいかもしれません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In such cases, the context will probably contain some unexpected generalized variable.</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191226T143308Z" creationid="eldesh" creationdate="20191226T143308Z">
@@ -1009,6 +1057,14 @@
       </tuv>
       <tuv lang="JA" changeid="yamarten" changedate="20181104T145717Z" creationid="yamarten" creationdate="20181104T145650Z">
         <seg>第4部はより実用的なツールについて文書化しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In the same way, we give the superclasses as a binding context:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20200103T171948Z" creationid="eldesh" creationdate="20200103T171904Z">
+        <seg>同様に、束縛コンテキストとしてスーパークラスを与えます:</seg>
       </tuv>
     </tu>
     <tu>
@@ -1129,6 +1185,14 @@
       </tuv>
       <tuv lang="JA" changeid="yamarten" changedate="20181104T145403Z" creationid="yamarten" creationdate="20181104T145403Z">
         <seg>ここは6つの章に分かれています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It is is possible to do it directly in regular binders, and using the ``!`` modifier in class binders.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20200103T175645Z" creationid="eldesh" creationdate="20200103T175645Z">
+        <seg>それは正規束縛子の中では直接、クラス束縛子の中では ``!`` 修飾子を使うことで可能です。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1322,6 +1386,14 @@
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191222T145855Z" creationid="eldesh" creationdate="20191222T135441Z">
         <seg>証明課題が解決されると、以下のオブジェクトが定義されます:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>One can also parameterize classes by other classes, generating a hierarchy of classes and superclasses.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20200103T171837Z" creationid="eldesh" creationdate="20200103T171837Z">
+        <seg>他のクラスによってクラスをパラメタライズし、クラス階層とスーパークラスを生成することも出来ます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1720,6 +1792,14 @@ Plural-Forms: nplurals=1; plural=0;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Superclasses</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20200103T171325Z" creationid="eldesh" creationdate="20200103T171325Z">
+        <seg>スーパークラス</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Syntax of Record projections</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191221T194831Z" creationid="eldesh" creationdate="20191221T194831Z">
@@ -1773,6 +1853,14 @@ Plural-Forms: nplurals=1; plural=0;</seg>
       </tuv>
       <tuv lang="JA" changeid="yamarten" changedate="20181110T115315Z" creationid="yamarten" creationdate="20181110T115315Z">
         <seg>仕様記述言語 Gallina</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The ``!`` modifier switches the way a binder is parsed back to the regular interpretation of Coq.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20200103T180006Z" creationid="eldesh" creationdate="20200103T175825Z">
+        <seg>``!`` 修飾子は束縛子が解析されCoqの正規解釈に戻る方法を切り替えます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2217,6 +2305,14 @@ Plural-Forms: nplurals=1; plural=0;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The parameters of the subclass contain at least all the parameters of its superclasses in their order of appearance (here A is the only one).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20200103T172512Z" creationid="eldesh" creationdate="20200103T172512Z">
+        <seg>サブクラスのパラメータは少なくともそのスーパークラスのパラメータ全てをそれらの出現順で含みます (ここでは A ただ一つです)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The point of the {} annotation is to name the decreasing argument *and* to describe which kind of decreasing criteria must be used to ensure termination of recursive calls.</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191222T142851Z" creationid="eldesh" creationdate="20191221T213320Z">
@@ -2592,6 +2688,14 @@ Plural-Forms: nplurals=1; plural=0;</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191225T134030Z" creationid="eldesh" creationdate="20191225T134030Z">
         <seg>この互換オプションは表示時に内部的に省略されたパラメータを再構成します (たとえばそれらがカーネルに操作された実際のASTには存在しないものであっても)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This declaration means that any instance of the ``Ord`` class must have an instance of ``EqDec``.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20200103T172239Z" creationid="eldesh" creationdate="20200103T172239Z">
+        <seg>この定義が意味するところは ``Ord`` クラスのインスタンスは ``EqDec`` のインスタンスを持っていなければならないということです。</seg>
       </tuv>
     </tu>
     <tu>
