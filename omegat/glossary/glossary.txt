@@ -39,3 +39,5 @@ binders	束縛子
 generalize delimiters	一般化デリミタ
 notation	表記法
 canonical value	正準値
+hint application procedure	ヒント適用手続き
+hole	ホール	ターム中で(まだ)埋められていない部分。穴。証明途中のみ現れる。

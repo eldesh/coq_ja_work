@@ -14,6 +14,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>1 is the default level.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20200106T205330Z" creationid="eldesh" creationdate="20200106T205330Z">
+        <seg>1 はデフォルトレベルです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>2 shows additional information such as tried tactics and shelving of goals.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20200106T205435Z" creationid="eldesh" creationdate="20200106T205435Z">
+        <seg>2 は追加の情報を表示します。例えばタクティックやゴールの先送りなどです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>:ref:`functional-scheme` and :tacn:`function induction`</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191221T220621Z" creationid="eldesh" creationdate="20191221T220621Z">
@@ -351,6 +367,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>By default, all constants and local variables are considered transparent.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20200106T190439Z" creationid="eldesh" creationdate="20200106T190439Z">
+        <seg>デフォルトでは、全ての定数と局所変数は透明とみなされます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>By default, if no limit is given, the search is unbounded.</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20200103T212319Z" creationid="eldesh" creationdate="20200103T212319Z">
@@ -520,6 +544,14 @@
       </tuv>
     </tu>
     <tu>
+      <tuv lang="EN-US">
+        <seg>Controls whether typeclass resolution steps are shown during search.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20200106T205048Z" creationid="eldesh" creationdate="20200106T205048Z">
+        <seg>型クラス解決のステップが検索中に表示されるかどうかを制御します。</seg>
+      </tuv>
+    </tu>
+    <tu>
       <note>唐突に「Coq」から外れる縦棒。どうも付けるとsmallcapクラスが付くっぽいのだけど、スモールキャピタルにはなっているわけでもなく、特に意味は無さそう。
 </note>
       <tuv lang="EN-US">
@@ -599,6 +631,14 @@
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191227T122037Z" creationid="eldesh" creationdate="20191227T122037Z">
         <seg>派生した正準構造</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Determines how much information is shown for typeclass resolution steps during search.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20200106T205316Z" creationid="eldesh" creationdate="20200106T205316Z">
+        <seg>どれくらいの情報が型クラス解決のステップが検索中に表示されるかを決定します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -753,6 +793,14 @@
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191222T143302Z" creationid="eldesh" creationdate="20191221T214351Z">
         <seg>例えば plus はこのように定義した方が:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For example, forcing a constant to explicitely appear in the pattern will make it never apply on a goal where there is a hole in that place.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20200106T195739Z" creationid="eldesh" creationdate="20200106T195739Z">
+        <seg>例えばある定数を、その場所にホールがあるゴール上でけっして適用させないパターン中に明示的に出現することを強制します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1287,6 +1335,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>It does so by allowing hints that conclude in a product to apply to a goal with a matching product directly, avoiding an introduction.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20200106T200934Z" creationid="eldesh" creationdate="20200106T200934Z">
+        <seg>それはある積の中で直接マッチする積を伴うゴールにイントロダクションを避けて適用すると結論を出すヒントを認めることで行います。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>It infers all the other pieces of the class ``LEQ`` and declares them as canonical values associated to the ``T`` key.</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20200102T213510Z" creationid="eldesh" creationdate="20200102T213510Z">
@@ -1299,6 +1355,14 @@
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191222T142420Z" creationid="eldesh" creationdate="20191221T212941Z">
         <seg>それは実際には関数 *と他の便利な関連オブジェクト* を定義するいくつかの方法のラッパーであり、具体的には: その関数の再帰構造を反映する帰納法の原理 (:tacn:`function induction` 参照) とその不動点等式です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It is also useful to declare constants which should never be unfolded during proof-search, like fixpoints or anything which does not look like an abbreviation.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20200106T184909Z" creationid="eldesh" creationdate="20200106T184603Z">
+        <seg>それは不動点や省略形のように見えない何かのような証明探索中にけっして展開されるべきではない定数を宣言するのにも便利です。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1331,6 +1395,14 @@
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191226T131945Z" creationid="eldesh" creationdate="20191226T131935Z">
         <seg>変数名を与えられた型に束縛することが可能です (例: 算術を使う開発の中で、名前 `n` や `m` を自然数である ``nat`` 型に束縛すると便利かもしれません)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It is useful when some constants prevent some unifications and make resolution fail.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20200106T184416Z" creationid="eldesh" creationdate="20200106T184416Z">
+        <seg>いくつかの定数がいくらかの単一化を防ぎ、(訳注: 型クラス)解決を失敗させるのに便利です。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1435,6 +1507,14 @@
       </tuv>
       <tuv lang="JA" changeid="yamarten" changedate="20181104T145841Z" creationid="yamarten" creationdate="20181104T145841Z">
         <seg>その他の文書一覧</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Make the identifiers opaque for typeclass search.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20200106T123228Z" creationid="eldesh" creationdate="20200106T123228Z">
+        <seg>型クラス検索のために識別子を不透明にします。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1628,6 +1708,14 @@
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20200103T200547Z" creationid="eldesh" creationdate="20200103T200547Z">
         <seg>シングルトンクラスについては一意なフィールド名に言及する必要すらありません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>One should take care not to make opaque any constant that is used to abbreviate a type, like:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20200106T190744Z" creationid="eldesh" creationdate="20200106T190744Z">
+        <seg>以下のような、型を省略するために使われる定数を不透明にしないように注意するべきです:</seg>
       </tuv>
     </tu>
     <tu>
@@ -1933,6 +2021,22 @@ Plural-Forms: nplurals=1; plural=0;</seg>
       </tuv>
       <tuv lang="JA" changeid="yamarten" changedate="20181104T145836Z" creationid="yamarten" creationdate="20181104T145836Z">
         <seg>全ての項目を知りたい場合は、目次を参照してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Setting this flag also sets :opt:`Typeclasses Debug Verbosity` to 1.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20200106T205128Z" creationid="eldesh" creationdate="20200106T205128Z">
+        <seg>またこのフラグは :opt:`Typeclasses Debug Verbosity` を 1 に設定します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Setting this option also sets :flag:`Typeclasses Debug`.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20200106T205509Z" creationid="eldesh" creationdate="20200106T205509Z">
+        <seg>このオプションを設定すると :flag:`Typeclasses Debug` も設定します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2645,6 +2749,14 @@ Plural-Forms: nplurals=1; plural=0;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The semantics of the options are:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20200106T210809Z" creationid="eldesh" creationdate="20200106T210809Z">
+        <seg>オプションの意味は:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The set of rational numbers may be defined as:</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191221T191017Z" creationid="eldesh" creationdate="20191221T190001Z">
@@ -2928,10 +3040,34 @@ Plural-Forms: nplurals=1; plural=0;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This also provides more control on the triggering of instances.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20200106T195103Z" creationid="eldesh" creationdate="20200106T195103Z">
+        <seg>これはインスタンスを持ち出すことに関して更なる制御性を提供します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This can additionally speed up proof search as the typeclass map can be indexed by such rigid constants (see :ref:`thehintsdatabasesforautoandeauto`).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20200106T190356Z" creationid="eldesh" creationdate="20200106T185508Z">
+        <seg>これはさらにそのような固定的な定数によってインデックス出来る型クラスマップによって証明探索を高速化出来ます (see :ref:`thehintsdatabasesforautoandeauto`)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This can be changed by unsetting the :flag:`Printing Primitive Projection Parameters` flag.</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191225T144624Z" creationid="eldesh" creationdate="20191225T144624Z">
         <seg>これは :flag:`Printing Primitive Projection Parameters` フラグをアンセットすることで変更できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This can be expensive as it requires rebuilding hint clauses dynamically, and does not benefit from the invertibility status of the product introduction rule, resulting in potentially more expensive proof-search (i.e. more useless backtracking).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20200106T202212Z" creationid="eldesh" creationdate="20200106T201120Z">
+        <seg>これはヒント節の動的な再構築を要求するため高価になりえます、そして積の導入規則の反転可能性から恩恵を得られず、結果として証明探索がより高価になる (つまり、よりバックトラッキングが役に立たなくなる) 可能性があります 。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2957,6 +3093,22 @@ Plural-Forms: nplurals=1; plural=0;</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20200103T192957Z" creationid="eldesh" creationdate="20200103T192957Z">
         <seg>これは簡単に既存のオブジェクトのインスタンスを作り、そして無駄な射影を挿入しないことで証明サイズを縮小するのに便利です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This can drastically improve performance by calling unification less often, matching syntactic patterns being very quick.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20200106T194126Z" creationid="eldesh" creationdate="20200106T194126Z">
+        <seg>これは単一化を呼ぶ頻度が低くなることで劇的にパフォーマンスを改善でき、構文的パターンへのマッチングが非常に高速になります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This can result in quite different performance behaviors of proof search.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20200106T192908Z" creationid="eldesh" creationdate="20200106T192908Z">
+        <seg>これは極めて異なった証明探索の性能挙動を示します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2993,6 +3145,14 @@ Plural-Forms: nplurals=1; plural=0;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This command allows more global customization of the typeclass resolution tactic.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20200106T210756Z" creationid="eldesh" creationdate="20200106T210756Z">
+        <seg>このコマンドは型クラス解決タクティックのより広範囲のカスタマイズを行います。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This command also accepts an optional output filename:</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191227T101154Z" creationid="eldesh" creationdate="20191227T101154Z">
@@ -3013,6 +3173,14 @@ Plural-Forms: nplurals=1; plural=0;</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191225T182845Z" creationid="eldesh" creationdate="20191225T182845Z">
         <seg>このコマンドは :token:`qualid` を正準構造として定義します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This command makes the identifiers transparent during typeclass resolution.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20200106T123159Z" creationid="eldesh" creationdate="20200106T123159Z">
+        <seg>このコマンドは型クラス解決の間識別子を透明にします。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3065,6 +3233,14 @@ Plural-Forms: nplurals=1; plural=0;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This ensures that the resolution is canonical, but can make proof search much more expensive.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20200106T204705Z" creationid="eldesh" creationdate="20200106T204705Z">
+        <seg>これはその解が正準であることを保証しますが、証明探索はより高価になりえます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This error happens generally when:</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191222T144303Z" creationid="eldesh" creationdate="20191221T220022Z">
@@ -3085,6 +3261,14 @@ Plural-Forms: nplurals=1; plural=0;</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20200105T184917Z" creationid="eldesh" creationdate="20200103T203059Z">
         <seg>これは :cmd:`Print Instances` できるインスタンスを登録することを除いて ``Hint Resolve ident : typeclass_instances`` に相当します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This is equivalent to ``Hint Transparent, Opaque ident : typeclass_instances``.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20200106T190908Z" creationid="eldesh" creationdate="20200106T190908Z">
+        <seg>これは ``Hint Transparent, Opaque ident : typeclass_instances`` に相当します。(訳注: 相当しません)</seg>
       </tuv>
     </tu>
     <tu>
@@ -3175,6 +3359,46 @@ Plural-Forms: nplurals=1; plural=0;</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191221T201627Z" creationid="eldesh" creationdate="20191221T201627Z">
         <seg>このメッセージにはこの不可能性の説明が続きます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This option (on by default since 8.6) respects the dependency order between subgoals, meaning that subgoals on which other subgoals depend come first, while the non-dependent subgoals were put before the dependent ones previously (Coq 8.5 and below).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20200106T192535Z" creationid="eldesh" creationdate="20200106T192535Z">
+        <seg>このオプション (8.6 からデフォルトで有効になった) はサブゴール間の依存順序を遵守し、その意味するところは、以前 (Coq 8.5 以下) では他のサブゴールが依存するサブゴールが優先され、一方非依存サブゴールは依存するもの前に置かれるということです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This option (on by default) controls the ability to apply hints while avoiding (functional) eta-expansions in the generated proof term.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20200106T200027Z" creationid="eldesh" creationdate="20200106T200027Z">
+        <seg>このオプション (デフォルトで有効) は一般的な証明項の中で (関数的な) イータ展開を避けながらヒントを適用する能力を制御します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This option (on by default) controls the use of typeclass resolution when a unification problem cannot be solved during elaboration/type inference.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20200106T202742Z" creationid="eldesh" creationdate="20200106T202742Z">
+        <seg>このオプション (デフォルトで有効) は精緻化/型推論の間に単一化問題が解決できない時に型クラス解決の使用を制御します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This option allows to switch the behavior of instance declarations made through the Instance command.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20200106T205645Z" creationid="eldesh" creationdate="20200106T205645Z">
+        <seg>このオプションは Instance コマンドを通じて行われるインスタンス宣言の振る舞いの切り替えるを認めます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This option, available since Coq 8.6 and off by default, switches the hint application procedure to a filter-then-unify strategy.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20200106T193544Z" creationid="eldesh" creationdate="20200106T193436Z">
+        <seg>このオプションは Coq 8.6 から使用可能でデフォルトで無効にされており、ヒント適用手続き filter-then-unify 戦略に切り替えます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3280,6 +3504,14 @@ Plural-Forms: nplurals=1; plural=0;</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191222T143635Z" creationid="eldesh" creationdate="20191221T215229Z">
         <seg>従って、以下の例は `wrong` のボディー内の `wrong` の部分適用の存在のため受け入れられません:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To apply a hint, we first check that the goal *matches* syntactically the inferred or specified pattern of the hint, and only then try to *unify* the goal with the conclusion of the hint.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20200106T193905Z" creationid="eldesh" creationdate="20200106T193905Z">
+        <seg>ヒントを適用するため、まずそのゴールが推論やそのヒントによって指定されたパターンに構文的に *マッチする* かを検査し、そうなってはじめてそのヒントの結論とゴールを *単一化* しようと試みます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3400,6 +3632,38 @@ Plural-Forms: nplurals=1; plural=0;</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20200103T135226Z" creationid="eldesh" creationdate="20200103T135226Z">
         <seg>型クラス</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Typeclass declarations introduced when this option is set have a more efficient resolution behavior (the option is off by default).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20200106T204841Z" creationid="eldesh" creationdate="20200106T204841Z">
+        <seg>このオプションが設定された時に導入された型クラス宣言は、より効率的な解決時の振る舞いを持っています。(このオプションはデフォルトで無効です)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Typeclass declarations introduced when this option is set have a stricter resolution behavior (the option is off by default).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20200106T203336Z" creationid="eldesh" creationdate="20200106T203336Z">
+        <seg>このオプションが設定されたときに導入された型クラス宣言はより厳密な解決時の振る舞いを持ちます。(このオプションはデフォルトで無効です)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Typeclasses Transparent, Typclasses Opaque</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20200106T123053Z" creationid="eldesh" creationdate="20200106T122927Z">
+        <seg>透明な型クラス、不透明な型クラス</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Typeclasses eauto `:=`</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20200106T210545Z" creationid="eldesh" creationdate="20200106T210545Z">
+        <seg>型クラスの eauto `:=`</seg>
       </tuv>
     </tu>
     <tu>
@@ -3598,12 +3862,28 @@ Fail Check forall (le : type) (n m : obj le), n &lt;= m -&gt; m &lt;= n -&gt; n 
       </tuv>
     </tu>
     <tu>
+      <tuv lang="EN-US">
+        <seg>When a solution to the typeclass goal of this class is found, we never backtrack on it, assuming that it is canonical.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20200106T205007Z" creationid="eldesh" creationdate="20200106T205007Z">
+        <seg>このクラスの型クラスゴールの解が見つかったとき、けっしてバックトラックを行わず、それが正準であると仮定します。</seg>
+      </tuv>
+    </tu>
+    <tu>
       <note>though の意味が分からん</note>
       <tuv lang="EN-US">
         <seg>When a type is declared with primitive projections, its :g:`match` construct is disabled (see :ref:`primitive_projections` though).</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191225T134536Z" creationid="eldesh" creationdate="20191225T134523Z">
         <seg>ある型がプリミティブ射影によって定義されたとき、その :g:`match` による構成は無効化されます (:ref:`primitive_projections` 参照).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When a typeclass resolution is launched we ensure that it has a single solution or fail.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20200106T204558Z" creationid="eldesh" creationdate="20200106T204530Z">
+        <seg>型クラス解決が起きた時、それが単一の解を持たないならば失敗することを保証します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3633,6 +3913,30 @@ Fail Check forall (le : type) (n m : obj le), n &lt;= m -&gt; m &lt;= n -&gt; n 
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>When it is off, they fail with an error instead.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20200106T210502Z" creationid="eldesh" creationdate="20200106T210502Z">
+        <seg>無効なときは、替わりにエラーを伴って失敗します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When it is on (the default), instances that have unsolved holes in their proof-term silently open the proof mode with the remaining obligations to prove.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20200106T210421Z" creationid="eldesh" creationdate="20200106T205951Z">
+        <seg>それが有効 (デフォルト) なとき、証明項に未解決のホールがあるインスタンスは残っている証明課題を伴って証明モードを開きます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When looking for unifications of a goal with an instance of this class, we “freeze” all the existentials appearing in the goals, meaning that they are considered rigid during unification and cannot be instantiated.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20200106T204029Z" creationid="eldesh" creationdate="20200106T204029Z">
+        <seg>このクラスのインスタンスによりゴールの単一化を求めている時、そのゴールに現れる全ての存在量化された変数を "凍結" します。これは単一化の間固定され、インスタンス化できないと見なされることを意味しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>When one calls a class method, a constraint is generated that is satisfied only in contexts where the appropriate instances can be found.</seg>
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20200103T144359Z" creationid="eldesh" creationdate="20200103T144359Z">
@@ -3645,6 +3949,14 @@ Fail Check forall (le : type) (n m : obj le), n &lt;= m -&gt; m &lt;= n -&gt; n 
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191225T134252Z" creationid="eldesh" creationdate="20191225T134252Z">
         <seg>:flag:`Primitive Projections` オプションが有効な時、レコード型の定義は意味を変えます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>With this option on, when a unification fails, typeclass resolution is tried before launching unification once again.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20200106T202939Z" creationid="eldesh" creationdate="20200106T202939Z">
+        <seg>このオプションが有効なことにより、単一化が失敗したとき、再度単一化を起動する前に型クラス解決が試行されます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3685,6 +3997,30 @@ Fail Check forall (le : type) (n m : obj le), n &lt;= m -&gt; m &lt;= n -&gt; n 
       </tuv>
       <tuv lang="JA" changeid="eldesh" changedate="20191221T201423Z" creationid="eldesh" creationdate="20191221T201423Z">
         <seg>``Structure`` はキーワード ``Record`` の別名です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>``debug`` In debug mode, the trace of successfully applied tactics is printed.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20200106T210924Z" creationid="eldesh" creationdate="20200106T210924Z">
+        <seg>``debug`` デバッグモードでは、成功裏に適用されたタクティックのトレースが表示されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>``depth`` This sets the depth limit of the search.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20200106T211031Z" creationid="eldesh" creationdate="20200106T211031Z">
+        <seg>``depth`` これはその検索の深さ制限を設定します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>``dfs, bfs`` This sets the search strategy to depth-first search (the default) or breadth-first search.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="eldesh" changedate="20200106T211016Z" creationid="eldesh" creationdate="20200106T211016Z">
+        <seg>``dfs, bfs`` これは検索戦略を深さ優先探索 (デフォルト) または幅優先探索に設定します。</seg>
       </tuv>
     </tu>
     <tu>
